@@ -1,0 +1,1394 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class InteractionService | HeyBox.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class InteractionService | HeyBox.Net 文档 ">
+      
+      <meta name="description" content="提供构建交互服务的框架。">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_Interactions_InteractionService.md&amp;value=---%0Auid%3A%20HeyBox.Interactions.InteractionService%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HeyBox.Net 文档">
+            HeyBox.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HeyBox.Interactions.InteractionService">
+
+
+
+  <h1 id="HeyBox_Interactions_InteractionService" data-uid="HeyBox.Interactions.InteractionService" class="text-break">
+Class InteractionService  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HeyBox.html">HeyBox</a>.<a class="xref" href="HeyBox.Interactions.html">Interactions</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HeyBox.Net.Interactions.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>提供构建交互服务的框架。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class InteractionService : IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">InteractionService</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HeyBox_Interactions_InteractionService__ctor_" data-uid="HeyBox.Interactions.InteractionService.#ctor*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService__ctor_HeyBox_Interactions_InteractionServiceConfig_" data-uid="HeyBox.Interactions.InteractionService.#ctor(HeyBox.Interactions.InteractionServiceConfig)">
+  InteractionService(InteractionServiceConfig)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>使用指定的配置初始化一个 <a class="xref" href="HeyBox.Interactions.InteractionService.html">InteractionService</a> 类的新实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InteractionService(InteractionServiceConfig config)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>config</code> <a class="xref" href="HeyBox.Interactions.InteractionServiceConfig.html">InteractionServiceConfig</a></dt>
+    <dd><p>交互服务的配置。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="HeyBox_Interactions_InteractionService_Modules_" data-uid="HeyBox.Interactions.InteractionService.Modules*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_Modules" data-uid="HeyBox.Interactions.InteractionService.Modules">
+  Modules
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取所有加载到 <a class="xref" href="HeyBox.Interactions.InteractionService.html">InteractionService</a> 中的模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;ModuleInfo&gt; Modules { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="HeyBox.Interactions.ModuleInfo.html">ModuleInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_SlashCommands_" data-uid="HeyBox.Interactions.InteractionService.SlashCommands*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_SlashCommands" data-uid="HeyBox.Interactions.InteractionService.SlashCommands">
+  SlashCommands
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取所有加载到 <a class="xref" href="HeyBox.Interactions.InteractionService.html">InteractionService</a> 中的斜线命令。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;SlashCommandInfo&gt; SlashCommands { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="HeyBox.Interactions.SlashCommandInfo.html">SlashCommandInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HeyBox_Interactions_InteractionService_AddGenericTypeConverter_" data-uid="HeyBox.Interactions.InteractionService.AddGenericTypeConverter*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_AddGenericTypeConverter_System_Type_System_Type_" data-uid="HeyBox.Interactions.InteractionService.AddGenericTypeConverter(System.Type,System.Type)">
+  AddGenericTypeConverter(Type, Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加一个泛型类型的类型转换器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddGenericTypeConverter(Type targetType, Type converterType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targetType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>类型转换器所转换类型的泛型约束。</p>
+</dd>
+    <dt><code>converterType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>泛型类型转换器实例。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_AddGenericTypeConverter_" data-uid="HeyBox.Interactions.InteractionService.AddGenericTypeConverter*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_AddGenericTypeConverter__1_System_Type_" data-uid="HeyBox.Interactions.InteractionService.AddGenericTypeConverter``1(System.Type)">
+  AddGenericTypeConverter&lt;T&gt;(Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L409"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加一个泛型类型的类型转换器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddGenericTypeConverter&lt;T&gt;(Type converterType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converterType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>泛型类型转换器实例。</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>类型转换器所转换类型的泛型约束。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_AddGenericTypeReader_" data-uid="HeyBox.Interactions.InteractionService.AddGenericTypeReader*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_AddGenericTypeReader_System_Type_System_Type_" data-uid="HeyBox.Interactions.InteractionService.AddGenericTypeReader(System.Type,System.Type)">
+  AddGenericTypeReader(Type, Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L452"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加一个泛型类型的类型读取器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddGenericTypeReader(Type targetType, Type readerType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>targetType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>类型读取器所读取类型的泛型约束。</p>
+</dd>
+    <dt><code>readerType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>泛型类型读取器实例。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_AddGenericTypeReader_" data-uid="HeyBox.Interactions.InteractionService.AddGenericTypeReader*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_AddGenericTypeReader__1_System_Type_" data-uid="HeyBox.Interactions.InteractionService.AddGenericTypeReader``1(System.Type)">
+  AddGenericTypeReader&lt;T&gt;(Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L444"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加一个泛型类型的类型读取器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddGenericTypeReader&lt;T&gt;(Type readerType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>readerType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>泛型类型读取器实例。</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>类型读取器所读取类型的泛型约束。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_AddModuleAsync_" data-uid="HeyBox.Interactions.InteractionService.AddModuleAsync*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_AddModuleAsync_System_Type_System_IServiceProvider_" data-uid="HeyBox.Interactions.InteractionService.AddModuleAsync(System.Type,System.IServiceProvider)">
+  AddModuleAsync(Type, IServiceProvider)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加指定类型的模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ModuleInfo&gt; AddModuleAsync(Type type, IServiceProvider services)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>要添加的模块的类型。</p>
+</dd>
+    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
+    <dd><p>要使用的依赖注入服务提供程序，如果不使用依赖注入，则传入 <code>null</code>。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.Interactions.ModuleInfo.html">ModuleInfo</a>&gt;</dt>
+    <dd><p>一个表示异步操作的任务，任务的结果是所创建的模块信息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>当模块已经被添加时引发。</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>当类型 <code class="paramref">type</code> 不是有效的模块类型时引发。</p>
+</dd>
+  </dl>
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_AddModuleAsync_" data-uid="HeyBox.Interactions.InteractionService.AddModuleAsync*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_AddModuleAsync__1_System_IServiceProvider_" data-uid="HeyBox.Interactions.InteractionService.AddModuleAsync``1(System.IServiceProvider)">
+  AddModuleAsync&lt;T&gt;(IServiceProvider)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加指定类型的模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ModuleInfo&gt; AddModuleAsync&lt;T&gt;(IServiceProvider services) where T : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
+    <dd><p>要使用的依赖注入服务提供程序，如果不使用依赖注入，则传入 <code>null</code>。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.Interactions.ModuleInfo.html">ModuleInfo</a>&gt;</dt>
+    <dd><p>一个表示异步操作的任务，任务的结果是所创建的模块信息。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>要添加的模块的类型。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>当模块已经被添加时引发。</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>当类型 <code class="typeparamref">T</code> 不是有效的模块类型时引发。</p>
+</dd>
+  </dl>
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_AddModulesAsync_" data-uid="HeyBox.Interactions.InteractionService.AddModulesAsync*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_AddModulesAsync_System_Reflection_Assembly_System_IServiceProvider_" data-uid="HeyBox.Interactions.InteractionService.AddModulesAsync(System.Reflection.Assembly,System.IServiceProvider)">
+  AddModulesAsync(Assembly, IServiceProvider)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>从指定的程序集中发现并加载命令模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;ModuleInfo&gt;&gt; AddModulesAsync(Assembly assembly, IServiceProvider services)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>assembly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd><p>定义命令模块的程序集。</p>
+</dd>
+    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
+    <dd><p>要使用的依赖注入服务提供程序，如果不使用依赖注入，则传入 <code>null</code>。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="HeyBox.Interactions.ModuleInfo.html">ModuleInfo</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步操作的任务，任务的结果是所创建的所有模块信息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_AddTypeConverter_" data-uid="HeyBox.Interactions.InteractionService.AddTypeConverter*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_AddTypeConverter_System_Type_HeyBox_Interactions_TypeConverter_" data-uid="HeyBox.Interactions.InteractionService.AddTypeConverter(System.Type,HeyBox.Interactions.TypeConverter)">
+  AddTypeConverter(Type, TypeConverter)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L401"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加一个具体类型的类型转换器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddTypeConverter(Type type, TypeConverter converter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>类型转换器的主要目标类型。</p>
+</dd>
+    <dt><code>converter</code> <a class="xref" href="HeyBox.Interactions.TypeConverter.html">TypeConverter</a></dt>
+    <dd><p>类型转换器实例。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_AddTypeConverter_" data-uid="HeyBox.Interactions.InteractionService.AddTypeConverter*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_AddTypeConverter__1_HeyBox_Interactions_TypeConverter_" data-uid="HeyBox.Interactions.InteractionService.AddTypeConverter``1(HeyBox.Interactions.TypeConverter)">
+  AddTypeConverter&lt;T&gt;(TypeConverter)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L393"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加一个具体类型的类型转换器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddTypeConverter&lt;T&gt;(TypeConverter converter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>converter</code> <a class="xref" href="HeyBox.Interactions.TypeConverter.html">TypeConverter</a></dt>
+    <dd><p>类型转换器实例。</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>类型转换器的主要目标类型。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_AddTypeReader_" data-uid="HeyBox.Interactions.InteractionService.AddTypeReader*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_AddTypeReader_System_Type_HeyBox_Interactions_TypeReader_" data-uid="HeyBox.Interactions.InteractionService.AddTypeReader(System.Type,HeyBox.Interactions.TypeReader)">
+  AddTypeReader(Type, TypeReader)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L436"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加一个具体类型的类型读取器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddTypeReader(Type type, TypeReader reader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>类型读取器的主要目标类型。</p>
+</dd>
+    <dt><code>reader</code> <a class="xref" href="HeyBox.Interactions.TypeReader.html">TypeReader</a></dt>
+    <dd><p>类型读取器实例。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_AddTypeReader_" data-uid="HeyBox.Interactions.InteractionService.AddTypeReader*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_AddTypeReader__1_HeyBox_Interactions_TypeReader_" data-uid="HeyBox.Interactions.InteractionService.AddTypeReader``1(HeyBox.Interactions.TypeReader)">
+  AddTypeReader&lt;T&gt;(TypeReader)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L428"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加一个具体类型的类型读取器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddTypeReader&lt;T&gt;(TypeReader reader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="HeyBox.Interactions.TypeReader.html">TypeReader</a></dt>
+    <dd><p>类型读取器实例。</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>类型读取器的主要目标类型。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_CreateModuleAsync_" data-uid="HeyBox.Interactions.InteractionService.CreateModuleAsync*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_CreateModuleAsync_System_String_System_IServiceProvider_System_Action_HeyBox_Interactions_Builders_ModuleBuilder__" data-uid="HeyBox.Interactions.InteractionService.CreateModuleAsync(System.String,System.IServiceProvider,System.Action{HeyBox.Interactions.Builders.ModuleBuilder})">
+  CreateModuleAsync(string, IServiceProvider?, Action&lt;ModuleBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>使用构建器工厂创建并加载 <a class="xref" href="HeyBox.Interactions.ModuleInfo.html">ModuleInfo</a>。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ModuleInfo&gt; CreateModuleAsync(string name, IServiceProvider? services, Action&lt;ModuleBuilder&gt; buildFunc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>模块的名称。</p>
+</dd>
+    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
+    <dd><p>要使用的依赖注入服务提供程序，如果不使用依赖注入，则传入 <code>null</code>。</p>
+</dd>
+    <dt><code>buildFunc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HeyBox.Interactions.Builders.ModuleBuilder.html">ModuleBuilder</a>&gt;</dt>
+    <dd><p>构建模块的委托。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.Interactions.ModuleInfo.html">ModuleInfo</a>&gt;</dt>
+    <dd><p>一个表示异步操作的任务，任务的结果是所创建的模块信息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_Dispose_" data-uid="HeyBox.Interactions.InteractionService.Dispose*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_Dispose" data-uid="HeyBox.Interactions.InteractionService.Dispose">
+  Dispose()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L530"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_ExecuteCommandAsync_" data-uid="HeyBox.Interactions.InteractionService.ExecuteCommandAsync*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_ExecuteCommandAsync_HeyBox_IInteractionContext_System_IServiceProvider_" data-uid="HeyBox.Interactions.InteractionService.ExecuteCommandAsync(HeyBox.IInteractionContext,System.IServiceProvider)">
+  ExecuteCommandAsync(IInteractionContext, IServiceProvider?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L340"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>执行指定的交互。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IResult&gt; ExecuteCommandAsync(IInteractionContext context, IServiceProvider? services)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="HeyBox.IInteractionContext.html">IInteractionContext</a></dt>
+    <dd><p>交互的上下文。</p>
+</dd>
+    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
+    <dd><p>要使用的依赖注入服务提供程序，如果不使用依赖注入，则传入 <code>null</code>。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.Interactions.IResult.html">IResult</a>&gt;</dt>
+    <dd><p>一个表示异步操作的任务，任务的结果是交互的结果。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_GetModuleInfo_" data-uid="HeyBox.Interactions.InteractionService.GetModuleInfo*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_GetModuleInfo__1" data-uid="HeyBox.Interactions.InteractionService.GetModuleInfo``1">
+  GetModuleInfo&lt;TModule&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L521"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取模块的信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleInfo GetModuleInfo&lt;TModule&gt;() where TModule : class</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.ModuleInfo.html">ModuleInfo</a></dt>
+    <dd><p>模块的信息。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TModule</code></dt>
+    <dd><p>模块的类型，必需是 <a class="xref" href="HeyBox.Interactions.InteractionModuleBase-1.html">InteractionModuleBase&lt;T&gt;</a> 的实现。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_GetSlashCommandInfo_" data-uid="HeyBox.Interactions.InteractionService.GetSlashCommandInfo*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_GetSlashCommandInfo__1_System_String_" data-uid="HeyBox.Interactions.InteractionService.GetSlashCommandInfo``1(System.String)">
+  GetSlashCommandInfo&lt;TModule&gt;(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L510"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取斜线命令的信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlashCommandInfo GetSlashCommandInfo&lt;TModule&gt;(string methodName) where TModule : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>methodName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>斜线命令处理方法的名称，推荐使用 <code>nameof</code> 引用。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.SlashCommandInfo.html">SlashCommandInfo</a></dt>
+    <dd><p>斜线命令的信息。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TModule</code></dt>
+    <dd><p>声明斜线命令的模块类型，必需是 <a class="xref" href="HeyBox.Interactions.InteractionModuleBase-1.html">InteractionModuleBase&lt;T&gt;</a> 的实现。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>当未找到指定的斜线命令时引发。</p>
+</dd>
+  </dl>
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_RemoveModuleAsync_" data-uid="HeyBox.Interactions.InteractionService.RemoveModuleAsync*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_RemoveModuleAsync_HeyBox_Interactions_ModuleInfo_" data-uid="HeyBox.Interactions.InteractionService.RemoveModuleAsync(HeyBox.Interactions.ModuleInfo)">
+  RemoveModuleAsync(ModuleInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L296"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>移除指定的模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; RemoveModuleAsync(ModuleInfo module)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>module</code> <a class="xref" href="HeyBox.Interactions.ModuleInfo.html">ModuleInfo</a></dt>
+    <dd><p>要移除的模块。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>一个表示异步操作的任务，任务的结果是是否成功移除模块。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_RemoveModuleAsync_" data-uid="HeyBox.Interactions.InteractionService.RemoveModuleAsync*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_RemoveModuleAsync_System_Type_" data-uid="HeyBox.Interactions.InteractionService.RemoveModuleAsync(System.Type)">
+  RemoveModuleAsync(Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>移除指定类型的模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; RemoveModuleAsync(Type type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>要移除的模块的类型。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>一个表示异步操作的任务，任务的结果是是否成功移除模块。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_RemoveModuleAsync_" data-uid="HeyBox.Interactions.InteractionService.RemoveModuleAsync*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_RemoveModuleAsync__1" data-uid="HeyBox.Interactions.InteractionService.RemoveModuleAsync``1">
+  RemoveModuleAsync&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>移除指定类型的模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; RemoveModuleAsync&lt;T&gt;()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>一个表示异步操作的任务，任务的结果是是否成功移除模块。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>要移除的模块的类型。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_SearchSlashCommand_" data-uid="HeyBox.Interactions.InteractionService.SearchSlashCommand*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_SearchSlashCommand_HeyBox_ISlashCommandInteraction_" data-uid="HeyBox.Interactions.InteractionService.SearchSlashCommand(HeyBox.ISlashCommandInteraction)">
+  SearchSlashCommand(ISlashCommandInteraction)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>使用 <a class="xref" href="HeyBox.ISlashCommandInteraction.html">ISlashCommandInteraction</a> 搜索已注册到当前服务的斜线命令。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SearchResult&lt;SlashCommandInfo&gt; SearchSlashCommand(ISlashCommandInteraction slashCommandInteraction)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>slashCommandInteraction</code> <a class="xref" href="HeyBox.ISlashCommandInteraction.html">ISlashCommandInteraction</a></dt>
+    <dd><p>要进行搜索的斜线命令交互。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.SearchResult-1.html">SearchResult</a>&lt;<a class="xref" href="HeyBox.Interactions.SlashCommandInfo.html">SlashCommandInfo</a>&gt;</dt>
+    <dd><p>搜索结果。当成功时，结果包含找到的 <a class="xref" href="HeyBox.Interactions.SlashCommandInfo.html">SlashCommandInfo</a>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_TryRemoveGenericTypeReader_" data-uid="HeyBox.Interactions.InteractionService.TryRemoveGenericTypeReader*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_TryRemoveGenericTypeReader_System_Type_System_Type__" data-uid="HeyBox.Interactions.InteractionService.TryRemoveGenericTypeReader(System.Type,System.Type@)">
+  TryRemoveGenericTypeReader(Type, out Type?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L500"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>尝试移除一个泛型类型的类型转换器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryRemoveGenericTypeReader(Type type, out Type? readerType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>类型转换器所转换类型的泛型约束。</p>
+</dd>
+    <dt><code>readerType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>被移除的泛型类型转换器实例。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>移除操作是否成功。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Interactions_InteractionService_TryRemoveGenericTypeReader_System_Type_System_Type___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>从当前交互服务中移除的类型读取器不会立即从加载的模块或命令实例中取消引用，您需要重新加载模块以使更改生效。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_TryRemoveGenericTypeReader_" data-uid="HeyBox.Interactions.InteractionService.TryRemoveGenericTypeReader*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_TryRemoveGenericTypeReader__1_System_Type__" data-uid="HeyBox.Interactions.InteractionService.TryRemoveGenericTypeReader``1(System.Type@)">
+  TryRemoveGenericTypeReader&lt;T&gt;(out Type?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L488"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>尝试移除一个泛型类型的类型转换器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryRemoveGenericTypeReader&lt;T&gt;(out Type? readerType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>readerType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>被移除的泛型类型转换器实例。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>移除操作是否成功。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>类型转换器所转换类型的泛型约束。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Interactions_InteractionService_TryRemoveGenericTypeReader__1_System_Type___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>从当前交互服务中移除的类型读取器不会立即从加载的模块或命令实例中取消引用，您需要重新加载模块以使更改生效。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_TryRemoveTypeReader_" data-uid="HeyBox.Interactions.InteractionService.TryRemoveTypeReader*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_TryRemoveTypeReader_System_Type_HeyBox_Interactions_TypeReader__" data-uid="HeyBox.Interactions.InteractionService.TryRemoveTypeReader(System.Type,HeyBox.Interactions.TypeReader@)">
+  TryRemoveTypeReader(Type, out TypeReader?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L476"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>尝试移除一个具体类型的类型转换器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryRemoveTypeReader(Type type, out TypeReader? reader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>类型转换器的主要目标类型。</p>
+</dd>
+    <dt><code>reader</code> <a class="xref" href="HeyBox.Interactions.TypeReader.html">TypeReader</a></dt>
+    <dd><p>被移除的类型转换器实例。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>移除操作是否成功。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Interactions_InteractionService_TryRemoveTypeReader_System_Type_HeyBox_Interactions_TypeReader___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>从当前交互服务中移除的类型读取器不会立即从加载的模块或命令实例中取消引用，您需要重新加载模块以使更改生效。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionService_TryRemoveTypeReader_" data-uid="HeyBox.Interactions.InteractionService.TryRemoveTypeReader*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionService_TryRemoveTypeReader__1_HeyBox_Interactions_TypeReader__" data-uid="HeyBox.Interactions.InteractionService.TryRemoveTypeReader``1(HeyBox.Interactions.TypeReader@)">
+  TryRemoveTypeReader&lt;T&gt;(out TypeReader?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L464"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>尝试移除一个具体类型的类型转换器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryRemoveTypeReader&lt;T&gt;(out TypeReader? reader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="HeyBox.Interactions.TypeReader.html">TypeReader</a></dt>
+    <dd><p>被移除的类型转换器实例。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>移除操作是否成功。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>类型转换器的主要目标类型。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Interactions_InteractionService_TryRemoveTypeReader__1_HeyBox_Interactions_TypeReader___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>从当前交互服务中移除的类型读取器不会立即从加载的模块或命令实例中取消引用，您需要重新加载模块以使更改生效。</p>
+</div>
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="HeyBox_Interactions_InteractionService_InteractionExecuted" data-uid="HeyBox.Interactions.InteractionService.InteractionExecuted">
+  InteractionExecuted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当交互执行时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;ICommandInfo?, IInteractionContext, IResult, Task&gt; InteractionExecuted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;<a class="xref" href="HeyBox.Interactions.ICommandInfo.html">ICommandInfo</a>, <a class="xref" href="HeyBox.IInteractionContext.html">IInteractionContext</a>, <a class="xref" href="HeyBox.Interactions.IResult.html">IResult</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="HeyBox_Interactions_InteractionService_InteractionExecuted_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li><a class="xref" href="HeyBox.Interactions.ICommandInfo.html">ICommandInfo</a> 参数是交互的信息。 </li><li><a class="xref" href="HeyBox.IInteractionContext.html">IInteractionContext</a> 参数是交互的上下文。 </li><li><a class="xref" href="HeyBox.Interactions.IResult.html">IResult</a> 参数是交互的结果。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="HeyBox_Interactions_InteractionService_Log" data-uid="HeyBox.Interactions.InteractionService.Log">
+  Log
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当生成一条日志消息时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;LogMessage, Task&gt; Log</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="HeyBox.LogMessage.html">LogMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="HeyBox_Interactions_InteractionService_Log_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li><a class="xref" href="HeyBox.LogMessage.html">LogMessage</a> 参数是描述日志消息的结构。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="HeyBox_Interactions_InteractionService_SlashCommandExecuted" data-uid="HeyBox.Interactions.InteractionService.SlashCommandExecuted">
+  SlashCommandExecuted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当斜线命令执行时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SlashCommandInfo?, IInteractionContext, IResult, Task&gt; SlashCommandExecuted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;<a class="xref" href="HeyBox.Interactions.SlashCommandInfo.html">SlashCommandInfo</a>, <a class="xref" href="HeyBox.IInteractionContext.html">IInteractionContext</a>, <a class="xref" href="HeyBox.Interactions.IResult.html">IResult</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="HeyBox_Interactions_InteractionService_SlashCommandExecuted_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li><a class="xref" href="HeyBox.Interactions.ICommandInfo.html">ICommandInfo</a> 参数是交互的信息。 </li><li><a class="xref" href="HeyBox.IInteractionContext.html">IInteractionContext</a> 参数是交互的上下文。 </li><li><a class="xref" href="HeyBox.Interactions.IResult.html">IResult</a> 参数是交互的结果。 </li></ol>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionService.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          HeyBox.Net (c) 2022-2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

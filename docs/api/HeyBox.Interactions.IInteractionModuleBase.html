@@ -1,0 +1,396 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IInteractionModuleBase | HeyBox.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IInteractionModuleBase | HeyBox.Net 文档 ">
+      
+      <meta name="description" content="表示一个通用的交互模块基类。">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_Interactions_IInteractionModuleBase.md&amp;value=---%0Auid%3A%20HeyBox.Interactions.IInteractionModuleBase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HeyBox.Net 文档">
+            HeyBox.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HeyBox.Interactions.IInteractionModuleBase">
+
+
+
+  <h1 id="HeyBox_Interactions_IInteractionModuleBase" data-uid="HeyBox.Interactions.IInteractionModuleBase" class="text-break">
+Interface IInteractionModuleBase  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/IInteractionModuleBase.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HeyBox.html">HeyBox</a>.<a class="xref" href="HeyBox.Interactions.html">Interactions</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HeyBox.Net.Interactions.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>表示一个通用的交互模块基类。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IInteractionModuleBase</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HeyBox_Interactions_IInteractionModuleBase_AfterExecute_" data-uid="HeyBox.Interactions.IInteractionModuleBase.AfterExecute*"></a>
+
+  <h3 id="HeyBox_Interactions_IInteractionModuleBase_AfterExecute_HeyBox_Interactions_ICommandInfo_" data-uid="HeyBox.Interactions.IInteractionModuleBase.AfterExecute(HeyBox.Interactions.ICommandInfo)">
+  AfterExecute(ICommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/IInteractionModuleBase.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在应用程序命令执行后同步执行的方法。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AfterExecute(ICommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <a class="xref" href="HeyBox.Interactions.ICommandInfo.html">ICommandInfo</a></dt>
+    <dd><p>相关的命令信息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_IInteractionModuleBase_AfterExecuteAsync_" data-uid="HeyBox.Interactions.IInteractionModuleBase.AfterExecuteAsync*"></a>
+
+  <h3 id="HeyBox_Interactions_IInteractionModuleBase_AfterExecuteAsync_HeyBox_Interactions_ICommandInfo_" data-uid="HeyBox.Interactions.IInteractionModuleBase.AfterExecuteAsync(HeyBox.Interactions.ICommandInfo)">
+  AfterExecuteAsync(ICommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/IInteractionModuleBase.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在应用程序命令执行后异步执行的方法。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AfterExecuteAsync(ICommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <a class="xref" href="HeyBox.Interactions.ICommandInfo.html">ICommandInfo</a></dt>
+    <dd><p>相关的命令信息。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_IInteractionModuleBase_BeforeExecute_" data-uid="HeyBox.Interactions.IInteractionModuleBase.BeforeExecute*"></a>
+
+  <h3 id="HeyBox_Interactions_IInteractionModuleBase_BeforeExecute_HeyBox_Interactions_ICommandInfo_" data-uid="HeyBox.Interactions.IInteractionModuleBase.BeforeExecute(HeyBox.Interactions.ICommandInfo)">
+  BeforeExecute(ICommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/IInteractionModuleBase.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在执行应用程序命令之前同步执行的方法。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void BeforeExecute(ICommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <a class="xref" href="HeyBox.Interactions.ICommandInfo.html">ICommandInfo</a></dt>
+    <dd><p>相关的命令信息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_IInteractionModuleBase_BeforeExecuteAsync_" data-uid="HeyBox.Interactions.IInteractionModuleBase.BeforeExecuteAsync*"></a>
+
+  <h3 id="HeyBox_Interactions_IInteractionModuleBase_BeforeExecuteAsync_HeyBox_Interactions_ICommandInfo_" data-uid="HeyBox.Interactions.IInteractionModuleBase.BeforeExecuteAsync(HeyBox.Interactions.ICommandInfo)">
+  BeforeExecuteAsync(ICommandInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/IInteractionModuleBase.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在执行应用程序命令之前异步执行的方法。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task BeforeExecuteAsync(ICommandInfo command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <a class="xref" href="HeyBox.Interactions.ICommandInfo.html">ICommandInfo</a></dt>
+    <dd><p>相关的命令信息。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_IInteractionModuleBase_Construct_" data-uid="HeyBox.Interactions.IInteractionModuleBase.Construct*"></a>
+
+  <h3 id="HeyBox_Interactions_IInteractionModuleBase_Construct_HeyBox_Interactions_Builders_ModuleBuilder_HeyBox_Interactions_InteractionService_" data-uid="HeyBox.Interactions.IInteractionModuleBase.Construct(HeyBox.Interactions.Builders.ModuleBuilder,HeyBox.Interactions.InteractionService)">
+  Construct(ModuleBuilder, InteractionService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/IInteractionModuleBase.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当模块创建完成后创建模块信息前执行的方法。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Construct(ModuleBuilder builder, InteractionService commandService)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builder</code> <a class="xref" href="HeyBox.Interactions.Builders.ModuleBuilder.html">ModuleBuilder</a></dt>
+    <dd><p>构建此方法的模块构建器。</p>
+</dd>
+    <dt><code>commandService</code> <a class="xref" href="HeyBox.Interactions.InteractionService.html">InteractionService</a></dt>
+    <dd><p>构建此方法的命令服务实例。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_IInteractionModuleBase_OnModuleBuilding_" data-uid="HeyBox.Interactions.IInteractionModuleBase.OnModuleBuilding*"></a>
+
+  <h3 id="HeyBox_Interactions_IInteractionModuleBase_OnModuleBuilding_HeyBox_Interactions_InteractionService_HeyBox_Interactions_ModuleInfo_" data-uid="HeyBox.Interactions.IInteractionModuleBase.OnModuleBuilding(HeyBox.Interactions.InteractionService,HeyBox.Interactions.ModuleInfo)">
+  OnModuleBuilding(InteractionService, ModuleInfo)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/IInteractionModuleBase.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当构建模块时执行的方法。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnModuleBuilding(InteractionService commandService, ModuleInfo module)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>commandService</code> <a class="xref" href="HeyBox.Interactions.InteractionService.html">InteractionService</a></dt>
+    <dd><p>构建此方法的命令服务实例。</p>
+</dd>
+    <dt><code>module</code> <a class="xref" href="HeyBox.Interactions.ModuleInfo.html">ModuleInfo</a></dt>
+    <dd><p>此模块的信息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_IInteractionModuleBase_SetContext_" data-uid="HeyBox.Interactions.IInteractionModuleBase.SetContext*"></a>
+
+  <h3 id="HeyBox_Interactions_IInteractionModuleBase_SetContext_HeyBox_IInteractionContext_" data-uid="HeyBox.Interactions.IInteractionModuleBase.SetContext(HeyBox.IInteractionContext)">
+  SetContext(IInteractionContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/IInteractionModuleBase.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置此交互模块的上下文。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetContext(IInteractionContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="HeyBox.IInteractionContext.html">IInteractionContext</a></dt>
+    <dd><p>交互上下文。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/IInteractionModuleBase.cs/#L6" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          HeyBox.Net (c) 2022-2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,1957 @@
+{
+  "sitemap": {
+    "baseUrl": "https://www.heyboxnet.dev/"
+  },
+  "source_base_path": "/home/runner/work/HeyBox.Net/HeyBox.Net/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.ApplicationCommandType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.ApplicationCommandType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.AttachmentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.AttachmentType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.CacheMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.CacheMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Cacheable-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Cacheable-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Cacheable-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Cacheable-4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.ChannelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.ChannelExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.ChannelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.ChannelType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.ConnectionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.ConnectionState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.CreateAttachmentMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.CreateAttachmentMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.FileAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.FileAttachment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.HeyBoxConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.HeyBoxConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.HeyBoxError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.HeyBoxError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.HeyBoxErrorCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.HeyBoxErrorCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.HeyBoxJsonError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.HeyBoxJsonError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IEntity-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IEntity-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IHeyBoxClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IHeyBoxClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IHeyBoxInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IHeyBoxInteraction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IHeyBoxInteractionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IHeyBoxInteractionData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IInteractionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IInteractionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IMentionable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IMentionable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IMessageChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IMessageChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IMessageReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IMessageReference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.INestedChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.INestedChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IRateLimitInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IRateLimitInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IRole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IRoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IRoom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IRoomChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IRoomChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IRoomUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IRoomUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IRouteMatchContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IRouteMatchContainer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IRouteSegmentMatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IRouteSegmentMatch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.ISelfUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.ISelfUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.ISlashCommandInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.ISlashCommandInteraction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.ISlashCommandInteractionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.ISlashCommandInteractionData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.ISlashCommandInteractionDataOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.ISlashCommandInteractionDataOption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.ITag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.ITag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.ITextChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.ITextChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IUserMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IUserMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.InteractionContextType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.InteractionContextType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.InteractionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.InteractionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.Builders.CommandBuilder-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.Builders.CommandBuilder-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.Builders.CommandParameterBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.Builders.CommandParameterBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.Builders.ICommandBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.Builders.ICommandBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.Builders.IParameterBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.Builders.IParameterBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.Builders.ModuleBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.Builders.ModuleBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.Builders.ParameterBuilder-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.Builders.ParameterBuilder-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.Builders.SlashCommandBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.Builders.SlashCommandBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.Builders.SlashCommandParameterBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.Builders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.Builders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.ChannelTypesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.ChannelTypesAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.ChoiceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.ChoiceAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.ChoiceDisplayAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.ChoiceDisplayAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.CommandContextTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.CommandContextTypeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.CommandInfo-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.CommandInfo-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.CommandParameterInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.CommandParameterInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.ComplexParameterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.ComplexParameterAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.ComplexParameterCtorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.ComplexParameterCtorAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.ComplexParameterInitializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.ComplexParameterInitializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.ExecuteCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.ExecuteCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.ExecuteResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.ExecuteResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.HideAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.HideAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.IApplicationCommandInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.IApplicationCommandInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.ICommandInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.ICommandInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.IInteractionModuleBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.IInteractionModuleBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.IParameterInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.IParameterInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.IResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.IResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.InteractionCommandError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.InteractionCommandError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.InteractionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.InteractionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.InteractionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.InteractionException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.InteractionModuleBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.InteractionModuleBase-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.InteractionModuleBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.InteractionModuleBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.InteractionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.InteractionService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.InteractionServiceConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.InteractionServiceConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.MaxLengthAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.MaxLengthAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.MaxValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.MaxValueAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.MinLengthAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.MinLengthAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.MinValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.MinValueAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.ModuleInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.ModuleInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.ParameterChoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.ParameterChoice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.ParameterPreconditionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.ParameterPreconditionAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.ParseResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.ParseResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.PreconditionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.PreconditionAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.PreconditionGroupResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.PreconditionGroupResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.PreconditionResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.PreconditionResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.RequireRoleAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.RequireRoleAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.RequireUserAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.RequireUserAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.RunMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.RunMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.RuntimeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.RuntimeResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.SearchResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.SearchResult-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.SlashCommandAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.SlashCommandAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.SlashCommandChoiceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.SlashCommandChoiceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.SlashCommandInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.SlashCommandInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.SlashCommandParameterInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.SlashCommandParameterInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.SocketInteractionContext-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.SocketInteractionContext-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.SocketInteractionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.SocketInteractionContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.SummaryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.SummaryAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.TypeConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.TypeConverter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.TypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.TypeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.TypeConverterResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.TypeConverterResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.TypeReader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.TypeReader-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.TypeReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.TypeReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Interactions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Interactions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.LogMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.LogMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.LogSeverity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.LogSeverity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.LoginState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.LoginState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.MentionUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.MentionUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.MessageReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.MessageReference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.MessageSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.MessageSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.MessageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.MessageType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.BucketId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.BucketId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.HttpException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.HttpException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.IRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.IRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.Queue.BaseMessageQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.Queue.BaseMessageQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.Queue.IMessageQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.Queue.IMessageQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.Queue.MessageQueueProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.Queue.MessageQueueProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueueProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueueProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.Queue.SynchronousImmediate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.Queue.SynchronousImmediate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.Queue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.Queue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.RateLimitInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.RateLimitInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.RateLimitedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.RateLimitedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.Rest.DefaultRestClientProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.Rest.DefaultRestClientProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.Rest.IRestClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.Rest.IRestClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.Rest.RestClientProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.Rest.RestClientProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.Rest.RestResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.Rest.RestResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.Rest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.Rest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.WebSocketClosedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.WebSocketClosedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.WebSockets.DefaultWebSocketProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.WebSockets.DefaultWebSocketProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.WebSockets.IWebSocketClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.WebSockets.IWebSocketClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.WebSockets.WebSocketProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.WebSockets.WebSocketProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.WebSockets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.WebSockets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Net.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Net.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.RequestOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.RequestOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.BaseHeyBoxClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.BaseHeyBoxClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.HeyBoxRestClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.HeyBoxRestClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.HeyBoxRestConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.HeyBoxRestConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.IRestMessageChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.IRestMessageChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.RestChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.RestChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.RestEntity-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.RestEntity-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.RestRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.RestRole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.RestRoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.RestRoom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.RestRoomChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.RestRoomChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.RestSelfUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.RestSelfUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.RestTextChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.RestTextChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.RestUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.RestUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.RetryMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.RetryMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.SlashCommandOptionChoiceProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.SlashCommandOptionChoiceProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.SlashCommandOptionProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.SlashCommandOptionProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.SlashCommandOptionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.SlashCommandOptionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.SlashCommandProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.SlashCommandProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Tag-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Tag-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.TagHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.TagHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.TagType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.TagType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.TokenType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.TokenType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.TokenUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.TokenUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.BaseSocketClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.BaseSocketClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.GatewayReconnectException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.GatewayReconnectException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.HeyBoxSocketClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.HeyBoxSocketClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.HeyBoxSocketConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.HeyBoxSocketConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.HeyBoxSocketRestClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.HeyBoxSocketRestClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.ISocketMessageChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.ISocketMessageChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.SocketChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.SocketChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.SocketEntity-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.SocketEntity-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.SocketInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.SocketInteraction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.SocketRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.SocketRole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.SocketRoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.SocketRoom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.SocketRoomChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.SocketRoomChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.SocketRoomUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.SocketRoomUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.SocketSelfUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.SocketSelfUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.SocketSlashCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.SocketSlashCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.SocketSlashCommandData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.SocketSlashCommandData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.SocketSlashCommandDataOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.SocketSlashCommandDataOption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.SocketTextChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.SocketTextChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.SocketUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.SocketUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/changelog.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/changelog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "changelog/toc.json"
+        },
+        ".html": {
+          "relative_path": "changelog/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "demos/demos-community.md",
+      "output": {
+        ".html": {
+          "relative_path": "demos/demos-community.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "demos/demos.md",
+      "output": {
+        ".html": {
+          "relative_path": "demos/demos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "demos/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "demos/toc.json"
+        },
+        ".html": {
+          "relative_path": "demos/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/introduction/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/introduction/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "guides/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "guides/toc.json"
+        },
+        ".html": {
+          "relative_path": "guides/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

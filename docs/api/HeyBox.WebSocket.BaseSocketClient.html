@@ -1,0 +1,555 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BaseSocketClient | HeyBox.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BaseSocketClient | HeyBox.Net 文档 ">
+      
+      <meta name="description" content="表示一个基于网关的客户端的抽象基类。">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_WebSocket_BaseSocketClient.md&amp;value=---%0Auid%3A%20HeyBox.WebSocket.BaseSocketClient%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HeyBox.Net 文档">
+            HeyBox.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HeyBox.WebSocket.BaseSocketClient">
+
+
+
+  <h1 id="HeyBox_WebSocket_BaseSocketClient" data-uid="HeyBox.WebSocket.BaseSocketClient" class="text-break">
+Class BaseSocketClient  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HeyBox.html">HeyBox</a>.<a class="xref" href="HeyBox.WebSocket.html">WebSocket</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HeyBox.Net.WebSocket.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>表示一个基于网关的客户端的抽象基类。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class BaseSocketClient : BaseHeyBoxClient, IHeyBoxClient, IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html">BaseHeyBoxClient</a></div>
+      <div><span class="xref">BaseSocketClient</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="HeyBox.IHeyBoxClient.html">IHeyBoxClient</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="HeyBox.WebSocket.HeyBoxSocketClient.html">HeyBoxSocketClient</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html#HeyBox_Rest_BaseHeyBoxClient_Log">BaseHeyBoxClient.Log</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html#HeyBox_Rest_BaseHeyBoxClient_LoggedIn">BaseHeyBoxClient.LoggedIn</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html#HeyBox_Rest_BaseHeyBoxClient_LoggedOut">BaseHeyBoxClient.LoggedOut</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html#HeyBox_Rest_BaseHeyBoxClient_SentRequest">BaseHeyBoxClient.SentRequest</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html#HeyBox_Rest_BaseHeyBoxClient_LoginState">BaseHeyBoxClient.LoginState</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html#HeyBox_Rest_BaseHeyBoxClient_TokenType">BaseHeyBoxClient.TokenType</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html#HeyBox_Rest_BaseHeyBoxClient_Dispose">BaseHeyBoxClient.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html#HeyBox_Rest_BaseHeyBoxClient_LoginAsync_HeyBox_TokenType_System_String_System_Boolean_">BaseHeyBoxClient.LoginAsync(TokenType, string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html#HeyBox_Rest_BaseHeyBoxClient_LogoutAsync">BaseHeyBoxClient.LogoutAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html#HeyBox_Rest_BaseHeyBoxClient_ConnectionState">BaseHeyBoxClient.ConnectionState</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_BaseConfig" data-uid="HeyBox.WebSocket.BaseSocketClient.BaseConfig">
+  BaseConfig
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此客户端使用的配置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly HeyBoxSocketConfig BaseConfig</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.WebSocket.HeyBoxSocketConfig.html">HeyBoxSocketConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="HeyBox_WebSocket_BaseSocketClient_CurrentUser_" data-uid="HeyBox.WebSocket.BaseSocketClient.CurrentUser*"></a>
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_CurrentUser" data-uid="HeyBox.WebSocket.BaseSocketClient.CurrentUser">
+  CurrentUser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取登录到此客户端的当前用户；如果未登录，则为 <code>null</code>。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual SocketSelfUser? CurrentUser { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.WebSocket.SocketSelfUser.html">SocketSelfUser</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_WebSocket_BaseSocketClient_Latency_" data-uid="HeyBox.WebSocket.BaseSocketClient.Latency*"></a>
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_Latency" data-uid="HeyBox.WebSocket.BaseSocketClient.Latency">
+  Latency
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取到网关服务器的往返延迟估计值（以毫秒为单位）。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract int Latency { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_Latency_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此往返估计值源于心跳包的延迟，不代表诸如发送消息等操作的真实延迟。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_WebSocket_BaseSocketClient_Rest_" data-uid="HeyBox.WebSocket.BaseSocketClient.Rest*"></a>
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_Rest" data-uid="HeyBox.WebSocket.BaseSocketClient.Rest">
+  Rest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取一个与此客户端共享状态的仅限于 REST 的客户端。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract HeyBoxSocketRestClient Rest { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.WebSocket.HeyBoxSocketRestClient.html">HeyBoxSocketRestClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HeyBox_WebSocket_BaseSocketClient_GetChannel_" data-uid="HeyBox.WebSocket.BaseSocketClient.GetChannel*"></a>
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_GetChannel_System_UInt64_" data-uid="HeyBox.WebSocket.BaseSocketClient.GetChannel(System.UInt64)">
+  GetChannel(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取一个服务器频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract SocketChannel? GetChannel(ulong id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的频道的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.WebSocket.SocketChannel.html">SocketChannel</a></dt>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的频道；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_WebSocket_BaseSocketClient_GetRoom_" data-uid="HeyBox.WebSocket.BaseSocketClient.GetRoom*"></a>
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_GetRoom_System_UInt64_" data-uid="HeyBox.WebSocket.BaseSocketClient.GetRoom(System.UInt64)">
+  GetRoom(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取一个房间。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract SocketRoom GetRoom(ulong id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的房间的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.WebSocket.SocketRoom.html">SocketRoom</a></dt>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的实体；如果缓存中不存在指定的房间，则返回一个用于后续调用但不包含其他有效信息的房间实体。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_WebSocket_BaseSocketClient_GetUser_" data-uid="HeyBox.WebSocket.BaseSocketClient.GetUser*"></a>
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_GetUser_System_UInt32_" data-uid="HeyBox.WebSocket.BaseSocketClient.GetUser(System.UInt32)">
+  GetUser(uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract SocketUser? GetUser(uint id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>要获取的用户的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.WebSocket.SocketUser.html">SocketUser</a></dt>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的用户；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_GetUser_System_UInt32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法可能返回 <code>null</code>，因为此方法仅会返回网关缓存中存在的用户，如果在当前 Bot
+登录会话中，要获取的用户未引发过任何事件，那么该用户实体则不会存在于缓存中。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_WebSocket_BaseSocketClient_StartAsync_" data-uid="HeyBox.WebSocket.BaseSocketClient.StartAsync*"></a>
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_StartAsync" data-uid="HeyBox.WebSocket.BaseSocketClient.StartAsync">
+  StartAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>启动客户端与黑盒语音之间的连接。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task StartAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步启动操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_StartAsync_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>当前方法会初始化客户端与黑盒语音之间的连接。 <br><div class="IMPORTANT"><h5>important</h5><p>
+此方法会在调用后立即返回，因为它会在另一个线程上初始化连接。</p>
+</div>
+</div>
+
+
+
+
+  <a id="HeyBox_WebSocket_BaseSocketClient_StopAsync_" data-uid="HeyBox.WebSocket.BaseSocketClient.StopAsync*"></a>
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_StopAsync" data-uid="HeyBox.WebSocket.BaseSocketClient.StopAsync">
+  StopAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>停止客户端与黑盒语音之间的连接。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task StopAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步停止操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L9" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          HeyBox.Net (c) 2022-2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

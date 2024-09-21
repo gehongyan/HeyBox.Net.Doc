@@ -1,0 +1,1176 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SlashCommandParameterBuilder | HeyBox.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SlashCommandParameterBuilder | HeyBox.Net 文档 ">
+      
+      <meta name="description" content="Represents a builder for creating .">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_Interactions_Builders_SlashCommandParameterBuilder.md&amp;value=---%0Auid%3A%20HeyBox.Interactions.Builders.SlashCommandParameterBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HeyBox.Net 文档">
+            HeyBox.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder">
+
+
+
+  <h1 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder" class="text-break">
+Class SlashCommandParameterBuilder  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HeyBox.html">HeyBox</a>.<a class="xref" href="HeyBox.Interactions.html">Interactions</a>.<a class="xref" href="HeyBox.Interactions.Builders.html">Builders</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HeyBox.Net.Interactions.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents a builder for creating <a class="xref" href="HeyBox.Interactions.SlashCommandParameterInfo.html">SlashCommandParameterInfo</a>.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class SlashCommandParameterBuilder : ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;, IParameterBuilder</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html">ParameterBuilder</a>&lt;<a class="xref" href="HeyBox.Interactions.SlashCommandParameterInfo.html">SlashCommandParameterInfo</a>, <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a>&gt;</div>
+      <div><span class="xref">SlashCommandParameterBuilder</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="HeyBox.Interactions.Builders.IParameterBuilder.html">IParameterBuilder</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_Command">ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;.Command</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_Name">ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_ParameterType">ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;.ParameterType</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_IsRequired">ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;.IsRequired</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_IsParameterArray">ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;.IsParameterArray</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_DefaultValue">ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;.DefaultValue</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_Attributes">ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;.Attributes</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_Preconditions">ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;.Preconditions</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_WithName_System_String_">ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;.WithName(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_SetParameterType_System_Type_">ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;.SetParameterType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_SetRequired_System_Boolean_">ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;.SetRequired(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_SetDefaultValue_System_Object_">ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;.SetDefaultValue(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_AddAttributes_System_Attribute___">ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;.AddAttributes(params Attribute[])</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_AddPreconditions_HeyBox_Interactions_ParameterPreconditionAttribute___">ParameterBuilder&lt;SlashCommandParameterInfo, SlashCommandParameterBuilder&gt;.AddPreconditions(params ParameterPreconditionAttribute[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder__ctor_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.#ctor*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder__ctor_HeyBox_Interactions_Builders_ICommandBuilder_System_String_System_Type_HeyBox_Interactions_ComplexParameterInitializer_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.#ctor(HeyBox.Interactions.Builders.ICommandBuilder,System.String,System.Type,HeyBox.Interactions.ComplexParameterInitializer)">
+  SlashCommandParameterBuilder(ICommandBuilder, string, Type, ComplexParameterInitializer?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlashCommandParameterBuilder(ICommandBuilder command, string name, Type type, ComplexParameterInitializer? complexParameterInitializer = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>command</code> <a class="xref" href="HeyBox.Interactions.Builders.ICommandBuilder.html">ICommandBuilder</a></dt>
+    <dd><p>Parent command of this parameter.</p>
+</dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of this command.</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>Type of this parameter.</p>
+</dd>
+    <dt><code>complexParameterInitializer</code> <a class="xref" href="HeyBox.Interactions.ComplexParameterInitializer.html">ComplexParameterInitializer</a></dt>
+    <dd><p>Initializer delegate for this parameter.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_Autocomplete_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.Autocomplete*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_Autocomplete" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.Autocomplete">
+  Autocomplete
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets whether this parameter should be configured for Autocomplete Interactions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Autocomplete { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_ChannelTypes_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.ChannelTypes*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_ChannelTypes" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.ChannelTypes">
+  ChannelTypes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a collection of the channel types of this command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;ChannelType&gt; ChannelTypes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="HeyBox.ChannelType.html">ChannelType</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_Choices_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.Choices*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_Choices" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.Choices">
+  Choices
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a collection of the choices of this command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;ParameterChoice&gt; Choices { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="HeyBox.Interactions.ParameterChoice.html">ParameterChoice</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_ComplexParameterFields_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.ComplexParameterFields*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_ComplexParameterFields" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.ComplexParameterFields">
+  ComplexParameterFields
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the constructor parameters of this parameter, if <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_IsComplexParameter">IsComplexParameter</a> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;SlashCommandParameterBuilder&gt; ComplexParameterFields { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_ComplexParameterInitializer_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.ComplexParameterInitializer*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_ComplexParameterInitializer" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.ComplexParameterInitializer">
+  ComplexParameterInitializer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the initializer delegate for this parameter, if <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_IsComplexParameter">IsComplexParameter</a> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ComplexParameterInitializer? ComplexParameterInitializer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.ComplexParameterInitializer.html">ComplexParameterInitializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_Description_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.Description*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_Description" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.Description">
+  Description
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the description of this parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Description { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_Instance_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.Instance*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_Instance" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.Instance">
+  Instance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the builder instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override SlashCommandParameterBuilder Instance { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_IsComplexParameter_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.IsComplexParameter*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_IsComplexParameter" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.IsComplexParameter">
+  IsComplexParameter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets whether this type should be treated as a complex parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsComplexParameter { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MaxLength_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.MaxLength*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MaxLength" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.MaxLength">
+  MaxLength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the maximum length allowed for a string type parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? MaxLength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MaxValue_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.MaxValue*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MaxValue" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.MaxValue">
+  MaxValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the max value of this parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? MaxValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MinLength_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.MinLength*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MinLength" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.MinLength">
+  MinLength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the minimum length allowed for a string type parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? MinLength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MinValue_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.MinValue*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MinValue" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.MinValue">
+  MinValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the min value of this parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? MinValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_TypeConverter_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.TypeConverter*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_TypeConverter" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.TypeConverter">
+  TypeConverter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_TypeConverter">TypeConverter</a> of this parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TypeConverter? TypeConverter { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.TypeConverter.html">TypeConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_AddComplexParameterField_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.AddComplexParameterField*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_AddComplexParameterField_System_Action_HeyBox_Interactions_Builders_SlashCommandParameterBuilder__" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.AddComplexParameterField(System.Action{HeyBox.Interactions.Builders.SlashCommandParameterBuilder})">
+  AddComplexParameterField(Action&lt;SlashCommandParameterBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a parameter builders to <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_ComplexParameterFields">ComplexParameterFields</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlashCommandParameterBuilder AddComplexParameterField(Action&lt;SlashCommandParameterBuilder&gt; configure)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>configure</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a>&gt;</dt>
+    <dd><p><a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a> factory.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a></dt>
+    <dd><p>The builder instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>Thrown if the added field has a <a class="xref" href="HeyBox.Interactions.ComplexParameterAttribute.html">ComplexParameterAttribute</a>.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_AddComplexParameterFields_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.AddComplexParameterFields*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_AddComplexParameterFields_HeyBox_Interactions_Builders_SlashCommandParameterBuilder___" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.AddComplexParameterFields(HeyBox.Interactions.Builders.SlashCommandParameterBuilder[])">
+  AddComplexParameterFields(params SlashCommandParameterBuilder[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds parameter builders to <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_ComplexParameterFields">ComplexParameterFields</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlashCommandParameterBuilder AddComplexParameterFields(params SlashCommandParameterBuilder[] fields)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fields</code> <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a>[]</dt>
+    <dd><p>New parameter builders to be added to <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_ComplexParameterFields">ComplexParameterFields</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a></dt>
+    <dd><p>The builder instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>Thrown if the added field has a <a class="xref" href="HeyBox.Interactions.ComplexParameterAttribute.html">ComplexParameterAttribute</a>.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_SetParameterType_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.SetParameterType*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_SetParameterType_System_Type_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.SetParameterType(System.Type)">
+  SetParameterType(Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_ParameterType">ParameterType</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override SlashCommandParameterBuilder SetParameterType(Type type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>New value of the <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_ParameterType">ParameterType</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a></dt>
+    <dd><p>The builder instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_SetParameterType_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.SetParameterType*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_SetParameterType_System_Type_System_IServiceProvider_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.SetParameterType(System.Type,System.IServiceProvider)">
+  SetParameterType(Type, IServiceProvider?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_ParameterType">ParameterType</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlashCommandParameterBuilder SetParameterType(Type type, IServiceProvider? services)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>New value of the <a class="xref" href="HeyBox.Interactions.Builders.ParameterBuilder-2.html#HeyBox_Interactions_Builders_ParameterBuilder_2_ParameterType">ParameterType</a>.</p>
+</dd>
+    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
+    <dd><p>Service container to be used to resolve the dependencies of this parameters <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_TypeConverter">TypeConverter</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a></dt>
+    <dd><p>The builder instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithChannelTypes_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithChannelTypes*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithChannelTypes_HeyBox_ChannelType___" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithChannelTypes(HeyBox.ChannelType[])">
+  WithChannelTypes(params ChannelType[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L184"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds channel types to <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_ChannelTypes">ChannelTypes</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlashCommandParameterBuilder WithChannelTypes(params ChannelType[] channelTypes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelTypes</code> <a class="xref" href="HeyBox.ChannelType.html">ChannelType</a>[]</dt>
+    <dd><p>New channel types to be added to <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_ChannelTypes">ChannelTypes</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a></dt>
+    <dd><p>The builder instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithChannelTypes_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithChannelTypes*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithChannelTypes_System_Collections_Generic_IEnumerable_HeyBox_ChannelType__" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithChannelTypes(System.Collections.Generic.IEnumerable{HeyBox.ChannelType})">
+  WithChannelTypes(IEnumerable&lt;ChannelType&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds channel types to <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_ChannelTypes">ChannelTypes</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlashCommandParameterBuilder WithChannelTypes(IEnumerable&lt;ChannelType&gt; channelTypes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelTypes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="HeyBox.ChannelType.html">ChannelType</a>&gt;</dt>
+    <dd><p>New channel types to be added to <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_ChannelTypes">ChannelTypes</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a></dt>
+    <dd><p>The builder instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithChoices_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithChoices*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithChoices_HeyBox_Interactions_ParameterChoice___" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithChoices(HeyBox.Interactions.ParameterChoice[])">
+  WithChoices(params ParameterChoice[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds parameter choices to <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_Choices">Choices</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlashCommandParameterBuilder WithChoices(params ParameterChoice[] options)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="HeyBox.Interactions.ParameterChoice.html">ParameterChoice</a>[]</dt>
+    <dd><p>New choices to be added to <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_Choices">Choices</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a></dt>
+    <dd><p>The builder instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithDescription_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithDescription*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithDescription_System_String_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithDescription(System.String)">
+  WithDescription(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_Description">Description</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlashCommandParameterBuilder WithDescription(string description)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>description</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>New value of the <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_Description">Description</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a></dt>
+    <dd><p>The builder instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithMaxLength_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithMaxLength*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithMaxLength_System_Int32_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithMaxLength(System.Int32)">
+  WithMaxLength(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MaxLength">MaxLength</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlashCommandParameterBuilder WithMaxLength(int length)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>New value of the <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MaxLength">MaxLength</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a></dt>
+    <dd><p>The builder instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithMaxValue_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithMaxValue*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithMaxValue_System_Double_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithMaxValue(System.Double)">
+  WithMaxValue(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MaxValue">MaxValue</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlashCommandParameterBuilder WithMaxValue(double value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>New value of the <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MaxValue">MaxValue</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a></dt>
+    <dd><p>The builder instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithMinLength_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithMinLength*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithMinLength_System_Int32_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithMinLength(System.Int32)">
+  WithMinLength(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MinLength">MinLength</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlashCommandParameterBuilder WithMinLength(int length)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>New value of the <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MinLength">MinLength</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a></dt>
+    <dd><p>The builder instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithMinValue_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithMinValue*"></a>
+
+  <h3 id="HeyBox_Interactions_Builders_SlashCommandParameterBuilder_WithMinValue_System_Double_" data-uid="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.WithMinValue(System.Double)">
+  WithMinValue(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MinValue">MinValue</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SlashCommandParameterBuilder WithMinValue(double value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>New value of the <a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html#HeyBox_Interactions_Builders_SlashCommandParameterBuilder_MinValue">MinValue</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html">SlashCommandParameterBuilder</a></dt>
+    <dd><p>The builder instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Parameters/SlashCommandParameterBuilder.cs/#L6" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          HeyBox.Net (c) 2022-2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
