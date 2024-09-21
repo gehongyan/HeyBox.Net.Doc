@@ -752,7 +752,7 @@
   "api/HeyBox.SlashCommandOptionChoiceProperties.html": {
     "href": "api/HeyBox.SlashCommandOptionChoiceProperties.html",
     "title": "Class SlashCommandOptionChoiceProperties | HeyBox.Net 文档",
-    "keywords": "Class SlashCommandOptionChoiceProperties Namespace HeyBox Assembly HeyBox.Net.Core.dll Represents a choice for a ISlashCommandInteractionDataOption. This class is used when making new commands. public class SlashCommandOptionChoiceProperties Inheritance object SlashCommandOptionChoiceProperties Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Name Gets or sets the name of this choice. public string? Name { get; set; } Property Value string Value Gets the value of this choice. warning Discord only accepts int, double/floats, and string as the input. public object? Value { get; set; } Property Value object"
+    "keywords": "Class SlashCommandOptionChoiceProperties Namespace HeyBox Assembly HeyBox.Net.Core.dll Represents a choice for a ISlashCommandInteractionDataOption. This class is used when making new commands. public class SlashCommandOptionChoiceProperties Inheritance object SlashCommandOptionChoiceProperties Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Name Gets or sets the name of this choice. public string? Name { get; set; } Property Value string Value Gets the value of this choice. public object? Value { get; set; } Property Value object"
   },
   "api/HeyBox.SlashCommandOptionProperties.html": {
     "href": "api/HeyBox.SlashCommandOptionProperties.html",
@@ -921,7 +921,7 @@
   },
   "guides/introduction/intro.html": {
     "href": "guides/introduction/intro.html",
-    "title": "Kook.Net 简介 | HeyBox.Net 文档",
+    "title": "HeyBox.Net 简介 | HeyBox.Net 文档",
     "keywords": "简介 要准备使用 HeyBox.Net？ 欢迎！在开始使用本类库前，请先确认您应了解如何开发 .NET 应用程序， 并对 C# 语言有一定的了解，包括 异步编程、多态、接口 等关键内容。 如果想与使用本类库的开发者交流、获取帮助、反馈问题，请访问我们的 黑盒语音 HeyBox.Net 社区。 Note 请注意，本文档中的代码片段仅为示例，请不要盲目地直接复制使用。 Tip 本文档仍在编写中，除了参考实例代码与求助于社区外，由于本项目与 Kook.Net 都是移植自 Discord.Net，您还可以参考 Kook.Net 与 Discord.Net 的文档。 还不熟悉 .NET 与 C#？ 本类库的样例、代码片段、文档都是以 .NET 和 C# 开发的，如有需要，可参考以下文档： C# 编程指南 C# 文档 C# 语言参考 .NET API"
   },
   "index.html": {
