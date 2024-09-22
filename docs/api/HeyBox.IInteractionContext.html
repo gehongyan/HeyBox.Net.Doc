@@ -125,7 +125,7 @@ Interface IInteractionContext  <a class="header-action link-secondary" title="Vi
 
   <h3 id="HeyBox_IInteractionContext_Channel" data-uid="HeyBox.IInteractionContext.Channel">
   Channel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Interactions/IInteractionContext.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Interactions/IInteractionContext.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the channel the interaction originated from.</p>
@@ -133,7 +133,7 @@ Interface IInteractionContext  <a class="header-action link-secondary" title="Vi
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IMessageChannel? Channel { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">IMessageChannel Channel { get; }</code></pre>
   </div>
 
 
@@ -143,38 +143,6 @@ Interface IInteractionContext  <a class="header-action link-secondary" title="Vi
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="HeyBox.IMessageChannel.html">IMessageChannel</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="HeyBox_IInteractionContext_ChannelId_" data-uid="HeyBox.IInteractionContext.ChannelId*"></a>
-
-  <h3 id="HeyBox_IInteractionContext_ChannelId" data-uid="HeyBox.IInteractionContext.ChannelId">
-  ChannelId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Interactions/IInteractionContext.cs/#L29"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Gets the channel ID the interaction originated from.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ulong? ChannelId { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>?</dt>
     <dd></dd>
   </dl>
 
@@ -239,6 +207,38 @@ Interface IInteractionContext  <a class="header-action link-secondary" title="Vi
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="HeyBox.IHeyBoxInteraction.html">IHeyBoxInteraction</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IInteractionContext_MessageId_" data-uid="HeyBox.IInteractionContext.MessageId*"></a>
+
+  <h3 id="HeyBox_IInteractionContext_MessageId" data-uid="HeyBox.IInteractionContext.MessageId">
+  MessageId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Interactions/IInteractionContext.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the message ID the interaction originated from.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ulong MessageId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
     <dd></dd>
   </dl>
 
@@ -320,7 +320,7 @@ Interface IInteractionContext  <a class="header-action link-secondary" title="Vi
 
   <h3 id="HeyBox_IInteractionContext_User" data-uid="HeyBox.IInteractionContext.User">
   User
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Interactions/IInteractionContext.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Interactions/IInteractionContext.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the user who invoked the interaction event.</p>
@@ -352,10 +352,10 @@ Interface IInteractionContext  <a class="header-action link-secondary" title="Vi
 
   <h3 id="HeyBox_IInteractionContext_UserId" data-uid="HeyBox.IInteractionContext.UserId">
   UserId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Interactions/IInteractionContext.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Interactions/IInteractionContext.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the message ID the interaction originated from.</p>
+  <div class="markdown level1 summary"><p>Gets the user ID who invoked the interaction.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 

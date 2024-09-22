@@ -1005,6 +1005,19 @@ references:
   isSpec: "True"
   fullName: HeyBox.IHeyBoxInteraction.Data
   nameWithType: IHeyBoxInteraction.Data
+- uid: HeyBox.IHeyBoxInteraction.MessageId
+  name: MessageId
+  href: api/HeyBox.IHeyBoxInteraction.html#HeyBox_IHeyBoxInteraction_MessageId
+  commentId: P:HeyBox.IHeyBoxInteraction.MessageId
+  fullName: HeyBox.IHeyBoxInteraction.MessageId
+  nameWithType: IHeyBoxInteraction.MessageId
+- uid: HeyBox.IHeyBoxInteraction.MessageId*
+  name: MessageId
+  href: api/HeyBox.IHeyBoxInteraction.html#HeyBox_IHeyBoxInteraction_MessageId_
+  commentId: Overload:HeyBox.IHeyBoxInteraction.MessageId
+  isSpec: "True"
+  fullName: HeyBox.IHeyBoxInteraction.MessageId
+  nameWithType: IHeyBoxInteraction.MessageId
 - uid: HeyBox.IHeyBoxInteraction.RoomId
   name: RoomId
   href: api/HeyBox.IHeyBoxInteraction.html#HeyBox_IHeyBoxInteraction_RoomId
@@ -1082,19 +1095,6 @@ references:
   isSpec: "True"
   fullName: HeyBox.IInteractionContext.Channel
   nameWithType: IInteractionContext.Channel
-- uid: HeyBox.IInteractionContext.ChannelId
-  name: ChannelId
-  href: api/HeyBox.IInteractionContext.html#HeyBox_IInteractionContext_ChannelId
-  commentId: P:HeyBox.IInteractionContext.ChannelId
-  fullName: HeyBox.IInteractionContext.ChannelId
-  nameWithType: IInteractionContext.ChannelId
-- uid: HeyBox.IInteractionContext.ChannelId*
-  name: ChannelId
-  href: api/HeyBox.IInteractionContext.html#HeyBox_IInteractionContext_ChannelId_
-  commentId: Overload:HeyBox.IInteractionContext.ChannelId
-  isSpec: "True"
-  fullName: HeyBox.IInteractionContext.ChannelId
-  nameWithType: IInteractionContext.ChannelId
 - uid: HeyBox.IInteractionContext.Client
   name: Client
   href: api/HeyBox.IInteractionContext.html#HeyBox_IInteractionContext_Client
@@ -1121,6 +1121,19 @@ references:
   isSpec: "True"
   fullName: HeyBox.IInteractionContext.Interaction
   nameWithType: IInteractionContext.Interaction
+- uid: HeyBox.IInteractionContext.MessageId
+  name: MessageId
+  href: api/HeyBox.IInteractionContext.html#HeyBox_IInteractionContext_MessageId
+  commentId: P:HeyBox.IInteractionContext.MessageId
+  fullName: HeyBox.IInteractionContext.MessageId
+  nameWithType: IInteractionContext.MessageId
+- uid: HeyBox.IInteractionContext.MessageId*
+  name: MessageId
+  href: api/HeyBox.IInteractionContext.html#HeyBox_IInteractionContext_MessageId_
+  commentId: Overload:HeyBox.IInteractionContext.MessageId
+  isSpec: "True"
+  fullName: HeyBox.IInteractionContext.MessageId
+  nameWithType: IInteractionContext.MessageId
 - uid: HeyBox.IInteractionContext.Room
   name: Room
   href: api/HeyBox.IInteractionContext.html#HeyBox_IInteractionContext_Room
@@ -4023,6 +4036,44 @@ references:
   isSpec: "True"
   fullName: HeyBox.Interactions.ChoiceDisplayAttribute.Name
   nameWithType: ChoiceDisplayAttribute.Name
+- uid: HeyBox.Interactions.ChoiceValueAttribute
+  name: ChoiceValueAttribute
+  href: api/HeyBox.Interactions.ChoiceValueAttribute.html
+  commentId: T:HeyBox.Interactions.ChoiceValueAttribute
+  fullName: HeyBox.Interactions.ChoiceValueAttribute
+  nameWithType: ChoiceValueAttribute
+- uid: HeyBox.Interactions.ChoiceValueAttribute.#ctor(System.String)
+  name: ChoiceValueAttribute(string)
+  href: api/HeyBox.Interactions.ChoiceValueAttribute.html#HeyBox_Interactions_ChoiceValueAttribute__ctor_System_String_
+  commentId: M:HeyBox.Interactions.ChoiceValueAttribute.#ctor(System.String)
+  name.vb: New(String)
+  fullName: HeyBox.Interactions.ChoiceValueAttribute.ChoiceValueAttribute(string)
+  fullName.vb: HeyBox.Interactions.ChoiceValueAttribute.New(String)
+  nameWithType: ChoiceValueAttribute.ChoiceValueAttribute(string)
+  nameWithType.vb: ChoiceValueAttribute.New(String)
+- uid: HeyBox.Interactions.ChoiceValueAttribute.#ctor*
+  name: ChoiceValueAttribute
+  href: api/HeyBox.Interactions.ChoiceValueAttribute.html#HeyBox_Interactions_ChoiceValueAttribute__ctor_
+  commentId: Overload:HeyBox.Interactions.ChoiceValueAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HeyBox.Interactions.ChoiceValueAttribute.ChoiceValueAttribute
+  fullName.vb: HeyBox.Interactions.ChoiceValueAttribute.New
+  nameWithType: ChoiceValueAttribute.ChoiceValueAttribute
+  nameWithType.vb: ChoiceValueAttribute.New
+- uid: HeyBox.Interactions.ChoiceValueAttribute.Value
+  name: Value
+  href: api/HeyBox.Interactions.ChoiceValueAttribute.html#HeyBox_Interactions_ChoiceValueAttribute_Value
+  commentId: P:HeyBox.Interactions.ChoiceValueAttribute.Value
+  fullName: HeyBox.Interactions.ChoiceValueAttribute.Value
+  nameWithType: ChoiceValueAttribute.Value
+- uid: HeyBox.Interactions.ChoiceValueAttribute.Value*
+  name: Value
+  href: api/HeyBox.Interactions.ChoiceValueAttribute.html#HeyBox_Interactions_ChoiceValueAttribute_Value_
+  commentId: Overload:HeyBox.Interactions.ChoiceValueAttribute.Value
+  isSpec: "True"
+  fullName: HeyBox.Interactions.ChoiceValueAttribute.Value
+  nameWithType: ChoiceValueAttribute.Value
 - uid: HeyBox.Interactions.CommandContextTypeAttribute
   name: CommandContextTypeAttribute
   href: api/HeyBox.Interactions.CommandContextTypeAttribute.html
@@ -5171,15 +5222,15 @@ references:
   commentId: T:HeyBox.Interactions.InteractionContext
   fullName: HeyBox.Interactions.InteractionContext
   nameWithType: InteractionContext
-- uid: HeyBox.Interactions.InteractionContext.#ctor(HeyBox.IHeyBoxClient,HeyBox.IHeyBoxInteraction,HeyBox.IMessageChannel)
-  name: InteractionContext(IHeyBoxClient, IHeyBoxInteraction, IMessageChannel?)
-  href: api/HeyBox.Interactions.InteractionContext.html#HeyBox_Interactions_InteractionContext__ctor_HeyBox_IHeyBoxClient_HeyBox_IHeyBoxInteraction_HeyBox_IMessageChannel_
-  commentId: M:HeyBox.Interactions.InteractionContext.#ctor(HeyBox.IHeyBoxClient,HeyBox.IHeyBoxInteraction,HeyBox.IMessageChannel)
-  name.vb: New(IHeyBoxClient, IHeyBoxInteraction, IMessageChannel)
-  fullName: HeyBox.Interactions.InteractionContext.InteractionContext(HeyBox.IHeyBoxClient, HeyBox.IHeyBoxInteraction, HeyBox.IMessageChannel?)
-  fullName.vb: HeyBox.Interactions.InteractionContext.New(HeyBox.IHeyBoxClient, HeyBox.IHeyBoxInteraction, HeyBox.IMessageChannel)
-  nameWithType: InteractionContext.InteractionContext(IHeyBoxClient, IHeyBoxInteraction, IMessageChannel?)
-  nameWithType.vb: InteractionContext.New(IHeyBoxClient, IHeyBoxInteraction, IMessageChannel)
+- uid: HeyBox.Interactions.InteractionContext.#ctor(HeyBox.IHeyBoxClient,HeyBox.IHeyBoxInteraction,HeyBox.IMessageChannel,System.UInt64)
+  name: InteractionContext(IHeyBoxClient, IHeyBoxInteraction, IMessageChannel, ulong)
+  href: api/HeyBox.Interactions.InteractionContext.html#HeyBox_Interactions_InteractionContext__ctor_HeyBox_IHeyBoxClient_HeyBox_IHeyBoxInteraction_HeyBox_IMessageChannel_System_UInt64_
+  commentId: M:HeyBox.Interactions.InteractionContext.#ctor(HeyBox.IHeyBoxClient,HeyBox.IHeyBoxInteraction,HeyBox.IMessageChannel,System.UInt64)
+  name.vb: New(IHeyBoxClient, IHeyBoxInteraction, IMessageChannel, ULong)
+  fullName: HeyBox.Interactions.InteractionContext.InteractionContext(HeyBox.IHeyBoxClient, HeyBox.IHeyBoxInteraction, HeyBox.IMessageChannel, ulong)
+  fullName.vb: HeyBox.Interactions.InteractionContext.New(HeyBox.IHeyBoxClient, HeyBox.IHeyBoxInteraction, HeyBox.IMessageChannel, ULong)
+  nameWithType: InteractionContext.InteractionContext(IHeyBoxClient, IHeyBoxInteraction, IMessageChannel, ulong)
+  nameWithType.vb: InteractionContext.New(IHeyBoxClient, IHeyBoxInteraction, IMessageChannel, ULong)
 - uid: HeyBox.Interactions.InteractionContext.#ctor*
   name: InteractionContext
   href: api/HeyBox.Interactions.InteractionContext.html#HeyBox_Interactions_InteractionContext__ctor_
@@ -5203,19 +5254,6 @@ references:
   isSpec: "True"
   fullName: HeyBox.Interactions.InteractionContext.Channel
   nameWithType: InteractionContext.Channel
-- uid: HeyBox.Interactions.InteractionContext.ChannelId
-  name: ChannelId
-  href: api/HeyBox.Interactions.InteractionContext.html#HeyBox_Interactions_InteractionContext_ChannelId
-  commentId: P:HeyBox.Interactions.InteractionContext.ChannelId
-  fullName: HeyBox.Interactions.InteractionContext.ChannelId
-  nameWithType: InteractionContext.ChannelId
-- uid: HeyBox.Interactions.InteractionContext.ChannelId*
-  name: ChannelId
-  href: api/HeyBox.Interactions.InteractionContext.html#HeyBox_Interactions_InteractionContext_ChannelId_
-  commentId: Overload:HeyBox.Interactions.InteractionContext.ChannelId
-  isSpec: "True"
-  fullName: HeyBox.Interactions.InteractionContext.ChannelId
-  nameWithType: InteractionContext.ChannelId
 - uid: HeyBox.Interactions.InteractionContext.Client
   name: Client
   href: api/HeyBox.Interactions.InteractionContext.html#HeyBox_Interactions_InteractionContext_Client
@@ -5242,6 +5280,19 @@ references:
   isSpec: "True"
   fullName: HeyBox.Interactions.InteractionContext.Interaction
   nameWithType: InteractionContext.Interaction
+- uid: HeyBox.Interactions.InteractionContext.MessageId
+  name: MessageId
+  href: api/HeyBox.Interactions.InteractionContext.html#HeyBox_Interactions_InteractionContext_MessageId
+  commentId: P:HeyBox.Interactions.InteractionContext.MessageId
+  fullName: HeyBox.Interactions.InteractionContext.MessageId
+  nameWithType: InteractionContext.MessageId
+- uid: HeyBox.Interactions.InteractionContext.MessageId*
+  name: MessageId
+  href: api/HeyBox.Interactions.InteractionContext.html#HeyBox_Interactions_InteractionContext_MessageId_
+  commentId: Overload:HeyBox.Interactions.InteractionContext.MessageId
+  isSpec: "True"
+  fullName: HeyBox.Interactions.InteractionContext.MessageId
+  nameWithType: InteractionContext.MessageId
 - uid: HeyBox.Interactions.InteractionContext.Room
   name: Room
   href: api/HeyBox.Interactions.InteractionContext.html#HeyBox_Interactions_InteractionContext_Room
@@ -5508,6 +5559,60 @@ references:
   fullName.vb: HeyBox.Interactions.InteractionModuleBase(Of T).OnModuleBuilding
   nameWithType: InteractionModuleBase<T>.OnModuleBuilding
   nameWithType.vb: InteractionModuleBase(Of T).OnModuleBuilding
+- uid: HeyBox.Interactions.InteractionModuleBase`1.ReplyFileAsync(HeyBox.FileAttachment,System.Boolean,HeyBox.RequestOptions)
+  name: ReplyFileAsync(FileAttachment, bool, RequestOptions?)
+  href: api/HeyBox.Interactions.InteractionModuleBase-1.html#HeyBox_Interactions_InteractionModuleBase_1_ReplyFileAsync_HeyBox_FileAttachment_System_Boolean_HeyBox_RequestOptions_
+  commentId: M:HeyBox.Interactions.InteractionModuleBase`1.ReplyFileAsync(HeyBox.FileAttachment,System.Boolean,HeyBox.RequestOptions)
+  name.vb: ReplyFileAsync(FileAttachment, Boolean, RequestOptions)
+  fullName: HeyBox.Interactions.InteractionModuleBase<T>.ReplyFileAsync(HeyBox.FileAttachment, bool, HeyBox.RequestOptions?)
+  fullName.vb: HeyBox.Interactions.InteractionModuleBase(Of T).ReplyFileAsync(HeyBox.FileAttachment, Boolean, HeyBox.RequestOptions)
+  nameWithType: InteractionModuleBase<T>.ReplyFileAsync(FileAttachment, bool, RequestOptions?)
+  nameWithType.vb: InteractionModuleBase(Of T).ReplyFileAsync(FileAttachment, Boolean, RequestOptions)
+- uid: HeyBox.Interactions.InteractionModuleBase`1.ReplyFileAsync(System.IO.Stream,System.String,HeyBox.AttachmentType,System.Nullable{System.Drawing.Size},System.Boolean,HeyBox.RequestOptions)
+  name: ReplyFileAsync(Stream, string, AttachmentType, Size?, bool, RequestOptions?)
+  href: api/HeyBox.Interactions.InteractionModuleBase-1.html#HeyBox_Interactions_InteractionModuleBase_1_ReplyFileAsync_System_IO_Stream_System_String_HeyBox_AttachmentType_System_Nullable_System_Drawing_Size__System_Boolean_HeyBox_RequestOptions_
+  commentId: M:HeyBox.Interactions.InteractionModuleBase`1.ReplyFileAsync(System.IO.Stream,System.String,HeyBox.AttachmentType,System.Nullable{System.Drawing.Size},System.Boolean,HeyBox.RequestOptions)
+  name.vb: ReplyFileAsync(Stream, String, AttachmentType, Size?, Boolean, RequestOptions)
+  fullName: HeyBox.Interactions.InteractionModuleBase<T>.ReplyFileAsync(System.IO.Stream, string, HeyBox.AttachmentType, System.Drawing.Size?, bool, HeyBox.RequestOptions?)
+  fullName.vb: HeyBox.Interactions.InteractionModuleBase(Of T).ReplyFileAsync(System.IO.Stream, String, HeyBox.AttachmentType, System.Drawing.Size?, Boolean, HeyBox.RequestOptions)
+  nameWithType: InteractionModuleBase<T>.ReplyFileAsync(Stream, string, AttachmentType, Size?, bool, RequestOptions?)
+  nameWithType.vb: InteractionModuleBase(Of T).ReplyFileAsync(Stream, String, AttachmentType, Size?, Boolean, RequestOptions)
+- uid: HeyBox.Interactions.InteractionModuleBase`1.ReplyFileAsync(System.String,System.String,HeyBox.AttachmentType,System.Nullable{System.Drawing.Size},System.Boolean,HeyBox.RequestOptions)
+  name: ReplyFileAsync(string, string?, AttachmentType, Size?, bool, RequestOptions?)
+  href: api/HeyBox.Interactions.InteractionModuleBase-1.html#HeyBox_Interactions_InteractionModuleBase_1_ReplyFileAsync_System_String_System_String_HeyBox_AttachmentType_System_Nullable_System_Drawing_Size__System_Boolean_HeyBox_RequestOptions_
+  commentId: M:HeyBox.Interactions.InteractionModuleBase`1.ReplyFileAsync(System.String,System.String,HeyBox.AttachmentType,System.Nullable{System.Drawing.Size},System.Boolean,HeyBox.RequestOptions)
+  name.vb: ReplyFileAsync(String, String, AttachmentType, Size?, Boolean, RequestOptions)
+  fullName: HeyBox.Interactions.InteractionModuleBase<T>.ReplyFileAsync(string, string?, HeyBox.AttachmentType, System.Drawing.Size?, bool, HeyBox.RequestOptions?)
+  fullName.vb: HeyBox.Interactions.InteractionModuleBase(Of T).ReplyFileAsync(String, String, HeyBox.AttachmentType, System.Drawing.Size?, Boolean, HeyBox.RequestOptions)
+  nameWithType: InteractionModuleBase<T>.ReplyFileAsync(string, string?, AttachmentType, Size?, bool, RequestOptions?)
+  nameWithType.vb: InteractionModuleBase(Of T).ReplyFileAsync(String, String, AttachmentType, Size?, Boolean, RequestOptions)
+- uid: HeyBox.Interactions.InteractionModuleBase`1.ReplyFileAsync*
+  name: ReplyFileAsync
+  href: api/HeyBox.Interactions.InteractionModuleBase-1.html#HeyBox_Interactions_InteractionModuleBase_1_ReplyFileAsync_
+  commentId: Overload:HeyBox.Interactions.InteractionModuleBase`1.ReplyFileAsync
+  isSpec: "True"
+  fullName: HeyBox.Interactions.InteractionModuleBase<T>.ReplyFileAsync
+  fullName.vb: HeyBox.Interactions.InteractionModuleBase(Of T).ReplyFileAsync
+  nameWithType: InteractionModuleBase<T>.ReplyFileAsync
+  nameWithType.vb: InteractionModuleBase(Of T).ReplyFileAsync
+- uid: HeyBox.Interactions.InteractionModuleBase`1.ReplyTextAsync(System.String,System.Collections.Generic.IEnumerable{HeyBox.FileAttachment},System.Boolean,HeyBox.RequestOptions)
+  name: ReplyTextAsync(string, IEnumerable<FileAttachment>?, bool, RequestOptions?)
+  href: api/HeyBox.Interactions.InteractionModuleBase-1.html#HeyBox_Interactions_InteractionModuleBase_1_ReplyTextAsync_System_String_System_Collections_Generic_IEnumerable_HeyBox_FileAttachment__System_Boolean_HeyBox_RequestOptions_
+  commentId: M:HeyBox.Interactions.InteractionModuleBase`1.ReplyTextAsync(System.String,System.Collections.Generic.IEnumerable{HeyBox.FileAttachment},System.Boolean,HeyBox.RequestOptions)
+  name.vb: ReplyTextAsync(String, IEnumerable(Of FileAttachment), Boolean, RequestOptions)
+  fullName: HeyBox.Interactions.InteractionModuleBase<T>.ReplyTextAsync(string, System.Collections.Generic.IEnumerable<HeyBox.FileAttachment>?, bool, HeyBox.RequestOptions?)
+  fullName.vb: HeyBox.Interactions.InteractionModuleBase(Of T).ReplyTextAsync(String, System.Collections.Generic.IEnumerable(Of HeyBox.FileAttachment), Boolean, HeyBox.RequestOptions)
+  nameWithType: InteractionModuleBase<T>.ReplyTextAsync(string, IEnumerable<FileAttachment>?, bool, RequestOptions?)
+  nameWithType.vb: InteractionModuleBase(Of T).ReplyTextAsync(String, IEnumerable(Of FileAttachment), Boolean, RequestOptions)
+- uid: HeyBox.Interactions.InteractionModuleBase`1.ReplyTextAsync*
+  name: ReplyTextAsync
+  href: api/HeyBox.Interactions.InteractionModuleBase-1.html#HeyBox_Interactions_InteractionModuleBase_1_ReplyTextAsync_
+  commentId: Overload:HeyBox.Interactions.InteractionModuleBase`1.ReplyTextAsync
+  isSpec: "True"
+  fullName: HeyBox.Interactions.InteractionModuleBase<T>.ReplyTextAsync
+  fullName.vb: HeyBox.Interactions.InteractionModuleBase(Of T).ReplyTextAsync
+  nameWithType: InteractionModuleBase<T>.ReplyTextAsync
+  nameWithType.vb: InteractionModuleBase(Of T).ReplyTextAsync
 - uid: HeyBox.Interactions.InteractionService
   name: InteractionService
   href: api/HeyBox.Interactions.InteractionService.html
@@ -7005,13 +7110,13 @@ references:
   fullName: HeyBox.Interactions.SlashCommandAttribute
   nameWithType: SlashCommandAttribute
 - uid: HeyBox.Interactions.SlashCommandAttribute.#ctor(System.String,System.String,HeyBox.Interactions.RunMode)
-  name: SlashCommandAttribute(string, string, RunMode)
+  name: SlashCommandAttribute(string, string?, RunMode)
   href: api/HeyBox.Interactions.SlashCommandAttribute.html#HeyBox_Interactions_SlashCommandAttribute__ctor_System_String_System_String_HeyBox_Interactions_RunMode_
   commentId: M:HeyBox.Interactions.SlashCommandAttribute.#ctor(System.String,System.String,HeyBox.Interactions.RunMode)
   name.vb: New(String, String, RunMode)
-  fullName: HeyBox.Interactions.SlashCommandAttribute.SlashCommandAttribute(string, string, HeyBox.Interactions.RunMode)
+  fullName: HeyBox.Interactions.SlashCommandAttribute.SlashCommandAttribute(string, string?, HeyBox.Interactions.RunMode)
   fullName.vb: HeyBox.Interactions.SlashCommandAttribute.New(String, String, HeyBox.Interactions.RunMode)
-  nameWithType: SlashCommandAttribute.SlashCommandAttribute(string, string, RunMode)
+  nameWithType: SlashCommandAttribute.SlashCommandAttribute(string, string?, RunMode)
   nameWithType.vb: SlashCommandAttribute.New(String, String, RunMode)
 - uid: HeyBox.Interactions.SlashCommandAttribute.#ctor*
   name: SlashCommandAttribute
@@ -7447,23 +7552,6 @@ references:
   fullName.vb: HeyBox.Interactions.SocketInteractionContext(Of TInteraction).Channel
   nameWithType: SocketInteractionContext<TInteraction>.Channel
   nameWithType.vb: SocketInteractionContext(Of TInteraction).Channel
-- uid: HeyBox.Interactions.SocketInteractionContext`1.ChannelId
-  name: ChannelId
-  href: api/HeyBox.Interactions.SocketInteractionContext-1.html#HeyBox_Interactions_SocketInteractionContext_1_ChannelId
-  commentId: P:HeyBox.Interactions.SocketInteractionContext`1.ChannelId
-  fullName: HeyBox.Interactions.SocketInteractionContext<TInteraction>.ChannelId
-  fullName.vb: HeyBox.Interactions.SocketInteractionContext(Of TInteraction).ChannelId
-  nameWithType: SocketInteractionContext<TInteraction>.ChannelId
-  nameWithType.vb: SocketInteractionContext(Of TInteraction).ChannelId
-- uid: HeyBox.Interactions.SocketInteractionContext`1.ChannelId*
-  name: ChannelId
-  href: api/HeyBox.Interactions.SocketInteractionContext-1.html#HeyBox_Interactions_SocketInteractionContext_1_ChannelId_
-  commentId: Overload:HeyBox.Interactions.SocketInteractionContext`1.ChannelId
-  isSpec: "True"
-  fullName: HeyBox.Interactions.SocketInteractionContext<TInteraction>.ChannelId
-  fullName.vb: HeyBox.Interactions.SocketInteractionContext(Of TInteraction).ChannelId
-  nameWithType: SocketInteractionContext<TInteraction>.ChannelId
-  nameWithType.vb: SocketInteractionContext(Of TInteraction).ChannelId
 - uid: HeyBox.Interactions.SocketInteractionContext`1.Client
   name: Client
   href: api/HeyBox.Interactions.SocketInteractionContext-1.html#HeyBox_Interactions_SocketInteractionContext_1_Client
@@ -7498,6 +7586,23 @@ references:
   fullName.vb: HeyBox.Interactions.SocketInteractionContext(Of TInteraction).Interaction
   nameWithType: SocketInteractionContext<TInteraction>.Interaction
   nameWithType.vb: SocketInteractionContext(Of TInteraction).Interaction
+- uid: HeyBox.Interactions.SocketInteractionContext`1.MessageId
+  name: MessageId
+  href: api/HeyBox.Interactions.SocketInteractionContext-1.html#HeyBox_Interactions_SocketInteractionContext_1_MessageId
+  commentId: P:HeyBox.Interactions.SocketInteractionContext`1.MessageId
+  fullName: HeyBox.Interactions.SocketInteractionContext<TInteraction>.MessageId
+  fullName.vb: HeyBox.Interactions.SocketInteractionContext(Of TInteraction).MessageId
+  nameWithType: SocketInteractionContext<TInteraction>.MessageId
+  nameWithType.vb: SocketInteractionContext(Of TInteraction).MessageId
+- uid: HeyBox.Interactions.SocketInteractionContext`1.MessageId*
+  name: MessageId
+  href: api/HeyBox.Interactions.SocketInteractionContext-1.html#HeyBox_Interactions_SocketInteractionContext_1_MessageId_
+  commentId: Overload:HeyBox.Interactions.SocketInteractionContext`1.MessageId
+  isSpec: "True"
+  fullName: HeyBox.Interactions.SocketInteractionContext<TInteraction>.MessageId
+  fullName.vb: HeyBox.Interactions.SocketInteractionContext(Of TInteraction).MessageId
+  nameWithType: SocketInteractionContext<TInteraction>.MessageId
+  nameWithType.vb: SocketInteractionContext(Of TInteraction).MessageId
 - uid: HeyBox.Interactions.SocketInteractionContext`1.Room
   name: Room
   href: api/HeyBox.Interactions.SocketInteractionContext-1.html#HeyBox_Interactions_SocketInteractionContext_1_Room
@@ -11133,6 +11238,19 @@ references:
   isSpec: "True"
   fullName: HeyBox.WebSocket.SocketInteraction.Data
   nameWithType: SocketInteraction.Data
+- uid: HeyBox.WebSocket.SocketInteraction.MessageId
+  name: MessageId
+  href: api/HeyBox.WebSocket.SocketInteraction.html#HeyBox_WebSocket_SocketInteraction_MessageId
+  commentId: P:HeyBox.WebSocket.SocketInteraction.MessageId
+  fullName: HeyBox.WebSocket.SocketInteraction.MessageId
+  nameWithType: SocketInteraction.MessageId
+- uid: HeyBox.WebSocket.SocketInteraction.MessageId*
+  name: MessageId
+  href: api/HeyBox.WebSocket.SocketInteraction.html#HeyBox_WebSocket_SocketInteraction_MessageId_
+  commentId: Overload:HeyBox.WebSocket.SocketInteraction.MessageId
+  isSpec: "True"
+  fullName: HeyBox.WebSocket.SocketInteraction.MessageId
+  nameWithType: SocketInteraction.MessageId
 - uid: HeyBox.WebSocket.SocketInteraction.RoomId
   name: RoomId
   href: api/HeyBox.WebSocket.SocketInteraction.html#HeyBox_WebSocket_SocketInteraction_RoomId

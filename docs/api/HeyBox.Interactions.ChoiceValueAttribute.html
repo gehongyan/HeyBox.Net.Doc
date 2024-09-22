@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class HideAttribute | HeyBox.Net 文档 </title>
+      <title>Class ChoiceValueAttribute | HeyBox.Net 文档 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class HideAttribute | HeyBox.Net 文档 ">
+      <meta name="title" content="Class ChoiceValueAttribute | HeyBox.Net 文档 ">
       
-      <meta name="description" content="Enum values tagged with this attribute will not be displayed as a parameter choice">
+      <meta name="description" content="Customize the displayed value of a slash command choice enum. Only works with the default enum type converter.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_Interactions_HideAttribute.md&amp;value=---%0Auid%3A%20HeyBox.Interactions.HideAttribute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_Interactions_ChoiceValueAttribute.md&amp;value=---%0Auid%3A%20HeyBox.Interactions.ChoiceValueAttribute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="HeyBox.Interactions.HideAttribute">
+        <article data-uid="HeyBox.Interactions.ChoiceValueAttribute">
 
 
 
-  <h1 id="HeyBox_Interactions_HideAttribute" data-uid="HeyBox.Interactions.HideAttribute" class="text-break">
-Class HideAttribute  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/EnumConverter.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <h1 id="HeyBox_Interactions_ChoiceValueAttribute" data-uid="HeyBox.Interactions.ChoiceValueAttribute" class="text-break">
+Class ChoiceValueAttribute  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Attributes/ChoiceValueAttribute.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,13 +97,13 @@ Class HideAttribute  <a class="header-action link-secondary" title="View source"
   <dl><dt>Assembly</dt><dd>HeyBox.Net.Interactions.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Enum values tagged with this attribute will not be displayed as a parameter choice</p>
+  <div class="markdown summary"><p>Customize the displayed value of a slash command choice enum. Only works with the default enum type converter.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Field, AllowMultiple = false, Inherited = true)]
-public sealed class HideAttribute : Attribute</code></pre>
+public class ChoiceValueAttribute : Attribute</code></pre>
   </div>
 
 
@@ -114,7 +114,7 @@ public sealed class HideAttribute : Attribute</code></pre>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
-      <div><span class="xref">HideAttribute</span></div>
+      <div><span class="xref">ChoiceValueAttribute</span></div>
     </dd>
   </dl>
 
@@ -241,6 +241,9 @@ public sealed class HideAttribute : Attribute</code></pre>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
@@ -251,16 +254,86 @@ public sealed class HideAttribute : Attribute</code></pre>
 
 
 
-  <h2 id="HeyBox_Interactions_HideAttribute_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>This attribute must be used along with the default <a class="xref" href="HeyBox.Interactions.EnumConverter-1.html">EnumConverter&lt;T&gt;</a></p>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HeyBox_Interactions_ChoiceValueAttribute__ctor_" data-uid="HeyBox.Interactions.ChoiceValueAttribute.#ctor*"></a>
+
+  <h3 id="HeyBox_Interactions_ChoiceValueAttribute__ctor_System_String_" data-uid="HeyBox.Interactions.ChoiceValueAttribute.#ctor(System.String)">
+  ChoiceValueAttribute(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Attributes/ChoiceValueAttribute.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Modify the default value of a Slash Command parameter.</p>
 </div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChoiceValueAttribute(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Value of the parameter.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="HeyBox_Interactions_ChoiceValueAttribute_Value_" data-uid="HeyBox.Interactions.ChoiceValueAttribute.Value*"></a>
+
+  <h3 id="HeyBox_Interactions_ChoiceValueAttribute_Value" data-uid="HeyBox.Interactions.ChoiceValueAttribute.Value">
+  Value
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Attributes/ChoiceValueAttribute.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the name of the parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/EnumConverter.cs/#L57" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Attributes/ChoiceValueAttribute.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 

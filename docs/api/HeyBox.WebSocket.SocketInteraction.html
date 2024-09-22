@@ -185,7 +185,7 @@ Class SocketInteraction  <a class="header-action link-secondary" title="View sou
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ISocketMessageChannel? Channel { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ISocketMessageChannel Channel { get; }</code></pre>
   </div>
 
 
@@ -217,7 +217,7 @@ Class SocketInteraction  <a class="header-action link-secondary" title="View sou
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong? ChannelId { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ulong ChannelId { get; }</code></pre>
   </div>
 
 
@@ -226,7 +226,7 @@ Class SocketInteraction  <a class="header-action link-secondary" title="View sou
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>?</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
     <dd></dd>
   </dl>
 
@@ -241,7 +241,7 @@ Class SocketInteraction  <a class="header-action link-secondary" title="View sou
 
   <h3 id="HeyBox_WebSocket_SocketInteraction_Data" data-uid="HeyBox.WebSocket.SocketInteraction.Data">
   Data
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Interactions/SocketInteraction.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Interactions/SocketInteraction.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此交互的数据。</p>
@@ -269,11 +269,43 @@ Class SocketInteraction  <a class="header-action link-secondary" title="View sou
 
 
 
+  <a id="HeyBox_WebSocket_SocketInteraction_MessageId_" data-uid="HeyBox.WebSocket.SocketInteraction.MessageId*"></a>
+
+  <h3 id="HeyBox_WebSocket_SocketInteraction_MessageId" data-uid="HeyBox.WebSocket.SocketInteraction.MessageId">
+  MessageId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Interactions/SocketInteraction.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此交互来源的消息的 ID。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong MessageId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="HeyBox_WebSocket_SocketInteraction_RoomId_" data-uid="HeyBox.WebSocket.SocketInteraction.RoomId*"></a>
 
   <h3 id="HeyBox_WebSocket_SocketInteraction_RoomId" data-uid="HeyBox.WebSocket.SocketInteraction.RoomId">
   RoomId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Interactions/SocketInteraction.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Interactions/SocketInteraction.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取执行此交互所在的房间的 ID。</p>
@@ -305,7 +337,7 @@ Class SocketInteraction  <a class="header-action link-secondary" title="View sou
 
   <h3 id="HeyBox_WebSocket_SocketInteraction_Type" data-uid="HeyBox.WebSocket.SocketInteraction.Type">
   Type
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Interactions/SocketInteraction.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Interactions/SocketInteraction.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此交互的类型。</p>
@@ -345,7 +377,7 @@ Class SocketInteraction  <a class="header-action link-secondary" title="View sou
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SocketUser User { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public SocketUser? User { get; }</code></pre>
   </div>
 
 
