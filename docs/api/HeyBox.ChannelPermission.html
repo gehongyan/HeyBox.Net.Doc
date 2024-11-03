@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace HeyBox.Rest | HeyBox.Net 文档 </title>
+      <title>Enum ChannelPermission | HeyBox.Net 文档 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace HeyBox.Rest | HeyBox.Net 文档 ">
+      <meta name="title" content="Enum ChannelPermission | HeyBox.Net 文档 ">
       
-      
+      <meta name="description" content="表示可以为角色或用户设置的频道级别的服务器权限。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_ChannelPermission.md&amp;value=---%0Auid%3A%20HeyBox.ChannelPermission%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,99 +84,93 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="HeyBox.Rest">
+        <article data-uid="HeyBox.ChannelPermission">
 
-  <h1 id="HeyBox_Rest" data-uid="HeyBox.Rest" class="text-break">Namespace HeyBox.Rest</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
 
-    <h3 id="classes">
-Classes
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html">BaseHeyBoxClient</a></dt>
-      <dd><p>表示一个可以连接到 HeyBox API 的通用的 HeyBox Bot 客户端。</p>
+
+
+  <h1 id="HeyBox_ChannelPermission" data-uid="HeyBox.ChannelPermission" class="text-break">
+Enum ChannelPermission  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Permissions/ChannelPermission.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HeyBox.html">HeyBox</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HeyBox.Net.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>表示可以为角色或用户设置的频道级别的服务器权限。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Flags]
+public enum ChannelPermission : ulong</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h2 id="fields">Fields
+</h2>
+  <dl class="parameters">
+    <dt id="HeyBox_ChannelPermission_Connect"><code>Connect = 4194304</code></dt>
+    <dd><p>加入语音频道</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.HeyBoxRestClient.html">HeyBoxRestClient</a></dt>
-      <dd><p>表示一个基于 REST 的 HeyBox 客户端。</p>
+    <dt id="HeyBox_ChannelPermission_CreateInvites"><code>CreateInvites = 64</code></dt>
+    <dd><p>创建邀请</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.HeyBoxRestConfig.html">HeyBoxRestConfig</a></dt>
-      <dd><p>定义 HeyBox.Net 有关 REST 各种行为的配置类。</p>
+    <dt id="HeyBox_ChannelPermission_CreateTeamUpInvitations"><code>CreateTeamUpInvitations = 1048576</code></dt>
+    <dd><p>创建开黑邀约</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestChannel.html">RestChannel</a></dt>
-      <dd><p>表示一个基于 REST 的频道。</p>
+    <dt id="HeyBox_ChannelPermission_ManageChannels"><code>ManageChannels = 4</code></dt>
+    <dd><p>管理频道</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestEntity-1.html">RestEntity&lt;TId&gt;</a></dt>
-      <dd><p>表示一个基于 REST 的具有唯一标识符的实体。</p>
+    <dt id="HeyBox_ChannelPermission_ManageMessages"><code>ManageMessages = 262144</code></dt>
+    <dd><p>管理消息</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestMessage.html">RestMessage</a></dt>
-      <dd><p>表示一个基于 REST 的通用消息。</p>
+    <dt id="HeyBox_ChannelPermission_MentionEveryone"><code>MentionEveryone = 65536</code></dt>
+    <dd><p>@全体、@在线和所有权限组</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestRole.html">RestRole</a></dt>
-      <dd><p>表示一个基于 REST 的身份组。</p>
+    <dt id="HeyBox_ChannelPermission_MuteMembers"><code>MuteMembers = 67108864</code></dt>
+    <dd><p>静音成员</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestRoom.html">RestRoom</a></dt>
-      <dd><p>表示一个基于 REST 的房间。</p>
+    <dt id="HeyBox_ChannelPermission_PlaySoundPacks"><code>PlaySoundPacks = 4294967296</code></dt>
+    <dd><p>播放语音包</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestRoomChannel.html">RestRoomChannel</a></dt>
-      <dd><p>表示一个基于 REST 的房间频道。</p>
+    <dt id="HeyBox_ChannelPermission_SendMessages"><code>SendMessages = 16384</code></dt>
+    <dd><p>发送消息</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestRoomUser.html">RestRoomUser</a></dt>
-      <dd><p>表示一个基于 REST 的房间用户。</p>
+    <dt id="HeyBox_ChannelPermission_ShareAudio"><code>ShareAudio = 8589934592</code></dt>
+    <dd><p>播放伴奏</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestSelfUser.html">RestSelfUser</a></dt>
-      <dd><p>表示一个基于 REST 的当前登录的用户信息。</p>
+    <dt id="HeyBox_ChannelPermission_ShareScreen"><code>ShareScreen = 17179869184</code></dt>
+    <dd><p>共享屏幕</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestTextChannel.html">RestTextChannel</a></dt>
-      <dd><p>表示房间中一个基于 REST 的具有文字聊天能力的频道，可以发送和接收消息。</p>
+    <dt id="HeyBox_ChannelPermission_Speak"><code>Speak = 8388608</code></dt>
+    <dd><p>语音频道内说话</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestUser.html">RestUser</a></dt>
-      <dd><p>表示一个基于 REST 的用户。</p>
+    <dt id="HeyBox_ChannelPermission_UseBotCommands"><code>UseBotCommands = 68719476736</code></dt>
+    <dd><p>使用机器人命令</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestUserMessage.html">RestUserMessage</a></dt>
-      <dd><p>表示一个基于 REST 的用户消息。</p>
+    <dt id="HeyBox_ChannelPermission_UseVoiceActivity"><code>UseVoiceActivity = 16777216</code></dt>
+    <dd><p>允许直接讲话</p>
 </dd>
-    </dl>
-    <h3 id="interfaces">
-Interfaces
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.IRestMessageChannel.html">IRestMessageChannel</a></dt>
-      <dd><p>表示一个基于 REST 的通用的消息频道，可以用来发送和接收消息。</p>
+    <dt id="HeyBox_ChannelPermission_ViewChannel"><code>ViewChannel = 2</code></dt>
+    <dd><p>查看频道</p>
 </dd>
-    </dl>
+  </dl>
+
 
 
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Permissions/ChannelPermission.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 

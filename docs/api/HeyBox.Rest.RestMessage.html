@@ -1,0 +1,618 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RestMessage | HeyBox.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RestMessage | HeyBox.Net 文档 ">
+      
+      <meta name="description" content="表示一个基于 REST 的通用消息。">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_Rest_RestMessage.md&amp;value=---%0Auid%3A%20HeyBox.Rest.RestMessage%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HeyBox.Net 文档">
+            HeyBox.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HeyBox.Rest.RestMessage">
+
+
+
+  <h1 id="HeyBox_Rest_RestMessage" data-uid="HeyBox.Rest.RestMessage" class="text-break">
+Class RestMessage  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Messages/RestMessage.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HeyBox.html">HeyBox</a>.<a class="xref" href="HeyBox.Rest.html">Rest</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HeyBox.Net.Rest.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>表示一个基于 REST 的通用消息。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class RestMessage : RestEntity&lt;ulong&gt;, IMessage, IEntity&lt;ulong&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="HeyBox.Rest.RestEntity-1.html">RestEntity</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</div>
+      <div><span class="xref">RestMessage</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="HeyBox.IMessage.html">IMessage</a></div>
+      <div><a class="xref" href="HeyBox.IEntity-1.html">IEntity</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="HeyBox.Rest.RestUserMessage.html">RestUserMessage</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="HeyBox.Rest.RestEntity-1.html#HeyBox_Rest_RestEntity_1_Id">RestEntity&lt;ulong&gt;.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.RestEntity-1.html#HeyBox_Rest_RestEntity_1_IsPopulated">RestEntity&lt;ulong&gt;.IsPopulated</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HeyBox_Rest_RestMessage__ctor_" data-uid="HeyBox.Rest.RestMessage.#ctor*"></a>
+
+  <h3 id="HeyBox_Rest_RestMessage__ctor_HeyBox_Rest_BaseHeyBoxClient_System_UInt64_HeyBox_MessageType_HeyBox_IMessageChannel_HeyBox_IUser_HeyBox_MessageSource_" data-uid="HeyBox.Rest.RestMessage.#ctor(HeyBox.Rest.BaseHeyBoxClient,System.UInt64,HeyBox.MessageType,HeyBox.IMessageChannel,HeyBox.IUser,HeyBox.MessageSource)">
+  RestMessage(BaseHeyBoxClient, ulong, MessageType, IMessageChannel, IUser, MessageSource)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Messages/RestMessage.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected RestMessage(BaseHeyBoxClient client, ulong id, MessageType messageType, IMessageChannel channel, IUser author, MessageSource source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>client</code> <a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html">BaseHeyBoxClient</a></dt>
+    <dd></dd>
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+    <dt><code>messageType</code> <a class="xref" href="HeyBox.MessageType.html">MessageType</a></dt>
+    <dd></dd>
+    <dt><code>channel</code> <a class="xref" href="HeyBox.IMessageChannel.html">IMessageChannel</a></dt>
+    <dd></dd>
+    <dt><code>author</code> <a class="xref" href="HeyBox.IUser.html">IUser</a></dt>
+    <dd></dd>
+    <dt><code>source</code> <a class="xref" href="HeyBox.MessageSource.html">MessageSource</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="HeyBox_Rest_RestMessage_Author_" data-uid="HeyBox.Rest.RestMessage.Author*"></a>
+
+  <h3 id="HeyBox_Rest_RestMessage_Author" data-uid="HeyBox.Rest.RestMessage.Author">
+  Author
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Messages/RestMessage.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此消息的作者。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IUser Author { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.IUser.html">IUser</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestMessage_Channel_" data-uid="HeyBox.Rest.RestMessage.Channel*"></a>
+
+  <h3 id="HeyBox_Rest_RestMessage_Channel" data-uid="HeyBox.Rest.RestMessage.Channel">
+  Channel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Messages/RestMessage.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此消息的来源频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IMessageChannel Channel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.IMessageChannel.html">IMessageChannel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestMessage_CleanContent_" data-uid="HeyBox.Rest.RestMessage.CleanContent*"></a>
+
+  <h3 id="HeyBox_Rest_RestMessage_CleanContent" data-uid="HeyBox.Rest.RestMessage.CleanContent">
+  CleanContent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Messages/RestMessage.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此消息的纯净内容。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CleanContent { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>此属性会对 <a class="xref" href="HeyBox.IMessage.html#HeyBox_IMessage_Content">Content</a> 的内容进行两步操作： <br></p>
+<ol>
+<li>使用 <a class="xref" href="HeyBox.IUserMessage.html#HeyBox_IUserMessage_Resolve_HeyBox_TagHandling_HeyBox_TagHandling_HeyBox_TagHandling_HeyBox_TagHandling_HeyBox_TagHandling_">Resolve(TagHandling, TagHandling, TagHandling, TagHandling, TagHandling)</a>
+方法解析所有标签的完整名称； <br></li>
+<li>使用 <a class="xref" href="HeyBox.Format.html#HeyBox_Format_StripMarkdown_System_String_">StripMarkdown(string)</a> 清理所有 KMarkdown 格式字符。</li>
+</ol>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="HeyBox.IUserMessage.html#HeyBox_IUserMessage_Resolve_HeyBox_TagHandling_HeyBox_TagHandling_HeyBox_TagHandling_HeyBox_TagHandling_HeyBox_TagHandling_">Resolve</a>(<a class="xref" href="HeyBox.TagHandling.html">TagHandling</a>, <a class="xref" href="HeyBox.TagHandling.html">TagHandling</a>, <a class="xref" href="HeyBox.TagHandling.html">TagHandling</a>, <a class="xref" href="HeyBox.TagHandling.html">TagHandling</a>, <a class="xref" href="HeyBox.TagHandling.html">TagHandling</a>)</div>
+    <div><a class="xref" href="HeyBox.Format.html#HeyBox_Format_StripMarkdown_System_String_">StripMarkdown</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="HeyBox_Rest_RestMessage_Content_" data-uid="HeyBox.Rest.RestMessage.Content*"></a>
+
+  <h3 id="HeyBox_Rest_RestMessage_Content" data-uid="HeyBox.Rest.RestMessage.Content">
+  Content
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Messages/RestMessage.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此消息的内容。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Content { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="HeyBox_Rest_RestMessage_Content_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>如果消息不是文本消息，则此属性可能为空或包含原始代码。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Rest_RestMessage_Reference_" data-uid="HeyBox.Rest.RestMessage.Reference*"></a>
+
+  <h3 id="HeyBox_Rest_RestMessage_Reference" data-uid="HeyBox.Rest.RestMessage.Reference">
+  Reference
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Messages/RestMessage.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此消息的引用信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IMessageReference? Reference { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.IMessageReference.html">IMessageReference</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestMessage_Source_" data-uid="HeyBox.Rest.RestMessage.Source*"></a>
+
+  <h3 id="HeyBox_Rest_RestMessage_Source" data-uid="HeyBox.Rest.RestMessage.Source">
+  Source
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Messages/RestMessage.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此消息的来源。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MessageSource Source { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.MessageSource.html">MessageSource</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestMessage_Tags_" data-uid="HeyBox.Rest.RestMessage.Tags*"></a>
+
+  <h3 id="HeyBox_Rest_RestMessage_Tags" data-uid="HeyBox.Rest.RestMessage.Tags">
+  Tags
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Messages/RestMessage.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此消息中解析出的所有标签。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;ITag&gt; Tags { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="HeyBox.ITag.html">ITag</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestMessage_Type_" data-uid="HeyBox.Rest.RestMessage.Type*"></a>
+
+  <h3 id="HeyBox_Rest_RestMessage_Type" data-uid="HeyBox.Rest.RestMessage.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Messages/RestMessage.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此消息的类型。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MessageType Type { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.MessageType.html">MessageType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HeyBox_Rest_RestMessage_AddReactionAsync_" data-uid="HeyBox.Rest.RestMessage.AddReactionAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestMessage_AddReactionAsync_HeyBox_IEmote_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestMessage.AddReactionAsync(HeyBox.IEmote,HeyBox.RequestOptions)">
+  AddReactionAsync(IEmote, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Messages/RestMessage.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>向此消息添加一个回应。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task AddReactionAsync(IEmote emote, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>emote</code> <a class="xref" href="HeyBox.IEmote.html">IEmote</a></dt>
+    <dd><p>要用于向此消息添加回应的表情符号。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示添加添加异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></dt>
+    <dd><p>此类型的消息不支持此操作。</p>
+</dd>
+  </dl>
+
+
+
+  <a id="HeyBox_Rest_RestMessage_RemoveReactionAsync_" data-uid="HeyBox.Rest.RestMessage.RemoveReactionAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestMessage_RemoveReactionAsync_HeyBox_IEmote_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestMessage.RemoveReactionAsync(HeyBox.IEmote,HeyBox.RequestOptions)">
+  RemoveReactionAsync(IEmote, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Messages/RestMessage.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>从此消息中移除一个回应。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RemoveReactionAsync(IEmote emote, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>emote</code> <a class="xref" href="HeyBox.IEmote.html">IEmote</a></dt>
+    <dd><p>要从此消息移除的回应的表情符号。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步移除操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></dt>
+    <dd><p>此类型的消息不支持此操作。</p>
+</dd>
+  </dl>
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Messages/RestMessage.cs/#L9" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          HeyBox.Net (c) 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -2,1123 +2,1273 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.ApplicationCommandType.html</loc>
-    <lastmod>2024-09-22T08:15:33+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.AttachmentType.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.CacheMode.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Cacheable-2.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Cacheable-4.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.ChannelExtensions.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.ChannelPermission.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.ChannelPermissions.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.ChannelType.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.Color.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.ColorType.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.ConnectionState.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.CreateAttachmentMode.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.Emoji.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.Emote.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.EmoteProperties.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.FileAttachment.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Format.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.GradientColor.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.HeyBoxConfig.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.HeyBoxError.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.HeyBoxErrorCode.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.HeyBoxJsonError.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IChannel.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.IDeletable.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.IEmote.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IEntity-1.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IHeyBoxClient.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IHeyBoxInteraction.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IHeyBoxInteractionData.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IInteractionContext.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IMentionable.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IMessage.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IMessageChannel.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IMessageReference.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.INestedChannel.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IRateLimitInfo.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.IReaction.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IRole.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IRoom.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IRoomChannel.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.IRoomEmote.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IRoomUser.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IRouteMatchContainer.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IRouteSegmentMatch.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.ISelfUser.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.ISlashCommandInteraction.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.ISlashCommandInteractionData.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.ISlashCommandInteractionDataOption.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.ITag.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.ITextChannel.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.IUpdateable.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IUser.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.IUserMessage.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.InteractionContextType.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.InteractionType.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.Builders.CommandBuilder-3.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.Builders.CommandParameterBuilder.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.Builders.ICommandBuilder.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.Builders.IParameterBuilder.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.Builders.ModuleBuilder.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.Builders.ParameterBuilder-2.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.Builders.SlashCommandBuilder.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.Builders.SlashCommandParameterBuilder.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.Builders.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.ChannelTypesAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.ChoiceAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.ChoiceDisplayAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.ChoiceValueAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.CommandContextTypeAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.CommandInfo-1.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.CommandParameterInfo.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.ComplexParameterAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.ComplexParameterCtorAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.ComplexParameterInitializer.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.ExecuteCallback.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.ExecuteResult.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.HideAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.IApplicationCommandInfo.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.ICommandInfo.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.IInteractionModuleBase.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.IParameterInfo.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.IResult.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.InteractionCommandError.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.InteractionContext.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.InteractionException.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.InteractionModuleBase-1.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.InteractionModuleBase.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.InteractionService.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.InteractionServiceConfig.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.MaxLengthAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.MaxValueAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.MinLengthAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.MinValueAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.ModuleInfo.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.ParameterChoice.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.ParameterPreconditionAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.ParseResult.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.PreconditionAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.PreconditionGroupResult.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.PreconditionResult.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.RequireRoleAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.RequireUserAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.RunMode.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.RuntimeResult.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.SearchResult-1.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.SlashCommandAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.SlashCommandChoiceType.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.SlashCommandInfo.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.SlashCommandParameterInfo.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.SocketInteractionContext-1.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.SocketInteractionContext.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.SummaryAttribute.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.TypeConverter-1.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.TypeConverter.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.TypeConverterResult.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.TypeReader-1.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.TypeReader.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Interactions.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.LogMessage.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.LogSeverity.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.LoginState.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.MentionUtils.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.MessageProperties.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.MessageReference.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.MessageSource.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.MessageType.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.BucketId.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.HttpException.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.IRequest.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.Queue.BaseMessageQueue.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.Queue.IMessageQueue.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.Queue.MessageQueueProvider.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueue.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueueProvider.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.Queue.SynchronousImmediate.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.Queue.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.RateLimitInfo.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.RateLimitedException.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.Rest.DefaultRestClientProvider.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.Rest.IRestClient.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.Rest.RestClientProvider.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.Rest.RestResponse.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.Rest.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.WebSocketClosedException.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.WebSockets.DefaultWebSocketProvider.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.WebSockets.IWebSocketClient.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.WebSockets.WebSocketProvider.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.WebSockets.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Net.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.PermValue.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.RequestOptions.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.BaseHeyBoxClient.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.HeyBoxRestClient.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.HeyBoxRestConfig.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.IRestMessageChannel.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.RestChannel.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.RestEntity-1.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.RestMessage.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.RestRole.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.RestRoom.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.RestRoomChannel.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.RestRoomUser.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.RestSelfUser.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.RestTextChannel.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.RestUser.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.RestUserMessage.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Rest.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.RetryMode.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.RoleProperties.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.RoleType.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.RoomEmote.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.RoomPermission.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.RoomPermissions.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.RoomSticker.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.SlashCommandOptionChoiceProperties.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.SlashCommandOptionProperties.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.SlashCommandOptionType.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.SlashCommandProperties.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.Tag-2.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.TagHandling.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.TagType.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.TokenType.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.TokenUtils.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.BaseSocketClient.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.GatewayReconnectException.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.HeyBoxSocketClient.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.HeyBoxSocketConfig.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.HeyBoxSocketRestClient.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.ISocketMessageChannel.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.SocketChannel.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.SocketEntity-1.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.SocketInteraction.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.SocketReaction.html</loc>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.SocketRole.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.SocketRoom.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.SocketRoomChannel.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.SocketRoomUser.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.SocketSelfUser.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.SocketSlashCommand.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.SocketSlashCommandData.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.SocketSlashCommandDataOption.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.SocketTextChannel.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.SocketUser.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.WebSocket.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/HeyBox.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/api/index.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/changelog/changelog.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/demos/demos-community.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/demos/demos.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/guides/introduction/intro.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.heyboxnet.dev/index.html</loc>
-    <lastmod>2024-09-22T08:15:34+00:00</lastmod>
+    <lastmod>2024-11-03T03:52:52+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

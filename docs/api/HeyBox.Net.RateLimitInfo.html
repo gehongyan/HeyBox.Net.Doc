@@ -153,7 +153,7 @@ Struct RateLimitInfo  <a class="header-action link-secondary" title="View source
 
   <h3 id="HeyBox_Net_RateLimitInfo_Bucket" data-uid="HeyBox.Net.RateLimitInfo.Bucket">
   Bucket
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Net/RateLimitInfo.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Net/RateLimitInfo.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个唯一的字符串，表示所遇到的限速桶（不包括路由路径中的主要参数）。</p>
@@ -185,7 +185,7 @@ Struct RateLimitInfo  <a class="header-action link-secondary" title="View source
 
   <h3 id="HeyBox_Net_RateLimitInfo_Endpoint" data-uid="HeyBox.Net.RateLimitInfo.Endpoint">
   Endpoint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Net/RateLimitInfo.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Net/RateLimitInfo.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此限速信息所属的终结点。</p>
@@ -249,7 +249,7 @@ Struct RateLimitInfo  <a class="header-action link-secondary" title="View source
 
   <h3 id="HeyBox_Net_RateLimitInfo_Lag" data-uid="HeyBox.Net.RateLimitInfo.Lag">
   Lag
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Net/RateLimitInfo.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Net/RateLimitInfo.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取请求的延迟，用于支持计算限速重置的精确时间。</p>
@@ -341,11 +341,43 @@ Struct RateLimitInfo  <a class="header-action link-secondary" title="View source
 
 
 
+  <a id="HeyBox_Net_RateLimitInfo_Reset_" data-uid="HeyBox.Net.RateLimitInfo.Reset*"></a>
+
+  <h3 id="HeyBox_Net_RateLimitInfo_Reset" data-uid="HeyBox.Net.RateLimitInfo.Reset">
+  Reset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Net/RateLimitInfo.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此限速重置的绝对时间。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly DateTimeOffset? Reset { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="HeyBox_Net_RateLimitInfo_ResetAfter_" data-uid="HeyBox.Net.RateLimitInfo.ResetAfter*"></a>
 
   <h3 id="HeyBox_Net_RateLimitInfo_ResetAfter" data-uid="HeyBox.Net.RateLimitInfo.ResetAfter">
   ResetAfter
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Net/RateLimitInfo.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Net/RateLimitInfo.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取相对于此刻此限速重置的相对时间间隔。</p>

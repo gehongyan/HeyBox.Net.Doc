@@ -318,6 +318,346 @@ Interface IRoomUser  <a class="header-action link-secondary" title="View source"
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HeyBox_IRoomUser_AddRoleAsync_" data-uid="HeyBox.IRoomUser.AddRoleAsync*"></a>
+
+  <h3 id="HeyBox_IRoomUser_AddRoleAsync_HeyBox_IRole_HeyBox_RequestOptions_" data-uid="HeyBox.IRoomUser.AddRoleAsync(HeyBox.IRole,HeyBox.RequestOptions)">
+  AddRoleAsync(IRole, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Users/IRoomUser.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该房间内授予此用户指定的角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddRoleAsync(IRole role, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>role</code> <a class="xref" href="HeyBox.IRole.html">IRole</a></dt>
+    <dd><p>要在该房间内为此用户授予的角色。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步授予操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IRoomUser_AddRoleAsync_" data-uid="HeyBox.IRoomUser.AddRoleAsync*"></a>
+
+  <h3 id="HeyBox_IRoomUser_AddRoleAsync_System_UInt64_HeyBox_RequestOptions_" data-uid="HeyBox.IRoomUser.AddRoleAsync(System.UInt64,HeyBox.RequestOptions)">
+  AddRoleAsync(ulong, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Users/IRoomUser.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该房间内授予此用户指定的角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddRoleAsync(ulong roleId, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>roleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要在该房间内为此用户授予的角色的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步授予操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IRoomUser_AddRolesAsync_" data-uid="HeyBox.IRoomUser.AddRolesAsync*"></a>
+
+  <h3 id="HeyBox_IRoomUser_AddRolesAsync_System_Collections_Generic_IEnumerable_HeyBox_IRole__HeyBox_RequestOptions_" data-uid="HeyBox.IRoomUser.AddRolesAsync(System.Collections.Generic.IEnumerable{HeyBox.IRole},HeyBox.RequestOptions)">
+  AddRolesAsync(IEnumerable&lt;IRole&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Users/IRoomUser.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该房间内授予此用户指定的一些角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddRolesAsync(IEnumerable&lt;IRole&gt; roles, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>roles</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="HeyBox.IRole.html">IRole</a>&gt;</dt>
+    <dd><p>要在该房间内为此用户授予的所有角色。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步授予操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IRoomUser_AddRolesAsync_" data-uid="HeyBox.IRoomUser.AddRolesAsync*"></a>
+
+  <h3 id="HeyBox_IRoomUser_AddRolesAsync_System_Collections_Generic_IEnumerable_System_UInt64__HeyBox_RequestOptions_" data-uid="HeyBox.IRoomUser.AddRolesAsync(System.Collections.Generic.IEnumerable{System.UInt64},HeyBox.RequestOptions)">
+  AddRolesAsync(IEnumerable&lt;ulong&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Users/IRoomUser.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该房间内授予此用户指定的一些角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddRolesAsync(IEnumerable&lt;ulong&gt; roleIds, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>roleIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd><p>要在该房间内为此用户授予的所有角色的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步授予操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IRoomUser_RemoveRoleAsync_" data-uid="HeyBox.IRoomUser.RemoveRoleAsync*"></a>
+
+  <h3 id="HeyBox_IRoomUser_RemoveRoleAsync_HeyBox_IRole_HeyBox_RequestOptions_" data-uid="HeyBox.IRoomUser.RemoveRoleAsync(HeyBox.IRole,HeyBox.RequestOptions)">
+  RemoveRoleAsync(IRole, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Users/IRoomUser.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该房间内撤销此用户指定的角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveRoleAsync(IRole role, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>role</code> <a class="xref" href="HeyBox.IRole.html">IRole</a></dt>
+    <dd><p>要在该房间内为此用户撤销的角色。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步撤销操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IRoomUser_RemoveRoleAsync_" data-uid="HeyBox.IRoomUser.RemoveRoleAsync*"></a>
+
+  <h3 id="HeyBox_IRoomUser_RemoveRoleAsync_System_UInt64_HeyBox_RequestOptions_" data-uid="HeyBox.IRoomUser.RemoveRoleAsync(System.UInt64,HeyBox.RequestOptions)">
+  RemoveRoleAsync(ulong, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Users/IRoomUser.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该房间内撤销此用户指定的角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveRoleAsync(ulong roleId, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>roleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要在该房间内为此用户撤销的角色的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步撤销操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IRoomUser_RemoveRolesAsync_" data-uid="HeyBox.IRoomUser.RemoveRolesAsync*"></a>
+
+  <h3 id="HeyBox_IRoomUser_RemoveRolesAsync_System_Collections_Generic_IEnumerable_HeyBox_IRole__HeyBox_RequestOptions_" data-uid="HeyBox.IRoomUser.RemoveRolesAsync(System.Collections.Generic.IEnumerable{HeyBox.IRole},HeyBox.RequestOptions)">
+  RemoveRolesAsync(IEnumerable&lt;IRole&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Users/IRoomUser.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该房间内撤销此用户指定的一些角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveRolesAsync(IEnumerable&lt;IRole&gt; roles, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>roles</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="HeyBox.IRole.html">IRole</a>&gt;</dt>
+    <dd><p>要在该房间内为此用户撤销的所有角色。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步撤销操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IRoomUser_RemoveRolesAsync_" data-uid="HeyBox.IRoomUser.RemoveRolesAsync*"></a>
+
+  <h3 id="HeyBox_IRoomUser_RemoveRolesAsync_System_Collections_Generic_IEnumerable_System_UInt64__HeyBox_RequestOptions_" data-uid="HeyBox.IRoomUser.RemoveRolesAsync(System.Collections.Generic.IEnumerable{System.UInt64},HeyBox.RequestOptions)">
+  RemoveRolesAsync(IEnumerable&lt;ulong&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Users/IRoomUser.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该房间内撤销此用户指定的一些角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveRolesAsync(IEnumerable&lt;ulong&gt; roleIds, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>roleIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd><p>要在该房间内为此用户撤销的所有角色的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步撤销操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 

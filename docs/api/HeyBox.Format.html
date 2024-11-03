@@ -89,7 +89,7 @@
 
 
   <h1 id="HeyBox_Format" data-uid="HeyBox.Format" class="text-break">
-Class Format  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L8"><i class="bi bi-code-slash"></i></a>
+Class Format  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -153,11 +153,316 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 </h2>
 
 
+  <a id="HeyBox_Format_Bold_" data-uid="HeyBox.Format.Bold*"></a>
+
+  <h3 id="HeyBox_Format_Bold_System_String_System_Boolean_" data-uid="HeyBox.Format.Bold(System.String,System.Boolean)">
+  Bold(string?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回一个使用粗体格式的 Markdown 格式化字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Bold(string? text, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要格式化的文本。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">text</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Format_Bold_System_String_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>设置 <code class="paramref">sanitize</code> 为 <code>true</code> 将会对文本中出现的所有 <code>*</code> 字符转义为 <code>*</code>。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Format_BoldItalics_" data-uid="HeyBox.Format.BoldItalics*"></a>
+
+  <h3 id="HeyBox_Format_BoldItalics_System_String_System_Boolean_" data-uid="HeyBox.Format.BoldItalics(System.String,System.Boolean)">
+  BoldItalics(string?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回一个使用粗斜体格式的 Markdown 格式化字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string BoldItalics(string? text, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要格式化的文本。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">text</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Format_BoldItalics_System_String_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>设置 <code class="paramref">sanitize</code> 为 <code>true</code> 将会对文本中出现的所有 <code>*</code> 字符转义为 <code>*</code>。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Format_Code_" data-uid="HeyBox.Format.Code*"></a>
+
+  <h3 id="HeyBox_Format_Code_System_String_System_String_System_Boolean_" data-uid="HeyBox.Format.Code(System.String,System.String,System.Boolean)">
+  Code(string?, string?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回一个使用代码格式的 KMarkdown 格式化字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Code(string? text, string? language = null, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要格式化的文本。</p>
+</dd>
+    <dt><code>language</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>代码块的语言。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">text</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的内联代码或代码块。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Format_Code_System_String_System_String_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>设置 <code class="paramref">sanitize</code> 为 <code>true</code> 将会对文本中出现的所有 <code><code>&lt;/code&gt; 字符转义为 &lt;code&gt;\</code></code>。 <br>
+当 <code class="paramref">language</code> 不为 <code>null</code> 或 <code class="paramref">text</code> 中包含换行符时，将返回一个代码块；
+否则，将返回一个内联代码块。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Format_CodeBlock_" data-uid="HeyBox.Format.CodeBlock*"></a>
+
+  <h3 id="HeyBox_Format_CodeBlock_System_String_System_String_System_Boolean_" data-uid="HeyBox.Format.CodeBlock(System.String,System.String,System.Boolean)">
+  CodeBlock(string?, string?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回一个使用代码块格式的 KMarkdown 格式化字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CodeBlock(string? text, string? language = null, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要格式化的文本。</p>
+</dd>
+    <dt><code>language</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>代码块的语言。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">text</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的代码块。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Format_CodeBlock_System_String_System_String_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>设置 <code class="paramref">sanitize</code> 为 <code>true</code> 将会对文本中出现的所有 <code><code>&lt;/code&gt; 字符转义为 &lt;code&gt;\</code></code>。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Format_H1_" data-uid="HeyBox.Format.H1*"></a>
+
+  <h3 id="HeyBox_Format_H1_System_String_" data-uid="HeyBox.Format.H1(System.String)">
+  H1(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回格式化为 Markdown 一级标题的字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string H1(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要格式化的文本。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Format_H2_" data-uid="HeyBox.Format.H2*"></a>
+
+  <h3 id="HeyBox_Format_H2_System_String_" data-uid="HeyBox.Format.H2(System.String)">
+  H2(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回格式化为 Markdown 二级标题的字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string H2(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要格式化的文本。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Format_H3_" data-uid="HeyBox.Format.H3*"></a>
+
+  <h3 id="HeyBox_Format_H3_System_String_" data-uid="HeyBox.Format.H3(System.String)">
+  H3(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回格式化为 Markdown 三级标题的字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string H3(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要格式化的文本。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="HeyBox_Format_Image_" data-uid="HeyBox.Format.Image*"></a>
 
   <h3 id="HeyBox_Format_Image_HeyBox_FileAttachment_" data-uid="HeyBox.Format.Image(HeyBox.FileAttachment)">
   Image(FileAttachment)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L157"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个 Markdown 格式的图片。</p>
@@ -193,9 +498,9 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <a id="HeyBox_Format_Image_" data-uid="HeyBox.Format.Image*"></a>
 
-  <h3 id="HeyBox_Format_Image_System_String_System_String_" data-uid="HeyBox.Format.Image(System.String,System.String)">
-  Image(string, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <h3 id="HeyBox_Format_Image_System_String_System_String_System_Boolean_" data-uid="HeyBox.Format.Image(System.String,System.String,System.Boolean)">
+  Image(string, string?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个 Markdown 格式的图片。</p>
@@ -203,7 +508,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string Image(string url, string? alternative = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string Image(string url, string? alternative = null, bool sanitize = true)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -214,12 +519,16 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
     <dt><code>alternative</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>图片的替代文本。</p>
 </dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">alternative</code> 与 <code class="paramref">url</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>获取格式化后的图片。</p>
+</dd>
   </dl>
 
 
@@ -228,15 +537,20 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <h4 class="section" id="HeyBox_Format_Image_System_String_System_String_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>设置 <code class="paramref">sanitize</code> 为 <code>true</code>，将会对 <code class="paramref">alternative</code> 中出现的所有
+<code>[</code> 和 <code>]</code> 字符分别转义为 <code>[</code> 和 <code>]</code>，并对 <code class="paramref">url</code> 中出现的所有 <code>(</code> 和 <code>)</code>
+字符分别转义为 <code>(</code> 和 <code>)</code>。</p>
+</div>
 
 
 
 
   <a id="HeyBox_Format_Image_" data-uid="HeyBox.Format.Image*"></a>
 
-  <h3 id="HeyBox_Format_Image_System_Uri_System_String_" data-uid="HeyBox.Format.Image(System.Uri,System.String)">
-  Image(Uri, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <h3 id="HeyBox_Format_Image_System_Uri_System_String_System_Boolean_" data-uid="HeyBox.Format.Image(System.Uri,System.String,System.Boolean)">
+  Image(Uri, string?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个 Markdown 格式的图片。</p>
@@ -244,23 +558,27 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string Image(Uri uri, string? alternative = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string Image(Uri url, string? alternative = null, bool sanitize = true)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
     <dd><p>图片的 URL。</p>
 </dd>
     <dt><code>alternative</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>图片的替代文本。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">alternative</code> 与 <code class="paramref">url</code> 中与当前格式化操作有冲突的字符进行转义。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>获取格式化后的图片。</p>
+</dd>
   </dl>
 
 
@@ -269,6 +587,185 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <h4 class="section" id="HeyBox_Format_Image_System_Uri_System_String_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>设置 <code class="paramref">sanitize</code> 为 <code>true</code>，将会对 <code class="paramref">alternative</code> 中出现的所有
+<code>[</code> 和 <code>]</code> 字符分别转义为 <code>[</code> 和 <code>]</code>，并对 <code class="paramref">url</code> 中出现的所有 <code>(</code> 和 <code>)</code>
+字符分别转义为 <code>(</code> 和 <code>)</code>。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Format_Italics_" data-uid="HeyBox.Format.Italics*"></a>
+
+  <h3 id="HeyBox_Format_Italics_System_String_System_Boolean_" data-uid="HeyBox.Format.Italics(System.String,System.Boolean)">
+  Italics(string?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回一个使用斜体格式的 Markdown 格式化字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Italics(string? text, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要格式化的文本。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">text</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Format_Italics_System_String_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>设置 <code class="paramref">sanitize</code> 为 <code>true</code> 将会对文本中出现的所有 <code>*</code> 字符转义为 <code>*</code>。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Format_OrderedList_" data-uid="HeyBox.Format.OrderedList*"></a>
+
+  <h3 id="HeyBox_Format_OrderedList_System_Collections_Generic_IEnumerable_System_String__System_Int32_" data-uid="HeyBox.Format.OrderedList(System.Collections.Generic.IEnumerable{System.String},System.Int32)">
+  OrderedList(IEnumerable&lt;string&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取有序列表的 Markdown 格式化字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string OrderedList(IEnumerable&lt;string&gt; items, int indentLevel = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>要格式化的列表项。</p>
+</dd>
+    <dt><code>indentLevel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>列表项的缩进级别。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的列表。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Format_Sanitize_" data-uid="HeyBox.Format.Sanitize*"></a>
+
+  <h3 id="HeyBox_Format_Sanitize_System_String_System_String___" data-uid="HeyBox.Format.Sanitize(System.String,System.String[])">
+  Sanitize(string?, params string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>转义字符串，安全地转义任何 Markdown 序列。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string? Sanitize(string? text, params string[] sensitiveCharacters)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要转义的文本。</p>
+</dd>
+    <dt><code>sensitiveCharacters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>要转义的字符。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取转义后的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Format_Strikethrough_" data-uid="HeyBox.Format.Strikethrough*"></a>
+
+  <h3 id="HeyBox_Format_Strikethrough_System_String_System_Boolean_" data-uid="HeyBox.Format.Strikethrough(System.String,System.Boolean)">
+  Strikethrough(string?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回一个使用删除线格式的 Markdown 格式化字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Strikethrough(string? text, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要格式化的文本。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">text</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Format_Strikethrough_System_String_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>设置 <code class="paramref">sanitize</code> 为 <code>true</code> 将会对文本中出现的所有 <code>~</code> 字符转义为 <code>~</code>。</p>
+</div>
 
 
 
@@ -277,7 +774,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="HeyBox_Format_StripMarkdown_System_String_" data-uid="HeyBox.Format.StripMarkdown(System.String)">
   StripMarkdown(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L251"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>移除文本中的 Markdown 格式字符。</p>
@@ -309,7 +806,318 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
 
   <h4 class="section" id="HeyBox_Format_StripMarkdown_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>此方法不会过多地分析 Markdown 的复杂格式，只会简单地移除 KMarkdown 中的以下字符：<br><code>*</code>、<code>`</code>、<code>~</code>、<code>&gt;</code>、<code>&lt;/code&gt;。</code></p>
+  <div class="markdown level1 remarks"><p>此方法不会过多地分析 Markdown 的复杂格式，只会简单地移除 KMarkdown 中的以下字符：<br><code>&lt;sup&gt;</code>、<code>&lt;/sup&gt;</code>、<code>&lt;sub&gt;</code>、<code>&lt;/sub&gt;</code>、
+<code>#</code>、<code>*</code>、<code>`</code>、<code>~</code>、<code>&lt;</code>、<code>&gt;</code>、<code>&lt;/code&gt;。</code></p>
+</div>
+
+
+
+
+  <a id="HeyBox_Format_SubScript_" data-uid="HeyBox.Format.SubScript*"></a>
+
+  <h3 id="HeyBox_Format_SubScript_System_String_" data-uid="HeyBox.Format.SubScript(System.String)">
+  SubScript(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回一个使用下标格式的 Markdown 格式化字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SubScript(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要格式化的文本。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Format_SuperScript_" data-uid="HeyBox.Format.SuperScript*"></a>
+
+  <h3 id="HeyBox_Format_SuperScript_System_String_" data-uid="HeyBox.Format.SuperScript(System.String)">
+  SuperScript(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回一个使用上标格式的 Markdown 格式化字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SuperScript(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要格式化的文本。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Format_UnorderedList_" data-uid="HeyBox.Format.UnorderedList*"></a>
+
+  <h3 id="HeyBox_Format_UnorderedList_System_Collections_Generic_IEnumerable_System_String__System_Int32_" data-uid="HeyBox.Format.UnorderedList(System.Collections.Generic.IEnumerable{System.String},System.Int32)">
+  UnorderedList(IEnumerable&lt;string&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取无序列表的 Markdown 格式化字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UnorderedList(IEnumerable&lt;string&gt; items, int indentLevel = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>要格式化的列表项。</p>
+</dd>
+    <dt><code>indentLevel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>列表项的缩进级别。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的列表。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Format_Url_" data-uid="HeyBox.Format.Url*"></a>
+
+  <h3 id="HeyBox_Format_Url_System_String_System_Boolean_" data-uid="HeyBox.Format.Url(System.String,System.Boolean)">
+  Url(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回格式化为 Markdown 链接的字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Url(string url, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要链接到的 URL。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">url</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的链接文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Format_Url_System_String_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>设置 <code class="paramref">sanitize</code> 为 <code>true</code>，将会对 URL 中出现的所有 <code>&lt;</code> 和 <code>&gt;</code> 字符分别转义为
+<code>&amp;lt;</code> 和 <code>&amp;gt;</code>。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Format_Url_" data-uid="HeyBox.Format.Url*"></a>
+
+  <h3 id="HeyBox_Format_Url_System_String_System_String_System_Boolean_" data-uid="HeyBox.Format.Url(System.String,System.String,System.Boolean)">
+  Url(string, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回格式化为 Markdown 链接的字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Url(string url, string text, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要链接到的 URL。</p>
+</dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要格式化的文本。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">text</code> 与 <code class="paramref">url</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的链接文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Format_Url_System_String_System_String_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>设置 <code class="paramref">sanitize</code> 为 <code>true</code>，将会对文本中出现的所有 <code>[</code> 和 <code>]</code> 字符分别转义为
+<code>[</code> 和 <code>]</code>，并对 URL 中出现的所有 <code>(</code> 和 <code>)</code> 字符分别转义为 <code>(</code> 和 <code>)</code>。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Format_Url_" data-uid="HeyBox.Format.Url*"></a>
+
+  <h3 id="HeyBox_Format_Url_System_Uri_System_Boolean_" data-uid="HeyBox.Format.Url(System.Uri,System.Boolean)">
+  Url(Uri, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回格式化为 Markdown 链接的字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Url(Uri url, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd><p>要链接到的 URL。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">url</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的链接文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Format_Url_System_Uri_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>设置 <code class="paramref">sanitize</code> 为 <code>true</code>，将会对 URL 中出现的所有 <code>&lt;</code> 和 <code>&gt;</code> 字符分别转义为
+<code>&amp;lt;</code> 和 <code>&amp;gt;</code>。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Format_Url_" data-uid="HeyBox.Format.Url*"></a>
+
+  <h3 id="HeyBox_Format_Url_System_Uri_System_String_System_Boolean_" data-uid="HeyBox.Format.Url(System.Uri,System.String,System.Boolean)">
+  Url(Uri, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回格式化为 Markdown 链接的字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Url(Uri url, string text, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd><p>要链接到的 URL。</p>
+</dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要格式化的文本。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">text</code> 与 <code class="paramref">url</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的链接文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Format_Url_System_Uri_System_String_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>设置 <code class="paramref">sanitize</code> 为 <code>true</code>，将会对文本中出现的所有 <code>[</code> 和 <code>]</code> 字符分别转义为
+<code>[</code> 和 <code>]</code>，并对 URL 中出现的所有 <code>(</code> 和 <code>)</code> 字符分别转义为 <code>(</code> 和 <code>)</code>。</p>
 </div>
 
 
@@ -319,7 +1127,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Format.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -433,7 +433,7 @@ Class InteractionModuleBase&lt;T&gt;  <a class="header-action link-secondary" ti
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Cacheable&lt;IUserMessage, ulong&gt;&gt; ReplyFileAsync(FileAttachment attachment, bool reply = false, RequestOptions? options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IUserMessage&gt; ReplyFileAsync(FileAttachment attachment, bool reply = false, RequestOptions? options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -451,8 +451,8 @@ Class InteractionModuleBase&lt;T&gt;  <a class="header-action link-secondary" ti
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;&gt;</dt>
-    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送消息的可延迟加载的消息对象。</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送的消息。</p>
 </dd>
   </dl>
 
@@ -478,7 +478,7 @@ Class InteractionModuleBase&lt;T&gt;  <a class="header-action link-secondary" ti
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Cacheable&lt;IUserMessage, ulong&gt;&gt; ReplyFileAsync(Stream stream, string filename, AttachmentType type = AttachmentType.Image, Size? imageSize = null, bool reply = false, RequestOptions? options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IUserMessage&gt; ReplyFileAsync(Stream stream, string filename, AttachmentType type = AttachmentType.Image, Size? imageSize = null, bool reply = false, RequestOptions? options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -505,8 +505,8 @@ Class InteractionModuleBase&lt;T&gt;  <a class="header-action link-secondary" ti
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;&gt;</dt>
-    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送消息的可延迟加载的消息对象。</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送的消息。</p>
 </dd>
   </dl>
 
@@ -532,7 +532,7 @@ Class InteractionModuleBase&lt;T&gt;  <a class="header-action link-secondary" ti
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Cacheable&lt;IUserMessage, ulong&gt;&gt; ReplyFileAsync(string path, string? filename = null, AttachmentType type = AttachmentType.Image, Size? imageSize = null, bool reply = false, RequestOptions? options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IUserMessage&gt; ReplyFileAsync(string path, string? filename = null, AttachmentType type = AttachmentType.Image, Size? imageSize = null, bool reply = false, RequestOptions? options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -559,8 +559,8 @@ Class InteractionModuleBase&lt;T&gt;  <a class="header-action link-secondary" ti
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;&gt;</dt>
-    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送消息的可延迟加载的消息对象。</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送的消息。</p>
 </dd>
   </dl>
 
@@ -586,7 +586,7 @@ Class InteractionModuleBase&lt;T&gt;  <a class="header-action link-secondary" ti
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Cacheable&lt;IUserMessage, ulong&gt;&gt; ReplyTextAsync(string text, IEnumerable&lt;FileAttachment&gt;? imageFileInfos = null, bool reply = false, RequestOptions? options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IUserMessage&gt; ReplyTextAsync(string text, IEnumerable&lt;FileAttachment&gt;? imageFileInfos = null, bool reply = false, RequestOptions? options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -607,8 +607,8 @@ Class InteractionModuleBase&lt;T&gt;  <a class="header-action link-secondary" ti
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;&gt;</dt>
-    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送消息的可延迟加载的消息对象。</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送的消息。</p>
 </dd>
   </dl>
 

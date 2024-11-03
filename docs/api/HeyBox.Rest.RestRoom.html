@@ -89,7 +89,7 @@
 
 
   <h1 id="HeyBox_Rest_RestRoom" data-uid="HeyBox.Rest.RestRoom" class="text-break">
-Class RestRoom  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Class RestRoom  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class RestRoom  <a class="header-action link-secondary" title="View source" href
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RestRoom : RestEntity&lt;ulong&gt;, IRoom, IEntity&lt;ulong&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class RestRoom : RestEntity&lt;ulong&gt;, IRoom, IEntity&lt;ulong&gt;, IUpdateable</code></pre>
   </div>
 
 
@@ -122,6 +122,7 @@ Class RestRoom  <a class="header-action link-secondary" title="View source" href
     <dd>
       <div><a class="xref" href="HeyBox.IRoom.html">IRoom</a></div>
       <div><a class="xref" href="HeyBox.IEntity-1.html">IEntity</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</div>
+      <div><a class="xref" href="HeyBox.IUpdateable.html">IUpdateable</a></div>
     </dd>
   </dl>
 
@@ -171,7 +172,7 @@ Class RestRoom  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="HeyBox_Rest_RestRoom_EveryoneRole" data-uid="HeyBox.Rest.RestRoom.EveryoneRole">
   EveryoneRole
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此房间中的 <code>@全体成员</code> 全体成员角色。</p>
@@ -199,15 +200,337 @@ Class RestRoom  <a class="header-action link-secondary" title="View source" href
 
 
 
+  <a id="HeyBox_Rest_RestRoom_Roles_" data-uid="HeyBox.Rest.RestRoom.Roles*"></a>
+
+  <h3 id="HeyBox_Rest_RestRoom_Roles" data-uid="HeyBox.Rest.RestRoom.Roles">
+  Roles
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此房间的所有角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;RestRole&gt; Roles { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="HeyBox.Rest.RestRole.html">RestRole</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
+
+
+  <a id="HeyBox_Rest_RestRoom_CreateRoleAsync_" data-uid="HeyBox.Rest.RestRoom.CreateRoleAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestRoom_CreateRoleAsync_System_Action_HeyBox_RoleProperties__HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoom.CreateRoleAsync(System.Action{HeyBox.RoleProperties},HeyBox.RequestOptions)">
+  CreateRoleAsync(Action&lt;RoleProperties&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在此房间内创建一个新角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestRole&gt; CreateRoleAsync(Action&lt;RoleProperties&gt; func, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HeyBox.RoleProperties.html">RoleProperties</a>&gt;</dt>
+    <dd><p>一个用于填充新角色属性的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.Rest.RestRole.html">RestRole</a>&gt;</dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的角色。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Rest_RestRoom_CreateRoleAsync_System_Action_HeyBox_RoleProperties__HeyBox_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法使用指定的属性创建新角色。要查看可用的属性，请参考 <a class="xref" href="HeyBox.RoleProperties.html">RoleProperties</a>。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Rest_RestRoom_DeleteEmoteAsync_" data-uid="HeyBox.Rest.RestRoom.DeleteEmoteAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestRoom_DeleteEmoteAsync_HeyBox_RoomEmote_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoom.DeleteEmoteAsync(HeyBox.RoomEmote,HeyBox.RequestOptions)">
+  DeleteEmoteAsync(RoomEmote, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>删除此服务器内的现有自定义小表情。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteEmoteAsync(RoomEmote emote, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>emote</code> <a class="xref" href="HeyBox.RoomEmote.html">RoomEmote</a></dt>
+    <dd><p>要删除的自定义小表情。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步删除操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestRoom_DeleteStickerAsync_" data-uid="HeyBox.Rest.RestRoom.DeleteStickerAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestRoom_DeleteStickerAsync_HeyBox_RoomSticker_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoom.DeleteStickerAsync(HeyBox.RoomSticker,HeyBox.RequestOptions)">
+  DeleteStickerAsync(RoomSticker, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>删除此服务器内的现有自定义大表情。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteStickerAsync(RoomSticker sticker, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sticker</code> <a class="xref" href="HeyBox.RoomSticker.html">RoomSticker</a></dt>
+    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步删除操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestRoom_GetEmoteAsync_" data-uid="HeyBox.Rest.RestRoom.GetEmoteAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestRoom_GetEmoteAsync_System_UInt64_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoom.GetEmoteAsync(System.UInt64,HeyBox.RequestOptions)">
+  GetEmoteAsync(ulong, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此服务器的指定自定义小表情。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RoomEmote?&gt; GetEmoteAsync(ulong id, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的自定义表情的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.RoomEmote.html">RoomEmote</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含与指定的 <code class="paramref">id</code> 关联的自定义小表情；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestRoom_GetEmotesAsync_" data-uid="HeyBox.Rest.RestRoom.GetEmotesAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestRoom_GetEmotesAsync_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoom.GetEmotesAsync(HeyBox.RequestOptions)">
+  GetEmotesAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此服务器的所有自定义小表情。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyCollection&lt;RoomEmote&gt;&gt; GetEmotesAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="HeyBox.RoomEmote.html">RoomEmote</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含此服务器的所有自定义小表情。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestRoom_GetStickerAsync_" data-uid="HeyBox.Rest.RestRoom.GetStickerAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestRoom_GetStickerAsync_System_UInt64_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoom.GetStickerAsync(System.UInt64,HeyBox.RequestOptions)">
+  GetStickerAsync(ulong, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此服务器的指定自定义大表情。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RoomSticker?&gt; GetStickerAsync(ulong id, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的自定义表情的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.RoomSticker.html">RoomSticker</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含与指定的 <code class="paramref">id</code> 关联的自定义大表情；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestRoom_GetStickersAsync_" data-uid="HeyBox.Rest.RestRoom.GetStickersAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestRoom_GetStickersAsync_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoom.GetStickersAsync(HeyBox.RequestOptions)">
+  GetStickersAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此服务器的所有自定义大表情。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyCollection&lt;RoomSticker&gt;&gt; GetStickersAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="HeyBox.RoomSticker.html">RoomSticker</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含此服务器的所有自定义大表情。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
 
 
   <a id="HeyBox_Rest_RestRoom_GetTextChannelAsync_" data-uid="HeyBox.Rest.RestRoom.GetTextChannelAsync*"></a>
 
   <h3 id="HeyBox_Rest_RestRoom_GetTextChannelAsync_System_UInt64_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoom.GetTextChannelAsync(System.UInt64,HeyBox.RequestOptions)">
   GetTextChannelAsync(ulong, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此房间内指定具有文字聊天能力的频道。</p>
@@ -249,11 +572,144 @@ Class RestRoom  <a class="header-action link-secondary" title="View source" href
 
 
 
+  <a id="HeyBox_Rest_RestRoom_ModifyEmoteAsync_" data-uid="HeyBox.Rest.RestRoom.ModifyEmoteAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestRoom_ModifyEmoteAsync_HeyBox_RoomEmote_System_Action_HeyBox_EmoteProperties__HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoom.ModifyEmoteAsync(HeyBox.RoomEmote,System.Action{HeyBox.EmoteProperties},HeyBox.RequestOptions)">
+  ModifyEmoteAsync(RoomEmote, Action&lt;EmoteProperties&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改此服务器内的现有自定义小表情。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ModifyEmoteAsync(RoomEmote emote, Action&lt;EmoteProperties&gt; func, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>emote</code> <a class="xref" href="HeyBox.RoomEmote.html">RoomEmote</a></dt>
+    <dd><p>要修改的自定义小表情。</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HeyBox.EmoteProperties.html">EmoteProperties</a>&gt;</dt>
+    <dd><p>一个用于设置自定义表情属性的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步修改操作的任务。任务的结果包含修改后的自定义表情。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestRoom_ModifyStickerAsync_" data-uid="HeyBox.Rest.RestRoom.ModifyStickerAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestRoom_ModifyStickerAsync_HeyBox_RoomSticker_System_Action_HeyBox_EmoteProperties__HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoom.ModifyStickerAsync(HeyBox.RoomSticker,System.Action{HeyBox.EmoteProperties},HeyBox.RequestOptions)">
+  ModifyStickerAsync(RoomSticker, Action&lt;EmoteProperties&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改此服务器内的现有自定义大表情。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ModifyStickerAsync(RoomSticker sticker, Action&lt;EmoteProperties&gt; func, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sticker</code> <a class="xref" href="HeyBox.RoomSticker.html">RoomSticker</a></dt>
+    <dd></dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HeyBox.EmoteProperties.html">EmoteProperties</a>&gt;</dt>
+    <dd><p>一个用于设置自定义表情属性的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步修改操作的任务。任务的结果包含修改后的自定义表情。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestRoom_UpdateAsync_" data-uid="HeyBox.Rest.RestRoom.UpdateAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestRoom_UpdateAsync_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoom.UpdateAsync(HeyBox.RequestOptions)">
+  UpdateAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>通过 REST API 获取此实体对象的最新状态，并替换当前对象的属性。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task UpdateAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步更新操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Rest_RestRoom_UpdateAsync_HeyBox_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><div class="WARNING"><h5>warning</h5><p>
+        此方法将从黑盒语音 REST API 获取最新数据，并替换当前对象的属性，而非使用指定的属性修改黑盒语音服务端的数据。
+    </p></div>
+</div>
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Rooms/RestRoom.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 

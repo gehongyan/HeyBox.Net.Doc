@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class SocketRoomUser | HeyBox.Net 文档 </title>
+      <title>Class RestRoomUser | HeyBox.Net 文档 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class SocketRoomUser | HeyBox.Net 文档 ">
+      <meta name="title" content="Class RestRoomUser | HeyBox.Net 文档 ">
       
-      <meta name="description" content="表示一个基于网关的房间用户。">
+      <meta name="description" content="表示一个基于 REST 的房间用户。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_WebSocket_SocketRoomUser.md&amp;value=---%0Auid%3A%20HeyBox.WebSocket.SocketRoomUser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_Rest_RestRoomUser.md&amp;value=---%0Auid%3A%20HeyBox.Rest.RestRoomUser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,25 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="HeyBox.WebSocket.SocketRoomUser">
+        <article data-uid="HeyBox.Rest.RestRoomUser">
 
 
 
-  <h1 id="HeyBox_WebSocket_SocketRoomUser" data-uid="HeyBox.WebSocket.SocketRoomUser" class="text-break">
-Class SocketRoomUser  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <h1 id="HeyBox_Rest_RestRoomUser" data-uid="HeyBox.Rest.RestRoomUser" class="text-break">
+Class RestRoomUser  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="HeyBox.html">HeyBox</a>.<a class="xref" href="HeyBox.WebSocket.html">WebSocket</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>HeyBox.Net.WebSocket.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HeyBox.html">HeyBox</a>.<a class="xref" href="HeyBox.Rest.html">Rest</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HeyBox.Net.Rest.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示一个基于网关的房间用户。</p>
+  <div class="markdown summary"><p>表示一个基于 REST 的房间用户。</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SocketRoomUser : SocketUser, IRoomUser, IUser, IEntity&lt;uint&gt;, IMentionable</code></pre>
+    <pre><code class="lang-csharp hljs">public class RestRoomUser : RestUser, IRoomUser, IUser, IEntity&lt;uint&gt;, IMentionable</code></pre>
   </div>
 
 
@@ -112,9 +112,9 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="HeyBox.WebSocket.SocketEntity-1.html">SocketEntity</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</div>
-      <div><a class="xref" href="HeyBox.WebSocket.SocketUser.html">SocketUser</a></div>
-      <div><span class="xref">SocketRoomUser</span></div>
+      <div><a class="xref" href="HeyBox.Rest.RestEntity-1.html">RestEntity</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</div>
+      <div><a class="xref" href="HeyBox.Rest.RestUser.html">RestUser</a></div>
+      <div><span class="xref">RestRoomUser</span></div>
     </dd>
   </dl>
 
@@ -133,13 +133,31 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="HeyBox.WebSocket.SocketUser.html#HeyBox_WebSocket_SocketUser_Mention">SocketUser.Mention</a>
+      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_Username">RestUser.Username</a>
     </div>
     <div>
-      <a class="xref" href="HeyBox.WebSocket.SocketEntity-1.html#HeyBox_WebSocket_SocketEntity_1_Id">SocketEntity&lt;uint&gt;.Id</a>
+      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_IsBot">RestUser.IsBot</a>
     </div>
     <div>
-      <a class="xref" href="HeyBox.WebSocket.SocketEntity-1.html#HeyBox_WebSocket_SocketEntity_1_IsPopulated">SocketEntity&lt;uint&gt;.IsPopulated</a>
+      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_Avatar">RestUser.Avatar</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_AvatarDecorationType">RestUser.AvatarDecorationType</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_AvatarDecorationUrl">RestUser.AvatarDecorationUrl</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_Level">RestUser.Level</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_Mention">RestUser.Mention</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.RestEntity-1.html#HeyBox_Rest_RestEntity_1_Id">RestEntity&lt;uint&gt;.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.RestEntity-1.html#HeyBox_Rest_RestEntity_1_IsPopulated">RestEntity&lt;uint&gt;.IsPopulated</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -173,107 +191,11 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 </h2>
 
 
-  <a id="HeyBox_WebSocket_SocketRoomUser_Avatar_" data-uid="HeyBox.WebSocket.SocketRoomUser.Avatar*"></a>
+  <a id="HeyBox_Rest_RestRoomUser_DisplayName_" data-uid="HeyBox.Rest.RestRoomUser.DisplayName*"></a>
 
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_Avatar" data-uid="HeyBox.WebSocket.SocketRoomUser.Avatar">
-  Avatar
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L38"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取此用户的头像图像的 URL。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string? Avatar { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="HeyBox_WebSocket_SocketRoomUser_AvatarDecorationType_" data-uid="HeyBox.WebSocket.SocketRoomUser.AvatarDecorationType*"></a>
-
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_AvatarDecorationType" data-uid="HeyBox.WebSocket.SocketRoomUser.AvatarDecorationType">
-  AvatarDecorationType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L45"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取用户头像装饰类型。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string? AvatarDecorationType { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="HeyBox_WebSocket_SocketRoomUser_AvatarDecorationUrl_" data-uid="HeyBox.WebSocket.SocketRoomUser.AvatarDecorationUrl*"></a>
-
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_AvatarDecorationUrl" data-uid="HeyBox.WebSocket.SocketRoomUser.AvatarDecorationUrl">
-  AvatarDecorationUrl
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L52"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取此用户的头像装饰图像的 URL。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string? AvatarDecorationUrl { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="HeyBox_WebSocket_SocketRoomUser_DisplayName_" data-uid="HeyBox.WebSocket.SocketRoomUser.DisplayName*"></a>
-
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_DisplayName" data-uid="HeyBox.WebSocket.SocketRoomUser.DisplayName">
+  <h3 id="HeyBox_Rest_RestRoomUser_DisplayName" data-uid="HeyBox.Rest.RestRoomUser.DisplayName">
   DisplayName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此用户的显示名称。</p>
@@ -297,82 +219,18 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 
 
 
-  <h4 class="section" id="HeyBox_WebSocket_SocketRoomUser_DisplayName_remarks">Remarks</h4>
+  <h4 class="section" id="HeyBox_Rest_RestRoomUser_DisplayName_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>如果此用户在该房间内设置了昵称，则此属性返回昵称；否则返回用户名。</p>
 </div>
 
 
 
 
-  <a id="HeyBox_WebSocket_SocketRoomUser_IsBot_" data-uid="HeyBox.WebSocket.SocketRoomUser.IsBot*"></a>
+  <a id="HeyBox_Rest_RestRoomUser_Nickname_" data-uid="HeyBox.Rest.RestRoomUser.Nickname*"></a>
 
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_IsBot" data-uid="HeyBox.WebSocket.SocketRoomUser.IsBot">
-  IsBot
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L31"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取此用户是否为 Bot。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool? IsBot { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="HeyBox_WebSocket_SocketRoomUser_Level_" data-uid="HeyBox.WebSocket.SocketRoomUser.Level*"></a>
-
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_Level" data-uid="HeyBox.WebSocket.SocketRoomUser.Level">
-  Level
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L59"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取此用户的等级。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int? Level { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="HeyBox_WebSocket_SocketRoomUser_Nickname_" data-uid="HeyBox.WebSocket.SocketRoomUser.Nickname*"></a>
-
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_Nickname" data-uid="HeyBox.WebSocket.SocketRoomUser.Nickname">
+  <h3 id="HeyBox_Rest_RestRoomUser_Nickname" data-uid="HeyBox.Rest.RestRoomUser.Nickname">
   Nickname
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此用户在该房间内的昵称。</p>
@@ -396,26 +254,26 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 
 
 
-  <h4 class="section" id="HeyBox_WebSocket_SocketRoomUser_Nickname_remarks">Remarks</h4>
+  <h4 class="section" id="HeyBox_Rest_RestRoomUser_Nickname_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>如果此用户在该房间内没有设置昵称，则此属性返回 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>。</p>
 </div>
 
 
 
 
-  <a id="HeyBox_WebSocket_SocketRoomUser_Roles_" data-uid="HeyBox.WebSocket.SocketRoomUser.Roles*"></a>
+  <a id="HeyBox_Rest_RestRoomUser_RoleIds_" data-uid="HeyBox.Rest.RestRoomUser.RoleIds*"></a>
 
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_Roles" data-uid="HeyBox.WebSocket.SocketRoomUser.Roles">
-  Roles
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <h3 id="HeyBox_Rest_RestRoomUser_RoleIds" data-uid="HeyBox.Rest.RestRoomUser.RoleIds">
+  RoleIds
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此用户在该房间内拥有的所有角色。</p>
+  <div class="markdown level1 summary"><p>获取此用户在该房间内拥有的所有角色的 ID。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;SocketRole&gt; Roles { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;ulong&gt; RoleIds { get; }</code></pre>
   </div>
 
 
@@ -424,7 +282,7 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketRole.html">SocketRole</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -435,11 +293,11 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="HeyBox_WebSocket_SocketRoomUser_Room_" data-uid="HeyBox.WebSocket.SocketRoomUser.Room*"></a>
+  <a id="HeyBox_Rest_RestRoomUser_Room_" data-uid="HeyBox.Rest.RestRoomUser.Room*"></a>
 
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_Room" data-uid="HeyBox.WebSocket.SocketRoomUser.Room">
+  <h3 id="HeyBox_Rest_RestRoomUser_Room" data-uid="HeyBox.Rest.RestRoomUser.Room">
   Room
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此房间用户所属的房间。</p>
@@ -447,7 +305,7 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SocketRoom Room { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IRoom Room { get; }</code></pre>
   </div>
 
 
@@ -456,7 +314,7 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="HeyBox.WebSocket.SocketRoom.html">SocketRoom</a></dt>
+    <dt><a class="xref" href="HeyBox.IRoom.html">IRoom</a></dt>
     <dd></dd>
   </dl>
 
@@ -467,19 +325,19 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="HeyBox_WebSocket_SocketRoomUser_Username_" data-uid="HeyBox.WebSocket.SocketRoomUser.Username*"></a>
+  <a id="HeyBox_Rest_RestRoomUser_RoomId_" data-uid="HeyBox.Rest.RestRoomUser.RoomId*"></a>
 
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_Username" data-uid="HeyBox.WebSocket.SocketRoomUser.Username">
-  Username
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <h3 id="HeyBox_Rest_RestRoomUser_RoomId" data-uid="HeyBox.Rest.RestRoomUser.RoomId">
+  RoomId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此用户的用户名。</p>
+  <div class="markdown level1 summary"><p>获取此用户所属房间的 ID。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string? Username { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ulong RoomId { get; }</code></pre>
   </div>
 
 
@@ -488,7 +346,7 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
     <dd></dd>
   </dl>
 
@@ -503,11 +361,11 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 </h2>
 
 
-  <a id="HeyBox_WebSocket_SocketRoomUser_AddRoleAsync_" data-uid="HeyBox.WebSocket.SocketRoomUser.AddRoleAsync*"></a>
+  <a id="HeyBox_Rest_RestRoomUser_AddRoleAsync_" data-uid="HeyBox.Rest.RestRoomUser.AddRoleAsync*"></a>
 
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_AddRoleAsync_HeyBox_IRole_HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoomUser.AddRoleAsync(HeyBox.IRole,HeyBox.RequestOptions)">
+  <h3 id="HeyBox_Rest_RestRoomUser_AddRoleAsync_HeyBox_IRole_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.AddRoleAsync(HeyBox.IRole,HeyBox.RequestOptions)">
   AddRoleAsync(IRole, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内授予此用户指定的角色。</p>
@@ -545,11 +403,11 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="HeyBox_WebSocket_SocketRoomUser_AddRoleAsync_" data-uid="HeyBox.WebSocket.SocketRoomUser.AddRoleAsync*"></a>
+  <a id="HeyBox_Rest_RestRoomUser_AddRoleAsync_" data-uid="HeyBox.Rest.RestRoomUser.AddRoleAsync*"></a>
 
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_AddRoleAsync_System_UInt64_HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoomUser.AddRoleAsync(System.UInt64,HeyBox.RequestOptions)">
+  <h3 id="HeyBox_Rest_RestRoomUser_AddRoleAsync_System_UInt64_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.AddRoleAsync(System.UInt64,HeyBox.RequestOptions)">
   AddRoleAsync(ulong, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内授予此用户指定的角色。</p>
@@ -587,11 +445,11 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="HeyBox_WebSocket_SocketRoomUser_AddRolesAsync_" data-uid="HeyBox.WebSocket.SocketRoomUser.AddRolesAsync*"></a>
+  <a id="HeyBox_Rest_RestRoomUser_AddRolesAsync_" data-uid="HeyBox.Rest.RestRoomUser.AddRolesAsync*"></a>
 
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_AddRolesAsync_System_Collections_Generic_IEnumerable_HeyBox_IRole__HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoomUser.AddRolesAsync(System.Collections.Generic.IEnumerable{HeyBox.IRole},HeyBox.RequestOptions)">
+  <h3 id="HeyBox_Rest_RestRoomUser_AddRolesAsync_System_Collections_Generic_IEnumerable_HeyBox_IRole__HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.AddRolesAsync(System.Collections.Generic.IEnumerable{HeyBox.IRole},HeyBox.RequestOptions)">
   AddRolesAsync(IEnumerable&lt;IRole&gt;, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内授予此用户指定的一些角色。</p>
@@ -629,11 +487,11 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="HeyBox_WebSocket_SocketRoomUser_AddRolesAsync_" data-uid="HeyBox.WebSocket.SocketRoomUser.AddRolesAsync*"></a>
+  <a id="HeyBox_Rest_RestRoomUser_AddRolesAsync_" data-uid="HeyBox.Rest.RestRoomUser.AddRolesAsync*"></a>
 
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_AddRolesAsync_System_Collections_Generic_IEnumerable_System_UInt64__HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoomUser.AddRolesAsync(System.Collections.Generic.IEnumerable{System.UInt64},HeyBox.RequestOptions)">
+  <h3 id="HeyBox_Rest_RestRoomUser_AddRolesAsync_System_Collections_Generic_IEnumerable_System_UInt64__HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.AddRolesAsync(System.Collections.Generic.IEnumerable{System.UInt64},HeyBox.RequestOptions)">
   AddRolesAsync(IEnumerable&lt;ulong&gt;, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内授予此用户指定的一些角色。</p>
@@ -671,11 +529,11 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="HeyBox_WebSocket_SocketRoomUser_RemoveRoleAsync_" data-uid="HeyBox.WebSocket.SocketRoomUser.RemoveRoleAsync*"></a>
+  <a id="HeyBox_Rest_RestRoomUser_RemoveRoleAsync_" data-uid="HeyBox.Rest.RestRoomUser.RemoveRoleAsync*"></a>
 
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_RemoveRoleAsync_HeyBox_IRole_HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoomUser.RemoveRoleAsync(HeyBox.IRole,HeyBox.RequestOptions)">
+  <h3 id="HeyBox_Rest_RestRoomUser_RemoveRoleAsync_HeyBox_IRole_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.RemoveRoleAsync(HeyBox.IRole,HeyBox.RequestOptions)">
   RemoveRoleAsync(IRole, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内撤销此用户指定的角色。</p>
@@ -713,11 +571,11 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="HeyBox_WebSocket_SocketRoomUser_RemoveRoleAsync_" data-uid="HeyBox.WebSocket.SocketRoomUser.RemoveRoleAsync*"></a>
+  <a id="HeyBox_Rest_RestRoomUser_RemoveRoleAsync_" data-uid="HeyBox.Rest.RestRoomUser.RemoveRoleAsync*"></a>
 
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_RemoveRoleAsync_System_UInt64_HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoomUser.RemoveRoleAsync(System.UInt64,HeyBox.RequestOptions)">
+  <h3 id="HeyBox_Rest_RestRoomUser_RemoveRoleAsync_System_UInt64_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.RemoveRoleAsync(System.UInt64,HeyBox.RequestOptions)">
   RemoveRoleAsync(ulong, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内撤销此用户指定的角色。</p>
@@ -755,11 +613,11 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="HeyBox_WebSocket_SocketRoomUser_RemoveRolesAsync_" data-uid="HeyBox.WebSocket.SocketRoomUser.RemoveRolesAsync*"></a>
+  <a id="HeyBox_Rest_RestRoomUser_RemoveRolesAsync_" data-uid="HeyBox.Rest.RestRoomUser.RemoveRolesAsync*"></a>
 
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_RemoveRolesAsync_System_Collections_Generic_IEnumerable_HeyBox_IRole__HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoomUser.RemoveRolesAsync(System.Collections.Generic.IEnumerable{HeyBox.IRole},HeyBox.RequestOptions)">
+  <h3 id="HeyBox_Rest_RestRoomUser_RemoveRolesAsync_System_Collections_Generic_IEnumerable_HeyBox_IRole__HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.RemoveRolesAsync(System.Collections.Generic.IEnumerable{HeyBox.IRole},HeyBox.RequestOptions)">
   RemoveRolesAsync(IEnumerable&lt;IRole&gt;, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内撤销此用户指定的一些角色。</p>
@@ -797,11 +655,11 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 
 
 
-  <a id="HeyBox_WebSocket_SocketRoomUser_RemoveRolesAsync_" data-uid="HeyBox.WebSocket.SocketRoomUser.RemoveRolesAsync*"></a>
+  <a id="HeyBox_Rest_RestRoomUser_RemoveRolesAsync_" data-uid="HeyBox.Rest.RestRoomUser.RemoveRolesAsync*"></a>
 
-  <h3 id="HeyBox_WebSocket_SocketRoomUser_RemoveRolesAsync_System_Collections_Generic_IEnumerable_System_UInt64__HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoomUser.RemoveRolesAsync(System.Collections.Generic.IEnumerable{System.UInt64},HeyBox.RequestOptions)">
+  <h3 id="HeyBox_Rest_RestRoomUser_RemoveRolesAsync_System_Collections_Generic_IEnumerable_System_UInt64__HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.RemoveRolesAsync(System.Collections.Generic.IEnumerable{System.UInt64},HeyBox.RequestOptions)">
   RemoveRolesAsync(IEnumerable&lt;ulong&gt;, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内撤销此用户指定的一些角色。</p>
@@ -843,7 +701,7 @@ Class SocketRoomUser  <a class="header-action link-secondary" title="View source
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Users/SocketRoomUser.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 

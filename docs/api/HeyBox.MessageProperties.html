@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class RestSelfUser | HeyBox.Net 文档 </title>
+      <title>Class MessageProperties | HeyBox.Net 文档 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class RestSelfUser | HeyBox.Net 文档 ">
+      <meta name="title" content="Class MessageProperties | HeyBox.Net 文档 ">
       
-      <meta name="description" content="表示一个基于 REST 的当前登录的用户信息。">
+      <meta name="description" content="提供用于修改  的属性。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_Rest_RestSelfUser.md&amp;value=---%0Auid%3A%20HeyBox.Rest.RestSelfUser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_MessageProperties.md&amp;value=---%0Auid%3A%20HeyBox.MessageProperties%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,25 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="HeyBox.Rest.RestSelfUser">
+        <article data-uid="HeyBox.MessageProperties">
 
 
 
-  <h1 id="HeyBox_Rest_RestSelfUser" data-uid="HeyBox.Rest.RestSelfUser" class="text-break">
-Class RestSelfUser  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestSelfUser.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h1 id="HeyBox_MessageProperties" data-uid="HeyBox.MessageProperties" class="text-break">
+Class MessageProperties  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/MessageProperties.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="HeyBox.html">HeyBox</a>.<a class="xref" href="HeyBox.Rest.html">Rest</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>HeyBox.Net.Rest.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HeyBox.html">HeyBox</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HeyBox.Net.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示一个基于 REST 的当前登录的用户信息。</p>
+  <div class="markdown summary"><p>提供用于修改 <a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a> 的属性。</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RestSelfUser : RestUser, ISelfUser, IUser, IEntity&lt;uint&gt;, IMentionable</code></pre>
+    <pre><code class="lang-csharp hljs">public class MessageProperties</code></pre>
   </div>
 
 
@@ -112,53 +112,15 @@ Class RestSelfUser  <a class="header-action link-secondary" title="View source" 
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="HeyBox.Rest.RestEntity-1.html">RestEntity</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</div>
-      <div><a class="xref" href="HeyBox.Rest.RestUser.html">RestUser</a></div>
-      <div><span class="xref">RestSelfUser</span></div>
+      <div><span class="xref">MessageProperties</span></div>
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="HeyBox.ISelfUser.html">ISelfUser</a></div>
-      <div><a class="xref" href="HeyBox.IUser.html">IUser</a></div>
-      <div><a class="xref" href="HeyBox.IEntity-1.html">IEntity</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</div>
-      <div><a class="xref" href="HeyBox.IMentionable.html">IMentionable</a></div>
-    </dd>
-  </dl>
 
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_Username">RestUser.Username</a>
-    </div>
-    <div>
-      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_IsBot">RestUser.IsBot</a>
-    </div>
-    <div>
-      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_Avatar">RestUser.Avatar</a>
-    </div>
-    <div>
-      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_AvatarDecorationType">RestUser.AvatarDecorationType</a>
-    </div>
-    <div>
-      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_AvatarDecorationUrl">RestUser.AvatarDecorationUrl</a>
-    </div>
-    <div>
-      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_Level">RestUser.Level</a>
-    </div>
-    <div>
-      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_Mention">RestUser.Mention</a>
-    </div>
-    <div>
-      <a class="xref" href="HeyBox.Rest.RestEntity-1.html#HeyBox_Rest_RestEntity_1_Id">RestEntity&lt;uint&gt;.Id</a>
-    </div>
-    <div>
-      <a class="xref" href="HeyBox.Rest.RestEntity-1.html#HeyBox_Rest_RestEntity_1_IsPopulated">RestEntity&lt;uint&gt;.IsPopulated</a>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -187,11 +149,118 @@ Class RestSelfUser  <a class="header-action link-secondary" title="View source" 
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="HeyBox_MessageProperties_Content_" data-uid="HeyBox.MessageProperties.Content*"></a>
+
+  <h3 id="HeyBox_MessageProperties_Content" data-uid="HeyBox.MessageProperties.Content">
+  Content
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/MessageProperties.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置要设置到此消息的消息内容。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Content { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="HeyBox_MessageProperties_Content_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>修改此值为非空字符串可以修改消息的内容；不修改此值或将其设置为 <code>null</code> 可以保持消息的原内容。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_MessageProperties_ImageFileInfos_" data-uid="HeyBox.MessageProperties.ImageFileInfos*"></a>
+
+  <h3 id="HeyBox_MessageProperties_ImageFileInfos" data-uid="HeyBox.MessageProperties.ImageFileInfos">
+  ImageFileInfos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/MessageProperties.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置要设置到此消息的图像文件信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;FileAttachment&gt;? ImageFileInfos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="HeyBox.FileAttachment.html">FileAttachment</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_MessageProperties_Reference_" data-uid="HeyBox.MessageProperties.Reference*"></a>
+
+  <h3 id="HeyBox_MessageProperties_Reference" data-uid="HeyBox.MessageProperties.Reference">
+  Reference
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/MessageProperties.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置要设置到此消息的消息引用。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IMessageReference? Reference { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.IMessageReference.html">IMessageReference</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 id="seealso">See Also</h2>
+  <div class="seealso">
+      <div><a class="xref" href="HeyBox.IUserMessage.html#HeyBox_IUserMessage_ModifyAsync_System_Action_HeyBox_MessageProperties__HeyBox_RequestOptions_">ModifyAsync</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HeyBox.MessageProperties.html">MessageProperties</a>&gt;, <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a>)</div>
+  </div>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestSelfUser.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/MessageProperties.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 

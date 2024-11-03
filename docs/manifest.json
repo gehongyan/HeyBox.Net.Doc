@@ -75,10 +75,50 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.ChannelPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.ChannelPermission.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.ChannelPermissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.ChannelPermissions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/HeyBox.ChannelType.yml",
       "output": {
         ".html": {
           "relative_path": "api/HeyBox.ChannelType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Color.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.ColorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.ColorType.html"
         }
       },
       "version": ""
@@ -105,6 +145,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Emoji.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Emoji.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Emote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Emote.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.EmoteProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.EmoteProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/HeyBox.FileAttachment.yml",
       "output": {
         ".html": {
@@ -119,6 +189,16 @@
       "output": {
         ".html": {
           "relative_path": "api/HeyBox.Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.GradientColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.GradientColor.html"
         }
       },
       "version": ""
@@ -169,6 +249,26 @@
       "output": {
         ".html": {
           "relative_path": "api/HeyBox.IChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IDeletable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IDeletable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IEmote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IEmote.html"
         }
       },
       "version": ""
@@ -285,6 +385,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IReaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IReaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/HeyBox.IRole.yml",
       "output": {
         ".html": {
@@ -309,6 +419,16 @@
       "output": {
         ".html": {
           "relative_path": "api/HeyBox.IRoomChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IRoomEmote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IRoomEmote.html"
         }
       },
       "version": ""
@@ -399,6 +519,16 @@
       "output": {
         ".html": {
           "relative_path": "api/HeyBox.ITextChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.IUpdateable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.IUpdateable.html"
         }
       },
       "version": ""
@@ -1115,6 +1245,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.MessageProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.MessageProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/HeyBox.MessageReference.yml",
       "output": {
         ".html": {
@@ -1375,6 +1515,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.PermValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.PermValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/HeyBox.RequestOptions.yml",
       "output": {
         ".html": {
@@ -1445,6 +1595,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.RestMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.RestMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/HeyBox.Rest.RestRole.yml",
       "output": {
         ".html": {
@@ -1469,6 +1629,16 @@
       "output": {
         ".html": {
           "relative_path": "api/HeyBox.Rest.RestRoomChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.RestRoomUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.RestRoomUser.html"
         }
       },
       "version": ""
@@ -1505,6 +1675,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.Rest.RestUserMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.Rest.RestUserMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/HeyBox.Rest.yml",
       "output": {
         ".html": {
@@ -1519,6 +1699,66 @@
       "output": {
         ".html": {
           "relative_path": "api/HeyBox.RetryMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.RoleProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.RoleProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.RoleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.RoleType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.RoomEmote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.RoomEmote.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.RoomPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.RoomPermission.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.RoomPermissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.RoomPermissions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.RoomSticker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.RoomSticker.html"
         }
       },
       "version": ""
@@ -1699,6 +1939,16 @@
       "output": {
         ".html": {
           "relative_path": "api/HeyBox.WebSocket.SocketInteraction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/HeyBox.WebSocket.SocketReaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HeyBox.WebSocket.SocketReaction.html"
         }
       },
       "version": ""

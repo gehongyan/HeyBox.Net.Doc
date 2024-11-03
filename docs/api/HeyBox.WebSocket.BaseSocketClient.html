@@ -89,7 +89,7 @@
 
 
   <h1 id="HeyBox_WebSocket_BaseSocketClient" data-uid="HeyBox.WebSocket.BaseSocketClient" class="text-break">
-Class BaseSocketClient  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Class BaseSocketClient  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.Event.cs/#L3"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -527,11 +527,299 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
 
 
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_InteractionCreated" data-uid="HeyBox.WebSocket.BaseSocketClient.InteractionCreated">
+  InteractionCreated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.Event.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当交互被创建时引发，此事件涵盖了所有类型的交互。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketInteraction, Task&gt; InteractionCreated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketInteraction.html">SocketInteraction</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_JoinedRoom" data-uid="HeyBox.WebSocket.BaseSocketClient.JoinedRoom">
+  JoinedRoom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.Event.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当当前用户新加入服务器时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketRoom, Task&gt; JoinedRoom</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketRoom.html">SocketRoom</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_JoinedRoom_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li><a class="xref" href="HeyBox.WebSocket.SocketRoom.html">SocketRoom</a> 参数是当前用户新加入的服务器。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_LeftRoom" data-uid="HeyBox.WebSocket.BaseSocketClient.LeftRoom">
+  LeftRoom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.Event.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当当前用户离开服务器时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketRoom, Task&gt; LeftRoom</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketRoom.html">SocketRoom</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_LeftRoom_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li><a class="xref" href="HeyBox.WebSocket.SocketRoom.html">SocketRoom</a> 参数是当前用户离开的服务器。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_ReactionAdded" data-uid="HeyBox.WebSocket.BaseSocketClient.ReactionAdded">
+  ReactionAdded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.Event.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当服务器内的消息上被添加了新的回应时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;Cacheable&lt;IUserMessage, ulong&gt;, Cacheable&lt;SocketTextChannel, ulong&gt;, Cacheable&lt;SocketRoomUser, uint&gt;, SocketReaction, Task&gt; ReactionAdded</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-5">Func</a>&lt;<a class="xref" href="HeyBox.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;, <a class="xref" href="HeyBox.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketTextChannel.html">SocketTextChannel</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;, <a class="xref" href="HeyBox.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketRoomUser.html">SocketRoomUser</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;, <a class="xref" href="HeyBox.WebSocket.SocketReaction.html">SocketReaction</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_ReactionAdded_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li><a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是被添加了回应的可缓存消息。如果缓存中存在此消息实体，那么该结构内包含该
+    <a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a> 消息；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 消息 ID，以供按需下载实体。
+</li><li><a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是消息所在的频道。如果缓存中存在此频道实体，那么该结构内包含该
+    <a class="xref" href="HeyBox.WebSocket.SocketTextChannel.html">SocketTextChannel</a> 频道；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 频道 ID，以供按需下载实体。
+</li><li><a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是添加了此回应的可缓存服务器用户。如果缓存中存在此服务器用户实体，那么该结构内包含该
+    <a class="xref" href="HeyBox.WebSocket.SocketRoomUser.html">SocketRoomUser</a> 服务器用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a> 用户 ID，以供按需下载实体。
+</li><li><a class="xref" href="HeyBox.WebSocket.SocketReaction.html">SocketReaction</a> 参数是被添加的回应。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_ReactionRemoved" data-uid="HeyBox.WebSocket.BaseSocketClient.ReactionRemoved">
+  ReactionRemoved
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.Event.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当服务器内的消息上存在的回应被用户移除时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;Cacheable&lt;IUserMessage, ulong&gt;, Cacheable&lt;SocketTextChannel, ulong&gt;, Cacheable&lt;SocketRoomUser, uint&gt;, SocketReaction, Task&gt; ReactionRemoved</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-5">Func</a>&lt;<a class="xref" href="HeyBox.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;, <a class="xref" href="HeyBox.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketTextChannel.html">SocketTextChannel</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;, <a class="xref" href="HeyBox.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketRoomUser.html">SocketRoomUser</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;, <a class="xref" href="HeyBox.WebSocket.SocketReaction.html">SocketReaction</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_ReactionRemoved_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li><a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是被移除了回应的可缓存消息。如果缓存中存在此消息实体，那么该结构内包含该
+    <a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a> 消息；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 消息 ID，以供按需下载实体。
+</li><li><a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是消息所在的频道。如果缓存中存在此频道实体，那么该结构内包含该
+    <a class="xref" href="HeyBox.WebSocket.SocketTextChannel.html">SocketTextChannel</a> 频道；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 频道 ID，以供按需下载实体。
+</li><li><a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是移除了此回应的可缓存服务器用户。如果缓存中存在此服务器用户实体，那么该结构内包含该
+    <a class="xref" href="HeyBox.WebSocket.SocketRoomUser.html">SocketRoomUser</a> 服务器用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a> 用户 ID，以供按需下载实体。
+</li><li><a class="xref" href="HeyBox.WebSocket.SocketReaction.html">SocketReaction</a> 参数是被移除的回应。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_SlashCommandExecuted" data-uid="HeyBox.WebSocket.BaseSocketClient.SlashCommandExecuted">
+  SlashCommandExecuted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.Event.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当用户使用斜线命令时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketSlashCommand, Task&gt; SlashCommandExecuted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketSlashCommand.html">SocketSlashCommand</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_UserJoined" data-uid="HeyBox.WebSocket.BaseSocketClient.UserJoined">
+  UserJoined
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.Event.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当用户加入房间时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketRoomUser, Task&gt; UserJoined</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketRoomUser.html">SocketRoomUser</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_UserJoined_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li><a class="xref" href="HeyBox.WebSocket.SocketRoomUser.html">SocketRoomUser</a> 参数是加入房间的房间用户。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_UserLeft" data-uid="HeyBox.WebSocket.BaseSocketClient.UserLeft">
+  UserLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.Event.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当用户离开房间时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketRoomUser, Task&gt; UserLeft</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketRoomUser.html">SocketRoomUser</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_UserLeft_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li><a class="xref" href="HeyBox.WebSocket.SocketRoomUser.html">SocketRoomUser</a> 参数是离开房间的房间用户。 </li></ol>
+</div>
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L9" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.Event.cs/#L3" class="edit-link">Edit this page</a>
         </div>
 
 

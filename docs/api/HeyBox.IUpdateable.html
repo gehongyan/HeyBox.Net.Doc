@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace HeyBox.Rest | HeyBox.Net 文档 </title>
+      <title>Interface IUpdateable | HeyBox.Net 文档 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace HeyBox.Rest | HeyBox.Net 文档 ">
+      <meta name="title" content="Interface IUpdateable | HeyBox.Net 文档 ">
       
-      
+      <meta name="description" content="表示一个可以被更新的实体对象。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_IUpdateable.md&amp;value=---%0Auid%3A%20HeyBox.IUpdateable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,99 +84,95 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="HeyBox.Rest">
+        <article data-uid="HeyBox.IUpdateable">
 
-  <h1 id="HeyBox_Rest" data-uid="HeyBox.Rest" class="text-break">Namespace HeyBox.Rest</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
 
-    <h3 id="classes">
-Classes
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html">BaseHeyBoxClient</a></dt>
-      <dd><p>表示一个可以连接到 HeyBox API 的通用的 HeyBox Bot 客户端。</p>
+
+  <h1 id="HeyBox_IUpdateable" data-uid="HeyBox.IUpdateable" class="text-break">
+Interface IUpdateable  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/IUpdateable.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HeyBox.html">HeyBox</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HeyBox.Net.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>表示一个可以被更新的实体对象。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IUpdateable</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 id="HeyBox_IUpdateable_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>更新操作表示的是从黑盒语音 REST API 获取最新数据并替换当前对象的属性，而非修改黑盒语音服务端的数据。</p>
+</div>
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HeyBox_IUpdateable_UpdateAsync_" data-uid="HeyBox.IUpdateable.UpdateAsync*"></a>
+
+  <h3 id="HeyBox_IUpdateable_UpdateAsync_HeyBox_RequestOptions_" data-uid="HeyBox.IUpdateable.UpdateAsync(HeyBox.RequestOptions)">
+  UpdateAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/IUpdateable.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>通过 REST API 获取此实体对象的最新状态，并替换当前对象的属性。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task UpdateAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.HeyBoxRestClient.html">HeyBoxRestClient</a></dt>
-      <dd><p>表示一个基于 REST 的 HeyBox 客户端。</p>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步更新操作的任务。</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.HeyBoxRestConfig.html">HeyBoxRestConfig</a></dt>
-      <dd><p>定义 HeyBox.Net 有关 REST 各种行为的配置类。</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestChannel.html">RestChannel</a></dt>
-      <dd><p>表示一个基于 REST 的频道。</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestEntity-1.html">RestEntity&lt;TId&gt;</a></dt>
-      <dd><p>表示一个基于 REST 的具有唯一标识符的实体。</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestMessage.html">RestMessage</a></dt>
-      <dd><p>表示一个基于 REST 的通用消息。</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestRole.html">RestRole</a></dt>
-      <dd><p>表示一个基于 REST 的身份组。</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestRoom.html">RestRoom</a></dt>
-      <dd><p>表示一个基于 REST 的房间。</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestRoomChannel.html">RestRoomChannel</a></dt>
-      <dd><p>表示一个基于 REST 的房间频道。</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestRoomUser.html">RestRoomUser</a></dt>
-      <dd><p>表示一个基于 REST 的房间用户。</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestSelfUser.html">RestSelfUser</a></dt>
-      <dd><p>表示一个基于 REST 的当前登录的用户信息。</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestTextChannel.html">RestTextChannel</a></dt>
-      <dd><p>表示房间中一个基于 REST 的具有文字聊天能力的频道，可以发送和接收消息。</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestUser.html">RestUser</a></dt>
-      <dd><p>表示一个基于 REST 的用户。</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.RestUserMessage.html">RestUserMessage</a></dt>
-      <dd><p>表示一个基于 REST 的用户消息。</p>
-</dd>
-    </dl>
-    <h3 id="interfaces">
-Interfaces
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="HeyBox.Rest.IRestMessageChannel.html">IRestMessageChannel</a></dt>
-      <dd><p>表示一个基于 REST 的通用的消息频道，可以用来发送和接收消息。</p>
-</dd>
-    </dl>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_IUpdateable_UpdateAsync_HeyBox_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><div class="WARNING"><h5>warning</h5><p>
+        此方法将从黑盒语音 REST API 获取最新数据，并替换当前对象的属性，而非使用指定的属性修改黑盒语音服务端的数据。
+    </p></div>
+</div>
+
+
+
 
 
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/IUpdateable.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
 

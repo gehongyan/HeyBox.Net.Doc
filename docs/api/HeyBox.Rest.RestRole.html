@@ -89,7 +89,7 @@
 
 
   <h1 id="HeyBox_Rest_RestRole" data-uid="HeyBox.Rest.RestRole" class="text-break">
-Class RestRole  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Class RestRole  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class RestRole  <a class="header-action link-secondary" title="View source" href
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RestRole : RestEntity&lt;ulong&gt;, IRole, IEntity&lt;ulong&gt;, IMentionable</code></pre>
+    <pre><code class="lang-csharp hljs">public class RestRole : RestEntity&lt;ulong&gt;, IRole, IEntity&lt;ulong&gt;, IMentionable, IDeletable</code></pre>
   </div>
 
 
@@ -123,6 +123,7 @@ Class RestRole  <a class="header-action link-secondary" title="View source" href
       <div><a class="xref" href="HeyBox.IRole.html">IRole</a></div>
       <div><a class="xref" href="HeyBox.IEntity-1.html">IEntity</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</div>
       <div><a class="xref" href="HeyBox.IMentionable.html">IMentionable</a></div>
+      <div><a class="xref" href="HeyBox.IDeletable.html">IDeletable</a></div>
     </dd>
   </dl>
 
@@ -168,11 +169,210 @@ Class RestRole  <a class="header-action link-secondary" title="View source" href
 </h2>
 
 
+  <a id="HeyBox_Rest_RestRole_Color_" data-uid="HeyBox.Rest.RestRole.Color*"></a>
+
+  <h3 id="HeyBox_Rest_RestRole_Color" data-uid="HeyBox.Rest.RestRole.Color">
+  Color
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此角色的颜色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color Color { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Color.html">Color</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="HeyBox_Rest_RestRole_Color_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>如果此用户所拥有的最高角色的颜色类型为渐变色，则此属性返回的颜色是渐变色权益失效后的回退颜色。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Rest_RestRole_ColorType_" data-uid="HeyBox.Rest.RestRole.ColorType*"></a>
+
+  <h3 id="HeyBox_Rest_RestRole_ColorType" data-uid="HeyBox.Rest.RestRole.ColorType">
+  ColorType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此角色的颜色类型。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ColorType ColorType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.ColorType.html">ColorType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestRole_CreatedAt_" data-uid="HeyBox.Rest.RestRole.CreatedAt*"></a>
+
+  <h3 id="HeyBox_Rest_RestRole_CreatedAt" data-uid="HeyBox.Rest.RestRole.CreatedAt">
+  CreatedAt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此角色的创建时间。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? CreatedAt { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestRole_CreatorId_" data-uid="HeyBox.Rest.RestRole.CreatorId*"></a>
+
+  <h3 id="HeyBox_Rest_RestRole_CreatorId" data-uid="HeyBox.Rest.RestRole.CreatorId">
+  CreatorId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此角色的创建者 ID。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong CreatorId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestRole_GradientColor_" data-uid="HeyBox.Rest.RestRole.GradientColor*"></a>
+
+  <h3 id="HeyBox_Rest_RestRole_GradientColor" data-uid="HeyBox.Rest.RestRole.GradientColor">
+  GradientColor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此角色的渐变色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GradientColor? GradientColor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.GradientColor.html">GradientColor</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="HeyBox_Rest_RestRole_GradientColor_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>如果此角色的颜色类型 <a class="xref" href="HeyBox.IRole.html#HeyBox_IRole_ColorType">ColorType</a> 不为
+<a class="xref" href="HeyBox.ColorType.html#HeyBox_ColorType_Gradient">Gradient</a>，则此属性会返回 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_Rest_RestRole_Icon_" data-uid="HeyBox.Rest.RestRole.Icon*"></a>
+
+  <h3 id="HeyBox_Rest_RestRole_Icon" data-uid="HeyBox.Rest.RestRole.Icon">
+  Icon
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此角色的图标。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Icon { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="HeyBox_Rest_RestRole_IsEveryone_" data-uid="HeyBox.Rest.RestRole.IsEveryone*"></a>
 
   <h3 id="HeyBox_Rest_RestRole_IsEveryone" data-uid="HeyBox.Rest.RestRole.IsEveryone">
   IsEveryone
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此角色是否为 <code>@全体成员</code> 全体成员角色。</p>
@@ -200,11 +400,75 @@ Class RestRole  <a class="header-action link-secondary" title="View source" href
 
 
 
+  <a id="HeyBox_Rest_RestRole_IsHoisted_" data-uid="HeyBox.Rest.RestRole.IsHoisted*"></a>
+
+  <h3 id="HeyBox_Rest_RestRole_IsHoisted" data-uid="HeyBox.Rest.RestRole.IsHoisted">
+  IsHoisted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取拥有此角色的用户是否在用户列表中与普通在线成员分开显示。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsHoisted { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestRole_IsMentionable_" data-uid="HeyBox.Rest.RestRole.IsMentionable*"></a>
+
+  <h3 id="HeyBox_Rest_RestRole_IsMentionable" data-uid="HeyBox.Rest.RestRole.IsMentionable">
+  IsMentionable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取是否允许任何人提及此角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMentionable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="HeyBox_Rest_RestRole_Mention_" data-uid="HeyBox.Rest.RestRole.Mention*"></a>
 
   <h3 id="HeyBox_Rest_RestRole_Mention" data-uid="HeyBox.Rest.RestRole.Mention">
   Mention
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个用于提及此对象的格式化字符串。</p>
@@ -232,11 +496,110 @@ Class RestRole  <a class="header-action link-secondary" title="View source" href
 
 
 
+  <a id="HeyBox_Rest_RestRole_Name_" data-uid="HeyBox.Rest.RestRole.Name*"></a>
+
+  <h3 id="HeyBox_Rest_RestRole_Name" data-uid="HeyBox.Rest.RestRole.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此角色的名称。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestRole_Permissions_" data-uid="HeyBox.Rest.RestRole.Permissions*"></a>
+
+  <h3 id="HeyBox_Rest_RestRole_Permissions" data-uid="HeyBox.Rest.RestRole.Permissions">
+  Permissions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此角色拥有的权限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoomPermissions Permissions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.RoomPermissions.html">RoomPermissions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestRole_Position_" data-uid="HeyBox.Rest.RestRole.Position*"></a>
+
+  <h3 id="HeyBox_Rest_RestRole_Position" data-uid="HeyBox.Rest.RestRole.Position">
+  Position
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此角色在房间角色列表中的位置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Position { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="HeyBox_Rest_RestRole_Position_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>更小的数值表示更靠近列表顶部的位置。</p>
+</div>
+
+
+
+
   <a id="HeyBox_Rest_RestRole_Room_" data-uid="HeyBox.Rest.RestRole.Room*"></a>
 
   <h3 id="HeyBox_Rest_RestRole_Room" data-uid="HeyBox.Rest.RestRole.Room">
   Room
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取拥有此角色的房间。</p>
@@ -264,11 +627,130 @@ Class RestRole  <a class="header-action link-secondary" title="View source" href
 
 
 
+  <a id="HeyBox_Rest_RestRole_Type_" data-uid="HeyBox.Rest.RestRole.Type*"></a>
+
+  <h3 id="HeyBox_Rest_RestRole_Type" data-uid="HeyBox.Rest.RestRole.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此角色的类型。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoleType Type { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.RoleType.html">RoleType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HeyBox_Rest_RestRole_DeleteAsync_" data-uid="HeyBox.Rest.RestRole.DeleteAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestRole_DeleteAsync_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRole.DeleteAsync(HeyBox.RequestOptions)">
+  DeleteAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>删除此对实体象及其所有子实体对象。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestRole_ModifyAsync_" data-uid="HeyBox.Rest.RestRole.ModifyAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestRole_ModifyAsync_System_Action_HeyBox_RoleProperties__HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRole.ModifyAsync(System.Action{HeyBox.RoleProperties},HeyBox.RequestOptions)">
+  ModifyAsync(Action&lt;RoleProperties&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改此角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ModifyAsync(Action&lt;RoleProperties&gt; func, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="HeyBox.RoleProperties.html">RoleProperties</a>&gt;</dt>
+    <dd><p>一个包含修改角色属性的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步修改操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_Rest_RestRole_ModifyAsync_System_Action_HeyBox_RoleProperties__HeyBox_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法使用指定的属性修改当前角色信息。要查看可用的属性，请参考 <a class="xref" href="HeyBox.RoleProperties.html">RoleProperties</a>。</p>
+</div>
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Roles/RestRole.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
 
