@@ -461,7 +461,7 @@ Class SocketRoom  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="HeyBox_WebSocket_SocketRoom_CreateRoleAsync_System_Action_HeyBox_RoleProperties__HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoom.CreateRoleAsync(System.Action{HeyBox.RoleProperties},HeyBox.RequestOptions)">
   CreateRoleAsync(Action&lt;RoleProperties&gt;, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L193"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在此房间内创建一个新角色。</p>
@@ -506,7 +506,7 @@ Class SocketRoom  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="HeyBox_WebSocket_SocketRoom_DeleteEmoteAsync_HeyBox_RoomEmote_HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoom.DeleteEmoteAsync(HeyBox.RoomEmote,HeyBox.RequestOptions)">
   DeleteEmoteAsync(RoomEmote, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L310"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>删除此服务器内的现有自定义小表情。</p>
@@ -548,7 +548,7 @@ Class SocketRoom  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="HeyBox_WebSocket_SocketRoom_DeleteStickerAsync_HeyBox_RoomSticker_HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoom.DeleteStickerAsync(HeyBox.RoomSticker,HeyBox.RequestOptions)">
   DeleteStickerAsync(RoomSticker, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L326"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L334"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>删除此服务器内的现有自定义大表情。</p>
@@ -585,11 +585,50 @@ Class SocketRoom  <a class="header-action link-secondary" title="View source" hr
 
 
 
+  <a id="HeyBox_WebSocket_SocketRoom_GetChannel_" data-uid="HeyBox.WebSocket.SocketRoom.GetChannel*"></a>
+
+  <h3 id="HeyBox_WebSocket_SocketRoom_GetChannel_System_UInt64_" data-uid="HeyBox.WebSocket.SocketRoom.GetChannel(System.UInt64)">
+  GetChannel(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此房间内的频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SocketRoomChannel GetChannel(ulong id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的频道的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.WebSocket.SocketRoomChannel.html">SocketRoomChannel</a></dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含与指定的 <code class="paramref">id</code> 关联的频道；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="HeyBox_WebSocket_SocketRoom_GetEmoteAsync_" data-uid="HeyBox.WebSocket.SocketRoom.GetEmoteAsync*"></a>
 
   <h3 id="HeyBox_WebSocket_SocketRoom_GetEmoteAsync_System_UInt64_HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoom.GetEmoteAsync(System.UInt64,HeyBox.RequestOptions)">
   GetEmoteAsync(ulong, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L298"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此服务器的指定自定义小表情。</p>
@@ -631,7 +670,7 @@ Class SocketRoom  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="HeyBox_WebSocket_SocketRoom_GetEmotesAsync_HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoom.GetEmotesAsync(HeyBox.RequestOptions)">
   GetEmotesAsync(RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L290"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此服务器的所有自定义小表情。</p>
@@ -670,7 +709,7 @@ Class SocketRoom  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="HeyBox_WebSocket_SocketRoom_GetRole_System_UInt64_" data-uid="HeyBox.WebSocket.SocketRoom.GetRole(System.UInt64)">
   GetRole(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L190"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此房间内的角色。</p>
@@ -709,7 +748,7 @@ Class SocketRoom  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="HeyBox_WebSocket_SocketRoom_GetStickerAsync_System_UInt64_HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoom.GetStickerAsync(System.UInt64,HeyBox.RequestOptions)">
   GetStickerAsync(ulong, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L322"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此服务器的指定自定义大表情。</p>
@@ -751,7 +790,7 @@ Class SocketRoom  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="HeyBox_WebSocket_SocketRoom_GetStickersAsync_HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoom.GetStickersAsync(HeyBox.RequestOptions)">
   GetStickersAsync(RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L314"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此服务器的所有自定义大表情。</p>
@@ -790,7 +829,7 @@ Class SocketRoom  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="HeyBox_WebSocket_SocketRoom_GetTextChannel_System_UInt64_" data-uid="HeyBox.WebSocket.SocketRoom.GetTextChannel(System.UInt64)">
   GetTextChannel(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L145"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此房间内指定具有文字聊天能力的频道。</p>
@@ -833,7 +872,7 @@ Class SocketRoom  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="HeyBox_WebSocket_SocketRoom_GetUser_System_UInt64_" data-uid="HeyBox.WebSocket.SocketRoom.GetUser(System.UInt64)">
   GetUser(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L226"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此房间内的用户。</p>
@@ -875,7 +914,7 @@ Class SocketRoom  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="HeyBox_WebSocket_SocketRoom_ModifyEmoteAsync_HeyBox_RoomEmote_System_Action_HeyBox_EmoteProperties__HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoom.ModifyEmoteAsync(HeyBox.RoomEmote,System.Action{HeyBox.EmoteProperties},HeyBox.RequestOptions)">
   ModifyEmoteAsync(RoomEmote, Action&lt;EmoteProperties&gt;, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L298"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L306"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>修改此服务器内的现有自定义小表情。</p>
@@ -920,7 +959,7 @@ Class SocketRoom  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="HeyBox_WebSocket_SocketRoom_ModifyStickerAsync_HeyBox_RoomSticker_System_Action_HeyBox_EmoteProperties__HeyBox_RequestOptions_" data-uid="HeyBox.WebSocket.SocketRoom.ModifyStickerAsync(HeyBox.RoomSticker,System.Action{HeyBox.EmoteProperties},HeyBox.RequestOptions)">
   ModifyStickerAsync(RoomSticker, Action&lt;EmoteProperties&gt;, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L322"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L330"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>修改此服务器内的现有自定义大表情。</p>
@@ -964,7 +1003,7 @@ Class SocketRoom  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="HeyBox_WebSocket_SocketRoom_PurgeUserCache" data-uid="HeyBox.WebSocket.SocketRoom.PurgeUserCache">
   PurgeUserCache()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L263"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>清除此房间的用户缓存。</p>
@@ -991,7 +1030,7 @@ Class SocketRoom  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="HeyBox_WebSocket_SocketRoom_PurgeUserCache_System_Predicate_HeyBox_WebSocket_SocketRoomUser__" data-uid="HeyBox.WebSocket.SocketRoom.PurgeUserCache(System.Predicate{HeyBox.WebSocket.SocketRoomUser})">
   PurgeUserCache(Predicate&lt;SocketRoomUser&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L261"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/Entitites/Rooms/SocketRoom.cs/#L269"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>清除此房间的用户缓存。</p>

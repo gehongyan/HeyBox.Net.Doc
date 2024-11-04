@@ -2073,6 +2073,22 @@ references:
   commentId: T:HeyBox.IChannel
   fullName: HeyBox.IChannel
   nameWithType: IChannel
+- uid: HeyBox.IChannel.GetUserAsync(System.UInt32,HeyBox.CacheMode,HeyBox.RequestOptions)
+  name: GetUserAsync(uint, CacheMode, RequestOptions?)
+  href: api/HeyBox.IChannel.html#HeyBox_IChannel_GetUserAsync_System_UInt32_HeyBox_CacheMode_HeyBox_RequestOptions_
+  commentId: M:HeyBox.IChannel.GetUserAsync(System.UInt32,HeyBox.CacheMode,HeyBox.RequestOptions)
+  name.vb: GetUserAsync(UInteger, CacheMode, RequestOptions)
+  fullName: HeyBox.IChannel.GetUserAsync(uint, HeyBox.CacheMode, HeyBox.RequestOptions?)
+  fullName.vb: HeyBox.IChannel.GetUserAsync(UInteger, HeyBox.CacheMode, HeyBox.RequestOptions)
+  nameWithType: IChannel.GetUserAsync(uint, CacheMode, RequestOptions?)
+  nameWithType.vb: IChannel.GetUserAsync(UInteger, CacheMode, RequestOptions)
+- uid: HeyBox.IChannel.GetUserAsync*
+  name: GetUserAsync
+  href: api/HeyBox.IChannel.html#HeyBox_IChannel_GetUserAsync_
+  commentId: Overload:HeyBox.IChannel.GetUserAsync
+  isSpec: "True"
+  fullName: HeyBox.IChannel.GetUserAsync
+  nameWithType: IChannel.GetUserAsync
 - uid: HeyBox.IChannel.Name
   name: Name
   href: api/HeyBox.IChannel.html#HeyBox_IChannel_Name
@@ -3205,6 +3221,22 @@ references:
   isSpec: "True"
   fullName: HeyBox.IRoom.EveryoneRole
   nameWithType: IRoom.EveryoneRole
+- uid: HeyBox.IRoom.GetChannelAsync(System.UInt64,HeyBox.CacheMode,HeyBox.RequestOptions)
+  name: GetChannelAsync(ulong, CacheMode, RequestOptions?)
+  href: api/HeyBox.IRoom.html#HeyBox_IRoom_GetChannelAsync_System_UInt64_HeyBox_CacheMode_HeyBox_RequestOptions_
+  commentId: M:HeyBox.IRoom.GetChannelAsync(System.UInt64,HeyBox.CacheMode,HeyBox.RequestOptions)
+  name.vb: GetChannelAsync(ULong, CacheMode, RequestOptions)
+  fullName: HeyBox.IRoom.GetChannelAsync(ulong, HeyBox.CacheMode, HeyBox.RequestOptions?)
+  fullName.vb: HeyBox.IRoom.GetChannelAsync(ULong, HeyBox.CacheMode, HeyBox.RequestOptions)
+  nameWithType: IRoom.GetChannelAsync(ulong, CacheMode, RequestOptions?)
+  nameWithType.vb: IRoom.GetChannelAsync(ULong, CacheMode, RequestOptions)
+- uid: HeyBox.IRoom.GetChannelAsync*
+  name: GetChannelAsync
+  href: api/HeyBox.IRoom.html#HeyBox_IRoom_GetChannelAsync_
+  commentId: Overload:HeyBox.IRoom.GetChannelAsync
+  isSpec: "True"
+  fullName: HeyBox.IRoom.GetChannelAsync
+  nameWithType: IRoom.GetChannelAsync
 - uid: HeyBox.IRoom.GetEmoteAsync(System.UInt64,HeyBox.RequestOptions)
   name: GetEmoteAsync(ulong, RequestOptions?)
   href: api/HeyBox.IRoom.html#HeyBox_IRoom_GetEmoteAsync_System_UInt64_HeyBox_RequestOptions_
@@ -12491,6 +12523,22 @@ references:
   isSpec: "True"
   fullName: HeyBox.Rest.RestRoom.EveryoneRole
   nameWithType: RestRoom.EveryoneRole
+- uid: HeyBox.Rest.RestRoom.GetChannelAsync(System.UInt64,HeyBox.RequestOptions)
+  name: GetChannelAsync(ulong, RequestOptions?)
+  href: api/HeyBox.Rest.RestRoom.html#HeyBox_Rest_RestRoom_GetChannelAsync_System_UInt64_HeyBox_RequestOptions_
+  commentId: M:HeyBox.Rest.RestRoom.GetChannelAsync(System.UInt64,HeyBox.RequestOptions)
+  name.vb: GetChannelAsync(ULong, RequestOptions)
+  fullName: HeyBox.Rest.RestRoom.GetChannelAsync(ulong, HeyBox.RequestOptions?)
+  fullName.vb: HeyBox.Rest.RestRoom.GetChannelAsync(ULong, HeyBox.RequestOptions)
+  nameWithType: RestRoom.GetChannelAsync(ulong, RequestOptions?)
+  nameWithType.vb: RestRoom.GetChannelAsync(ULong, RequestOptions)
+- uid: HeyBox.Rest.RestRoom.GetChannelAsync*
+  name: GetChannelAsync
+  href: api/HeyBox.Rest.RestRoom.html#HeyBox_Rest_RestRoom_GetChannelAsync_
+  commentId: Overload:HeyBox.Rest.RestRoom.GetChannelAsync
+  isSpec: "True"
+  fullName: HeyBox.Rest.RestRoom.GetChannelAsync
+  nameWithType: RestRoom.GetChannelAsync
 - uid: HeyBox.Rest.RestRoom.GetEmoteAsync(System.UInt64,HeyBox.RequestOptions)
   name: GetEmoteAsync(ulong, RequestOptions?)
   href: api/HeyBox.Rest.RestRoom.html#HeyBox_Rest_RestRoom_GetEmoteAsync_System_UInt64_HeyBox_RequestOptions_
@@ -15483,6 +15531,22 @@ references:
   commentId: T:HeyBox.WebSocket.SocketChannel
   fullName: HeyBox.WebSocket.SocketChannel
   nameWithType: SocketChannel
+- uid: HeyBox.WebSocket.SocketChannel.GetUser(System.UInt64)
+  name: GetUser(ulong)
+  href: api/HeyBox.WebSocket.SocketChannel.html#HeyBox_WebSocket_SocketChannel_GetUser_System_UInt64_
+  commentId: M:HeyBox.WebSocket.SocketChannel.GetUser(System.UInt64)
+  name.vb: GetUser(ULong)
+  fullName: HeyBox.WebSocket.SocketChannel.GetUser(ulong)
+  fullName.vb: HeyBox.WebSocket.SocketChannel.GetUser(ULong)
+  nameWithType: SocketChannel.GetUser(ulong)
+  nameWithType.vb: SocketChannel.GetUser(ULong)
+- uid: HeyBox.WebSocket.SocketChannel.GetUser*
+  name: GetUser
+  href: api/HeyBox.WebSocket.SocketChannel.html#HeyBox_WebSocket_SocketChannel_GetUser_
+  commentId: Overload:HeyBox.WebSocket.SocketChannel.GetUser
+  isSpec: "True"
+  fullName: HeyBox.WebSocket.SocketChannel.GetUser
+  nameWithType: SocketChannel.GetUser
 - uid: HeyBox.WebSocket.SocketEntity`1
   name: SocketEntity<TId>
   href: api/HeyBox.WebSocket.SocketEntity-1.html
@@ -16140,6 +16204,22 @@ references:
   isSpec: "True"
   fullName: HeyBox.WebSocket.SocketRoom.EveryoneRole
   nameWithType: SocketRoom.EveryoneRole
+- uid: HeyBox.WebSocket.SocketRoom.GetChannel(System.UInt64)
+  name: GetChannel(ulong)
+  href: api/HeyBox.WebSocket.SocketRoom.html#HeyBox_WebSocket_SocketRoom_GetChannel_System_UInt64_
+  commentId: M:HeyBox.WebSocket.SocketRoom.GetChannel(System.UInt64)
+  name.vb: GetChannel(ULong)
+  fullName: HeyBox.WebSocket.SocketRoom.GetChannel(ulong)
+  fullName.vb: HeyBox.WebSocket.SocketRoom.GetChannel(ULong)
+  nameWithType: SocketRoom.GetChannel(ulong)
+  nameWithType.vb: SocketRoom.GetChannel(ULong)
+- uid: HeyBox.WebSocket.SocketRoom.GetChannel*
+  name: GetChannel
+  href: api/HeyBox.WebSocket.SocketRoom.html#HeyBox_WebSocket_SocketRoom_GetChannel_
+  commentId: Overload:HeyBox.WebSocket.SocketRoom.GetChannel
+  isSpec: "True"
+  fullName: HeyBox.WebSocket.SocketRoom.GetChannel
+  nameWithType: SocketRoom.GetChannel
 - uid: HeyBox.WebSocket.SocketRoom.GetEmoteAsync(System.UInt64,HeyBox.RequestOptions)
   name: GetEmoteAsync(ulong, RequestOptions?)
   href: api/HeyBox.WebSocket.SocketRoom.html#HeyBox_WebSocket_SocketRoom_GetEmoteAsync_System_UInt64_HeyBox_RequestOptions_
@@ -16406,6 +16486,22 @@ references:
   commentId: T:HeyBox.WebSocket.SocketRoomChannel
   fullName: HeyBox.WebSocket.SocketRoomChannel
   nameWithType: SocketRoomChannel
+- uid: HeyBox.WebSocket.SocketRoomChannel.GetUser(System.UInt64)
+  name: GetUser(ulong)
+  href: api/HeyBox.WebSocket.SocketRoomChannel.html#HeyBox_WebSocket_SocketRoomChannel_GetUser_System_UInt64_
+  commentId: M:HeyBox.WebSocket.SocketRoomChannel.GetUser(System.UInt64)
+  name.vb: GetUser(ULong)
+  fullName: HeyBox.WebSocket.SocketRoomChannel.GetUser(ulong)
+  fullName.vb: HeyBox.WebSocket.SocketRoomChannel.GetUser(ULong)
+  nameWithType: SocketRoomChannel.GetUser(ulong)
+  nameWithType.vb: SocketRoomChannel.GetUser(ULong)
+- uid: HeyBox.WebSocket.SocketRoomChannel.GetUser*
+  name: GetUser
+  href: api/HeyBox.WebSocket.SocketRoomChannel.html#HeyBox_WebSocket_SocketRoomChannel_GetUser_
+  commentId: Overload:HeyBox.WebSocket.SocketRoomChannel.GetUser
+  isSpec: "True"
+  fullName: HeyBox.WebSocket.SocketRoomChannel.GetUser
+  nameWithType: SocketRoomChannel.GetUser
 - uid: HeyBox.WebSocket.SocketRoomChannel.Name
   name: Name
   href: api/HeyBox.WebSocket.SocketRoomChannel.html#HeyBox_WebSocket_SocketRoomChannel_Name
@@ -16880,6 +16976,22 @@ references:
   commentId: T:HeyBox.WebSocket.SocketTextChannel
   fullName: HeyBox.WebSocket.SocketTextChannel
   nameWithType: SocketTextChannel
+- uid: HeyBox.WebSocket.SocketTextChannel.GetUser(System.UInt64)
+  name: GetUser(ulong)
+  href: api/HeyBox.WebSocket.SocketTextChannel.html#HeyBox_WebSocket_SocketTextChannel_GetUser_System_UInt64_
+  commentId: M:HeyBox.WebSocket.SocketTextChannel.GetUser(System.UInt64)
+  name.vb: GetUser(ULong)
+  fullName: HeyBox.WebSocket.SocketTextChannel.GetUser(ulong)
+  fullName.vb: HeyBox.WebSocket.SocketTextChannel.GetUser(ULong)
+  nameWithType: SocketTextChannel.GetUser(ulong)
+  nameWithType.vb: SocketTextChannel.GetUser(ULong)
+- uid: HeyBox.WebSocket.SocketTextChannel.GetUser*
+  name: GetUser
+  href: api/HeyBox.WebSocket.SocketTextChannel.html#HeyBox_WebSocket_SocketTextChannel_GetUser_
+  commentId: Overload:HeyBox.WebSocket.SocketTextChannel.GetUser
+  isSpec: "True"
+  fullName: HeyBox.WebSocket.SocketTextChannel.GetUser
+  nameWithType: SocketTextChannel.GetUser
 - uid: HeyBox.WebSocket.SocketTextChannel.Mention
   name: Mention
   href: api/HeyBox.WebSocket.SocketTextChannel.html#HeyBox_WebSocket_SocketTextChannel_Mention
