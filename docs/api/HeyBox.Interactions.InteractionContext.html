@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class InteractionContext | HeyBox.Net 文档 ">
       
-      <meta name="description" content="Represents the context of an Interaction.">
+      <meta name="description" content="表示一次交互的上下文。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -97,7 +97,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
   <dl><dt>Assembly</dt><dd>HeyBox.Net.Interactions.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Represents the context of an Interaction.</p>
+  <div class="markdown summary"><p>表示一次交互的上下文。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -178,7 +178,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>client</code> <a class="xref" href="HeyBox.IHeyBoxClient.html">IHeyBoxClient</a></dt>
-    <dd><p>HeyBox 客户端。</p>
+    <dd><p>黑盒语音客户端。</p>
 </dd>
     <dt><code>interaction</code> <a class="xref" href="HeyBox.IHeyBoxInteraction.html">IHeyBoxInteraction</a></dt>
     <dd><p>交互事件。</p>
@@ -213,7 +213,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionContext.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the channel the interaction originated from.</p>
+  <div class="markdown level1 summary"><p>获取本次交互来源的频道。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -245,7 +245,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionContext.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the client that will be used to handle this interaction.</p>
+  <div class="markdown level1 summary"><p>获取用于处理本次交互的客户端。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -277,7 +277,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionContext.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the underlying interaction.</p>
+  <div class="markdown level1 summary"><p>获取底层交互对象。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -309,7 +309,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionContext.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the message ID the interaction originated from.</p>
+  <div class="markdown level1 summary"><p>获取本次交互来源的消息 ID。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -341,7 +341,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionContext.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the guild the interaction originated from.</p>
+  <div class="markdown level1 summary"><p>获取本次交互来源的群组。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -363,7 +363,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
 
 
   <h4 class="section" id="HeyBox_Interactions_InteractionContext_Room_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Will be <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if the interaction originated from a DM channel or the interaction was a Context Command interaction.</p>
+  <div class="markdown level1 remarks"><p>如果交互来源为私聊频道或为上下文命令交互，则为 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>。</p>
 </div>
 
 
@@ -376,7 +376,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionContext.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the application command info that was used to handle this interaction.</p>
+  <div class="markdown level1 summary"><p>获取用于处理本次交互的应用命令信息。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -408,7 +408,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionContext.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the collection of captured route segments in this container.</p>
+  <div class="markdown level1 summary"><p>获取此容器中捕获的路由片段集合。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -423,7 +423,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="HeyBox.IRouteSegmentMatch.html">IRouteSegmentMatch</a>&gt;</dt>
-    <dd><p>A collection of captured route segments.</p>
+    <dd><p>捕获的路由片段集合。</p>
 </dd>
   </dl>
 
@@ -441,7 +441,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionContext.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the user who invoked the interaction event.</p>
+  <div class="markdown level1 summary"><p>获取触发本次交互事件的用户。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -473,7 +473,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionContext.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the user ID who invoked the interaction.</p>
+  <div class="markdown level1 summary"><p>获取触发本次交互的用户 ID。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -509,7 +509,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionContext.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Sets the <a class="xref" href="HeyBox.IRouteMatchContainer.html#HeyBox_IRouteMatchContainer_SegmentMatches">SegmentMatches</a> property of this container.</p>
+  <div class="markdown level1 summary"><p>设置此容器的 <a class="xref" href="HeyBox.IRouteMatchContainer.html#HeyBox_IRouteMatchContainer_SegmentMatches">SegmentMatches</a> 属性。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -520,7 +520,7 @@ Class InteractionContext  <a class="header-action link-secondary" title="View so
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>segmentMatches</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="HeyBox.IRouteSegmentMatch.html">IRouteSegmentMatch</a>&gt;</dt>
-    <dd><p>The collection of captured route segments.</p>
+    <dd><p>捕获的路由片段集合。</p>
 </dd>
   </dl>
 

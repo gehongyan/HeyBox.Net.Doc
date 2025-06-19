@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IDMChannel | HeyBox.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IDMChannel | HeyBox.Net 文档 ">
+      
+      <meta name="description" content="表示一个通用的私聊频道。">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_IDMChannel.md&amp;value=---%0Auid%3A%20HeyBox.IDMChannel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HeyBox.Net 文档">
+            HeyBox.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HeyBox.IDMChannel">
+
+
+
+  <h1 id="HeyBox_IDMChannel" data-uid="HeyBox.IDMChannel" class="text-break">
+Interface IDMChannel  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Channels/IDMChannel.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HeyBox.html">HeyBox</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HeyBox.Net.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>表示一个通用的私聊频道。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IDMChannel : IMessageChannel, IPrivateChannel, IChannel, IEntity&lt;ulong&gt;, IEntity&lt;uint&gt;</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="HeyBox.IMessageChannel.html#HeyBox_IMessageChannel_SendFileAsync_System_String_System_String_HeyBox_AttachmentType_System_Nullable_System_Drawing_Size__HeyBox_IMessageReference_HeyBox_RequestOptions_">IMessageChannel.SendFileAsync(string, string, AttachmentType, Size?, IMessageReference, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.IMessageChannel.html#HeyBox_IMessageChannel_SendFileAsync_System_IO_Stream_System_String_HeyBox_AttachmentType_System_Nullable_System_Drawing_Size__HeyBox_IMessageReference_HeyBox_RequestOptions_">IMessageChannel.SendFileAsync(Stream, string, AttachmentType, Size?, IMessageReference, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.IMessageChannel.html#HeyBox_IMessageChannel_SendFileAsync_HeyBox_FileAttachment_HeyBox_IMessageReference_HeyBox_RequestOptions_">IMessageChannel.SendFileAsync(FileAttachment, IMessageReference, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.IMessageChannel.html#HeyBox_IMessageChannel_SendTextAsync_System_String_System_Collections_Generic_IEnumerable_HeyBox_FileAttachment__HeyBox_IMessageReference_HeyBox_RequestOptions_">IMessageChannel.SendTextAsync(string, IEnumerable&lt;FileAttachment&gt;, IMessageReference, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.IMessageChannel.html#HeyBox_IMessageChannel_SendCardAsync_HeyBox_ICard_HeyBox_IMessageReference_HeyBox_RequestOptions_">IMessageChannel.SendCardAsync(ICard, IMessageReference, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.IMessageChannel.html#HeyBox_IMessageChannel_SendCardsAsync_System_Collections_Generic_IEnumerable_HeyBox_ICard__HeyBox_IMessageReference_HeyBox_RequestOptions_">IMessageChannel.SendCardsAsync(IEnumerable&lt;ICard&gt;, IMessageReference, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.IMessageChannel.html#HeyBox_IMessageChannel_DeleteMessageAsync_System_UInt64_HeyBox_RequestOptions_">IMessageChannel.DeleteMessageAsync(ulong, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.IMessageChannel.html#HeyBox_IMessageChannel_DeleteMessageAsync_HeyBox_IMessage_HeyBox_RequestOptions_">IMessageChannel.DeleteMessageAsync(IMessage, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.IPrivateChannel.html#HeyBox_IPrivateChannel_Recipients">IPrivateChannel.Recipients</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.IChannel.html#HeyBox_IChannel_Name">IChannel.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.IChannel.html#HeyBox_IChannel_GetUserAsync_System_UInt32_HeyBox_CacheMode_HeyBox_RequestOptions_">IChannel.GetUserAsync(uint, CacheMode, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.IEntity-1.html#HeyBox_IEntity_1_IsPopulated">IEntity&lt;ulong&gt;.IsPopulated</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="HeyBox.ChannelExtensions.html#HeyBox_ChannelExtensions_GetChannelType_HeyBox_IChannel_">ChannelExtensions.GetChannelType(IChannel)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="HeyBox_IDMChannel_Id_" data-uid="HeyBox.IDMChannel.Id*"></a>
+
+  <h3 id="HeyBox_IDMChannel_Id" data-uid="HeyBox.IDMChannel.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Channels/IDMChannel.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此私聊频道的唯一标识符。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">uint Id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IDMChannel_Recipient_" data-uid="HeyBox.IDMChannel.Recipient*"></a>
+
+  <h3 id="HeyBox_IDMChannel_Recipient" data-uid="HeyBox.IDMChannel.Recipient">
+  Recipient
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Channels/IDMChannel.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取参与到此私聊频道的另外一位用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IUser Recipient { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.IUser.html">IUser</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HeyBox_IDMChannel_SendCardAsync_" data-uid="HeyBox.IDMChannel.SendCardAsync*"></a>
+
+  <h3 id="HeyBox_IDMChannel_SendCardAsync_HeyBox_ICard_HeyBox_RequestOptions_" data-uid="HeyBox.IDMChannel.SendCardAsync(HeyBox.ICard,HeyBox.RequestOptions)">
+  SendCardAsync(ICard, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Channels/IDMChannel.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发送卡片消息到此消息频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IUserMessage&gt; SendCardAsync(ICard card, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>card</code> <a class="xref" href="HeyBox.ICard.html">ICard</a></dt>
+    <dd><p>要发送的卡片。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送的消息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IDMChannel_SendCardsAsync_" data-uid="HeyBox.IDMChannel.SendCardsAsync*"></a>
+
+  <h3 id="HeyBox_IDMChannel_SendCardsAsync_System_Collections_Generic_IEnumerable_HeyBox_ICard__HeyBox_RequestOptions_" data-uid="HeyBox.IDMChannel.SendCardsAsync(System.Collections.Generic.IEnumerable{HeyBox.ICard},HeyBox.RequestOptions)">
+  SendCardsAsync(IEnumerable&lt;ICard&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Channels/IDMChannel.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发送卡片消息到此消息频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IUserMessage&gt; SendCardsAsync(IEnumerable&lt;ICard&gt; cards, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cards</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="HeyBox.ICard.html">ICard</a>&gt;</dt>
+    <dd><p>要发送的卡片。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送的消息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IDMChannel_SendFileAsync_" data-uid="HeyBox.IDMChannel.SendFileAsync*"></a>
+
+  <h3 id="HeyBox_IDMChannel_SendFileAsync_HeyBox_FileAttachment_HeyBox_RequestOptions_" data-uid="HeyBox.IDMChannel.SendFileAsync(HeyBox.FileAttachment,HeyBox.RequestOptions)">
+  SendFileAsync(FileAttachment, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Channels/IDMChannel.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发送文件到此消息频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IUserMessage&gt; SendFileAsync(FileAttachment attachment, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>attachment</code> <a class="xref" href="HeyBox.FileAttachment.html">FileAttachment</a></dt>
+    <dd><p>文件的附件信息。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送的消息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IDMChannel_SendFileAsync_" data-uid="HeyBox.IDMChannel.SendFileAsync*"></a>
+
+  <h3 id="HeyBox_IDMChannel_SendFileAsync_System_IO_Stream_System_String_HeyBox_AttachmentType_System_Nullable_System_Drawing_Size__HeyBox_RequestOptions_" data-uid="HeyBox.IDMChannel.SendFileAsync(System.IO.Stream,System.String,HeyBox.AttachmentType,System.Nullable{System.Drawing.Size},HeyBox.RequestOptions)">
+  SendFileAsync(Stream, string, AttachmentType, Size?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Channels/IDMChannel.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发送文件到此消息频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IUserMessage&gt; SendFileAsync(Stream stream, string filename, AttachmentType type = AttachmentType.Image, Size? imageSize = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stream</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></dt>
+    <dd><p>文件的流。</p>
+</dd>
+    <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>文件名。</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="HeyBox.AttachmentType.html">AttachmentType</a></dt>
+    <dd><p>文件的媒体类型。</p>
+</dd>
+    <dt><code>imageSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.size">Size</a>?</dt>
+    <dd><p>图片文件的图像尺寸。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送的消息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IDMChannel_SendFileAsync_" data-uid="HeyBox.IDMChannel.SendFileAsync*"></a>
+
+  <h3 id="HeyBox_IDMChannel_SendFileAsync_System_String_System_String_HeyBox_AttachmentType_System_Nullable_System_Drawing_Size__HeyBox_RequestOptions_" data-uid="HeyBox.IDMChannel.SendFileAsync(System.String,System.String,HeyBox.AttachmentType,System.Nullable{System.Drawing.Size},HeyBox.RequestOptions)">
+  SendFileAsync(string, string?, AttachmentType, Size?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Channels/IDMChannel.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发送文件到此消息频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IUserMessage&gt; SendFileAsync(string path, string? filename = null, AttachmentType type = AttachmentType.Image, Size? imageSize = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>文件的路径。</p>
+</dd>
+    <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>文件名。</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="HeyBox.AttachmentType.html">AttachmentType</a></dt>
+    <dd><p>文件的媒体类型。</p>
+</dd>
+    <dt><code>imageSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.size">Size</a>?</dt>
+    <dd><p>图片文件的图像尺寸。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送的消息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IDMChannel_SendTextAsync_" data-uid="HeyBox.IDMChannel.SendTextAsync*"></a>
+
+  <h3 id="HeyBox_IDMChannel_SendTextAsync_System_String_System_Collections_Generic_IEnumerable_HeyBox_FileAttachment__HeyBox_RequestOptions_" data-uid="HeyBox.IDMChannel.SendTextAsync(System.String,System.Collections.Generic.IEnumerable{HeyBox.FileAttachment},HeyBox.RequestOptions)">
+  SendTextAsync(string, IEnumerable&lt;FileAttachment&gt;?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Channels/IDMChannel.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发送文本消息到此私聊消息频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IUserMessage&gt; SendTextAsync(string text, IEnumerable&lt;FileAttachment&gt;? imageFileInfos = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要发送的文本。</p>
+</dd>
+    <dt><code>imageFileInfos</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="HeyBox.FileAttachment.html">FileAttachment</a>&gt;</dt>
+    <dd><p>图片文件的信息。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送的消息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Channels/IDMChannel.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          HeyBox.Net (c) 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

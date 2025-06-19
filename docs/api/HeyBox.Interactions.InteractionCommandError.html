@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -118,25 +118,32 @@ Enum InteractionCommandError  <a class="header-action link-secondary" title="Vie
 </h2>
   <dl class="parameters">
     <dt id="HeyBox_Interactions_InteractionCommandError_BadArgs"><code>BadArgs = 2</code></dt>
-    <dd><p>当输入文本参数过少或过多时抛出。</p>
+  
+  <dd><p>当输入文本参数过少或过多时抛出。</p>
 </dd>
     <dt id="HeyBox_Interactions_InteractionCommandError_ConvertFailed"><code>ConvertFailed = 1</code></dt>
-    <dd><p>当命令参数无法被类型读取器转换时抛出。</p>
+  
+  <dd><p>当命令参数无法被类型读取器转换时抛出。</p>
 </dd>
     <dt id="HeyBox_Interactions_InteractionCommandError_Exception"><code>Exception = 3</code></dt>
-    <dd><p>当命令执行过程中发生异常时抛出。</p>
+  
+  <dd><p>当命令执行过程中发生异常时抛出。</p>
 </dd>
     <dt id="HeyBox_Interactions_InteractionCommandError_ParseFailed"><code>ParseFailed = 6</code></dt>
-    <dd><p>当命令上下文无法被 <a class="xref" href="HeyBox.Interactions.ICommandInfo.html">ICommandInfo</a> 解析时抛出。</p>
+  
+  <dd><p>当命令上下文无法被 <a class="xref" href="HeyBox.Interactions.ICommandInfo.html">ICommandInfo</a> 解析时抛出。</p>
 </dd>
     <dt id="HeyBox_Interactions_InteractionCommandError_UnknownCommand"><code>UnknownCommand = 0</code></dt>
-    <dd><p>当命令未知时抛出。</p>
+  
+  <dd><p>当命令未知时抛出。</p>
 </dd>
     <dt id="HeyBox_Interactions_InteractionCommandError_UnmetPrecondition"><code>UnmetPrecondition = 5</code></dt>
-    <dd><p>当命令未满足先决条件时抛出。</p>
+  
+  <dd><p>当命令未满足先决条件时抛出。</p>
 </dd>
     <dt id="HeyBox_Interactions_InteractionCommandError_Unsuccessful"><code>Unsuccessful = 4</code></dt>
-    <dd><p>当命令在运行时未成功执行时抛出。</p>
+  
+  <dd><p>当命令在运行时未成功执行时抛出。</p>
 </dd>
   </dl>
 

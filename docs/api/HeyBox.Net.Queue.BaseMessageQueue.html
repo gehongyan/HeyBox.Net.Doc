@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -167,8 +167,8 @@ Class BaseMessageQueue  <a class="header-action link-secondary" title="View sour
 
   <a id="HeyBox_Net_Queue_BaseMessageQueue__ctor_" data-uid="HeyBox.Net.Queue.BaseMessageQueue.#ctor*"></a>
 
-  <h3 id="HeyBox_Net_Queue_BaseMessageQueue__ctor_System_Func_System_String_System_Text_Json_JsonElement_System_Threading_Tasks_Task__" data-uid="HeyBox.Net.Queue.BaseMessageQueue.#ctor(System.Func{System.String,System.Text.Json.JsonElement,System.Threading.Tasks.Task})">
-  BaseMessageQueue(Func&lt;string, JsonElement, Task&gt;)
+  <h3 id="HeyBox_Net_Queue_BaseMessageQueue__ctor_System_Func_System_UInt64_System_String_System_Text_Json_JsonElement_System_Threading_Tasks_Task__" data-uid="HeyBox.Net.Queue.BaseMessageQueue.#ctor(System.Func{System.UInt64,System.String,System.Text.Json.JsonElement,System.Threading.Tasks.Task})">
+  BaseMessageQueue(Func&lt;ulong, string, JsonElement, Task&gt;)
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Net/Queue/BaseMessageQueue.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -177,12 +177,12 @@ Class BaseMessageQueue  <a class="header-action link-secondary" title="View sour
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected BaseMessageQueue(Func&lt;string, JsonElement, Task&gt; eventHandler)</code></pre>
+    <pre><code class="lang-csharp hljs">protected BaseMessageQueue(Func&lt;ulong, string, JsonElement, Task&gt; eventHandler)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>eventHandler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.json.jsonelement">JsonElement</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dt><code>eventHandler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.json.jsonelement">JsonElement</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
     <dd><p>用于处理消息的事件处理程序。</p>
 </dd>
   </dl>
@@ -214,7 +214,7 @@ Class BaseMessageQueue  <a class="header-action link-secondary" title="View sour
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Func&lt;string, JsonElement, Task&gt; EventHandler { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected Func&lt;ulong, string, JsonElement, Task&gt; EventHandler { get; }</code></pre>
   </div>
 
 
@@ -223,7 +223,7 @@ Class BaseMessageQueue  <a class="header-action link-secondary" title="View sour
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.json.jsonelement">JsonElement</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.json.jsonelement">JsonElement</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -240,8 +240,8 @@ Class BaseMessageQueue  <a class="header-action link-secondary" title="View sour
 
   <a id="HeyBox_Net_Queue_BaseMessageQueue_EnqueueAsync_" data-uid="HeyBox.Net.Queue.BaseMessageQueue.EnqueueAsync*"></a>
 
-  <h3 id="HeyBox_Net_Queue_BaseMessageQueue_EnqueueAsync_System_String_System_Text_Json_JsonElement_System_UInt64_System_DateTimeOffset_System_Threading_CancellationToken_" data-uid="HeyBox.Net.Queue.BaseMessageQueue.EnqueueAsync(System.String,System.Text.Json.JsonElement,System.UInt64,System.DateTimeOffset,System.Threading.CancellationToken)">
-  EnqueueAsync(string, JsonElement, ulong, DateTimeOffset, CancellationToken)
+  <h3 id="HeyBox_Net_Queue_BaseMessageQueue_EnqueueAsync_System_UInt64_System_String_System_Text_Json_JsonElement_System_DateTimeOffset_System_Threading_CancellationToken_" data-uid="HeyBox.Net.Queue.BaseMessageQueue.EnqueueAsync(System.UInt64,System.String,System.Text.Json.JsonElement,System.DateTimeOffset,System.Threading.CancellationToken)">
+  EnqueueAsync(ulong, string, JsonElement, DateTimeOffset, CancellationToken)
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Net/Queue/BaseMessageQueue.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -250,19 +250,19 @@ Class BaseMessageQueue  <a class="header-action link-secondary" title="View sour
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract Task EnqueueAsync(string type, JsonElement payload, ulong sequence, DateTimeOffset timestamp, CancellationToken cancellationToken = default)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract Task EnqueueAsync(ulong sequence, string type, JsonElement payload, DateTimeOffset timestamp, CancellationToken cancellationToken = default)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
+    <dt><code>sequence</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>网关消息的序号。</p>
+</dd>
     <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>网关消息的类型。</p>
 </dd>
     <dt><code>payload</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.json.jsonelement">JsonElement</a></dt>
     <dd><p>网关消息的有效负载。</p>
-</dd>
-    <dt><code>sequence</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>网关消息的序号。</p>
 </dd>
     <dt><code>timestamp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
     <dd><p>网关消息的时间戳。</p>

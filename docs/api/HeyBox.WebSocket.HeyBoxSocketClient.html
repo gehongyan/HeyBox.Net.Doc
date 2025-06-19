@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class HeyBoxSocketClient | HeyBox.Net 文档 ">
       
-      <meta name="description" content="表示一个基于网关的 HeyBox 客户端。">
+      <meta name="description" content="表示一个基于网关的黑盒语音客户端。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="HeyBox_WebSocket_HeyBoxSocketClient" data-uid="HeyBox.WebSocket.HeyBoxSocketClient" class="text-break">
-Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.Messages.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.Messages.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
   <dl><dt>Assembly</dt><dd>HeyBox.Net.WebSocket.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示一个基于网关的 HeyBox 客户端。</p>
+  <div class="markdown summary"><p>表示一个基于网关的黑盒语音客户端。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -159,6 +159,9 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
     </div>
     <div>
       <a class="xref" href="HeyBox.WebSocket.BaseSocketClient.html#HeyBox_WebSocket_BaseSocketClient_SlashCommandExecuted">BaseSocketClient.SlashCommandExecuted</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.WebSocket.BaseSocketClient.html#HeyBox_WebSocket_BaseSocketClient_ButtonClicked">BaseSocketClient.ButtonClicked</a>
     </div>
     <div>
       <a class="xref" href="HeyBox.Rest.BaseHeyBoxClient.html#HeyBox_Rest_BaseHeyBoxClient_Log">BaseHeyBoxClient.Log</a>
@@ -223,7 +226,7 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
 
   <h3 id="HeyBox_WebSocket_HeyBoxSocketClient__ctor" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.#ctor">
   HeyBoxSocketClient()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>初始化一个 <a class="xref" href="HeyBox.WebSocket.HeyBoxSocketClient.html">HeyBoxSocketClient</a> 类的新实例。</p>
@@ -250,7 +253,7 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
 
   <h3 id="HeyBox_WebSocket_HeyBoxSocketClient__ctor_HeyBox_WebSocket_HeyBoxSocketConfig_" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.#ctor(HeyBox.WebSocket.HeyBoxSocketConfig)">
   HeyBoxSocketClient(HeyBoxSocketConfig)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>初始化一个 <a class="xref" href="HeyBox.WebSocket.HeyBoxSocketClient.html">HeyBoxSocketClient</a> 类的新实例。</p>
@@ -287,7 +290,7 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
 
   <h3 id="HeyBox_WebSocket_HeyBoxSocketClient_ConnectionState" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.ConnectionState">
   ConnectionState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取当前连接的状态。</p>
@@ -315,11 +318,48 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
 
 
 
+  <a id="HeyBox_WebSocket_HeyBoxSocketClient_DMChannels_" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.DMChannels*"></a>
+
+  <h3 id="HeyBox_WebSocket_HeyBoxSocketClient_DMChannels" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.DMChannels">
+  DMChannels
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取在此会话中存在的所有私聊频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;SocketDMChannel&gt; DMChannels { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketDMChannel.html">SocketDMChannel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="HeyBox_WebSocket_HeyBoxSocketClient_DMChannels_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><div class="WARNING"><h5>warning</h5><p>
+    此属性不会包含在当前会话之外创建的私聊会话的私聊频道实体，如果此 Bot 刚刚启动，此属性可能会返回一个空集合。
+</p></div>
+</div>
+
+
+
+
   <a id="HeyBox_WebSocket_HeyBoxSocketClient_Latency_" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.Latency*"></a>
 
   <h3 id="HeyBox_WebSocket_HeyBoxSocketClient_Latency" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.Latency">
   Latency
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取到网关服务器的往返延迟估计值（以毫秒为单位）。</p>
@@ -354,7 +394,7 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
 
   <h3 id="HeyBox_WebSocket_HeyBoxSocketClient_Rest" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.Rest">
   Rest
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个与此客户端共享状态的仅限于 REST 的客户端。</p>
@@ -382,15 +422,85 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
 
 
 
+  <a id="HeyBox_WebSocket_HeyBoxSocketClient_Rooms_" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.Rooms*"></a>
+
+  <h3 id="HeyBox_WebSocket_HeyBoxSocketClient_Rooms" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.Rooms">
+  Rooms
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前用户所在的所有房间。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IReadOnlyCollection&lt;SocketRoom&gt; Rooms { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketRoom.html">SocketRoom</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
+
+
+  <a id="HeyBox_WebSocket_HeyBoxSocketClient_CreateDMChannel_" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.CreateDMChannel*"></a>
+
+  <h3 id="HeyBox_WebSocket_HeyBoxSocketClient_CreateDMChannel_System_UInt32_" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.CreateDMChannel(System.UInt32)">
+  CreateDMChannel(uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建一个用于与指定用户收发私信的频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SocketDMChannel CreateDMChannel(uint userId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.WebSocket.SocketDMChannel.html">SocketDMChannel</a></dt>
+    <dd><p>与指定用户相关的私信频道。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
 
 
   <a id="HeyBox_WebSocket_HeyBoxSocketClient_GetChannel_" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.GetChannel*"></a>
 
   <h3 id="HeyBox_WebSocket_HeyBoxSocketClient_GetChannel_System_UInt64_" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.GetChannel(System.UInt64)">
   GetChannel(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L207"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个服务器频道。</p>
@@ -425,11 +535,50 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
 
 
 
+  <a id="HeyBox_WebSocket_HeyBoxSocketClient_GetDMChannel_" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.GetDMChannel*"></a>
+
+  <h3 id="HeyBox_WebSocket_HeyBoxSocketClient_GetDMChannel_System_UInt32_" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.GetDMChannel(System.UInt32)">
+  GetDMChannel(uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取一个私聊频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override SocketDMChannel? GetDMChannel(uint userId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>私聊频道中另一位用户的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.WebSocket.SocketDMChannel.html">SocketDMChannel</a></dt>
+    <dd><p>另一位用户具有指定用户 ID 的私聊频道；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="HeyBox_WebSocket_HeyBoxSocketClient_GetRoom_" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.GetRoom*"></a>
 
   <h3 id="HeyBox_WebSocket_HeyBoxSocketClient_GetRoom_System_UInt64_" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.GetRoom(System.UInt64)">
   GetRoom(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L187"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个房间。</p>
@@ -437,7 +586,7 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override SocketRoom GetRoom(ulong id)</code></pre>
+    <pre><code class="lang-csharp hljs">public override SocketRoom? GetRoom(ulong id)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -468,7 +617,7 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
 
   <h3 id="HeyBox_WebSocket_HeyBoxSocketClient_GetUser_System_UInt32_" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.GetUser(System.UInt32)">
   GetUser(uint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L219"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取用户。</p>
@@ -511,7 +660,7 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
 
   <h3 id="HeyBox_WebSocket_HeyBoxSocketClient_StartAsync" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.StartAsync">
   StartAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L314"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>启动客户端与黑盒语音之间的连接。</p>
@@ -537,9 +686,10 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
 
 
   <h4 class="section" id="HeyBox_WebSocket_HeyBoxSocketClient_StartAsync_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>当前方法会初始化客户端与黑盒语音之间的连接。 <br><div class="IMPORTANT"><h5>important</h5><p>
-此方法会在调用后立即返回，因为它会在另一个线程上初始化连接。</p>
-</div>
+  <div class="markdown level1 remarks"><p>当前方法会初始化客户端与黑盒语音之间的连接。 <br></p>
+<div class="IMPORTANT"><h5>important</h5><p>
+    此方法会在调用后立即返回，因为它会在另一个线程上初始化连接。
+</p></div>
 </div>
 
 
@@ -549,7 +699,7 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
 
   <h3 id="HeyBox_WebSocket_HeyBoxSocketClient_StopAsync" data-uid="HeyBox.WebSocket.HeyBoxSocketClient.StopAsync">
   StopAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L295"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.cs/#L321"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>停止客户端与黑盒语音之间的连接。</p>
@@ -673,7 +823,7 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
 
   <h4 class="section" id="HeyBox_WebSocket_HeyBoxSocketClient_LatencyUpdated_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>事件参数：</p>
-<ol><li><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> 参数是更新前的延迟（毫秒）。 </li><li><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> 参数是更新后的延迟（毫秒）。 </li></ol>
+<ol><li> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> 参数是更新前的延迟（毫秒）。 </li><li> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> 参数是更新后的延迟（毫秒）。 </li></ol>
 </div>
 
 
@@ -714,7 +864,7 @@ Class HeyBoxSocketClient  <a class="header-action link-secondary" title="View so
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.Messages.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/HeyBoxSocketClient.Messages.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
 

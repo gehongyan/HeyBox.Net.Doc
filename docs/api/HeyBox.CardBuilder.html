@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CardBuilder | HeyBox.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CardBuilder | HeyBox.Net 文档 ">
+      
+      <meta name="description" content="用来构建  卡片的构建器。">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/HeyBox.Net/new/master/apiSpec/new?filename=HeyBox_CardBuilder.md&amp;value=---%0Auid%3A%20HeyBox.CardBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HeyBox.Net 文档">
+            HeyBox.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="HeyBox.CardBuilder">
+
+
+
+  <h1 id="HeyBox_CardBuilder" data-uid="HeyBox.CardBuilder" class="text-break">
+Class CardBuilder  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="HeyBox.html">HeyBox</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>HeyBox.Net.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>用来构建 <a class="xref" href="HeyBox.Card.html">Card</a> 卡片的构建器。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CardBuilder : ICardBuilder, IEquatable&lt;CardBuilder&gt;, IEquatable&lt;ICardBuilder&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CardBuilder</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="HeyBox.ICardBuilder.html">ICardBuilder</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="HeyBox.ICardBuilder.html">ICardBuilder</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="HeyBox.Rest.CardJsonExtension.html#HeyBox_Rest_CardJsonExtension_ToJsonString_HeyBox_ICardBuilder_System_Boolean_">CardJsonExtension.ToJsonString(ICardBuilder, bool)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="HeyBox_CardBuilder__ctor_" data-uid="HeyBox.CardBuilder.#ctor*"></a>
+
+  <h3 id="HeyBox_CardBuilder__ctor_System_Nullable_HeyBox_CssColor__HeyBox_CardSize_System_Collections_Generic_IList_HeyBox_IModuleBuilder__" data-uid="HeyBox.CardBuilder.#ctor(System.Nullable{HeyBox.CssColor},HeyBox.CardSize,System.Collections.Generic.IList{HeyBox.IModuleBuilder})">
+  CardBuilder(CssColor?, CardSize, IList&lt;IModuleBuilder&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>初始化一个 <a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a> 类的新实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CardBuilder(CssColor? color = null, CardSize size = CardSize.Medium, IList&lt;IModuleBuilder&gt;? modules = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>color</code> <a class="xref" href="HeyBox.CssColor.html">CssColor</a>?</dt>
+    <dd><p>卡片侧边的颜色。</p>
+</dd>
+    <dt><code>size</code> <a class="xref" href="HeyBox.CardSize.html">CardSize</a></dt>
+    <dd><p>卡片的大小。</p>
+</dd>
+    <dt><code>modules</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="HeyBox.IModuleBuilder.html">IModuleBuilder</a>&gt;</dt>
+    <dd><p>卡片的模块。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="HeyBox_CardBuilder_MaxModuleCount" data-uid="HeyBox.CardBuilder.MaxModuleCount">
+  MaxModuleCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取卡片的最大模块数量。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxModuleCount = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="HeyBox_CardBuilder_Color_" data-uid="HeyBox.CardBuilder.Color*"></a>
+
+  <h3 id="HeyBox_CardBuilder_Color" data-uid="HeyBox.CardBuilder.Color">
+  Color
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置卡片左侧边的 CSS 颜色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CssColor? Color { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.CssColor.html">CssColor</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="HeyBox_CardBuilder_Color_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>未设置时等效于 <a class="xref" href="HeyBox.CssColor.html#HeyBox_CssColor_Default">Default</a>。</p>
+</div>
+
+
+
+
+  <a id="HeyBox_CardBuilder_Modules_" data-uid="HeyBox.CardBuilder.Modules*"></a>
+
+  <h3 id="HeyBox_CardBuilder_Modules" data-uid="HeyBox.CardBuilder.Modules">
+  Modules
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置卡片的模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;IModuleBuilder&gt; Modules { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="HeyBox.IModuleBuilder.html">IModuleBuilder</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_CardBuilder_Size_" data-uid="HeyBox.CardBuilder.Size*"></a>
+
+  <h3 id="HeyBox_CardBuilder_Size" data-uid="HeyBox.CardBuilder.Size">
+  Size
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置卡片的大小。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CardSize Size { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.CardSize.html">CardSize</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="HeyBox_CardBuilder_Type_" data-uid="HeyBox.CardBuilder.Type*"></a>
+
+  <h3 id="HeyBox_CardBuilder_Type" data-uid="HeyBox.CardBuilder.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此构建器构建的卡片的类型。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CardType Type { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.CardType.html">CardType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="HeyBox_CardBuilder_AddModule_" data-uid="HeyBox.CardBuilder.AddModule*"></a>
+
+  <h3 id="HeyBox_CardBuilder_AddModule_HeyBox_IModuleBuilder_" data-uid="HeyBox.CardBuilder.AddModule(HeyBox.IModuleBuilder)">
+  AddModule(IModuleBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加一个模块到卡片。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CardBuilder AddModule(IModuleBuilder module)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>module</code> <a class="xref" href="HeyBox.IModuleBuilder.html">IModuleBuilder</a></dt>
+    <dd><p>要添加的模块。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a></dt>
+    <dd><p>当前构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_CardBuilder_AddModule_" data-uid="HeyBox.CardBuilder.AddModule*"></a>
+
+  <h3 id="HeyBox_CardBuilder_AddModule__1_System_Action___0__" data-uid="HeyBox.CardBuilder.AddModule``1(System.Action{``0})">
+  AddModule&lt;T&gt;(Action&lt;T&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加一个模块到卡片。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CardBuilder AddModule&lt;T&gt;(Action&lt;T&gt;? action = null) where T : IModuleBuilder, new()</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+    <dd><p>一个包含对要添加的新创建的模块进行配置的操作的委托。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a></dt>
+    <dd><p>当前构建器。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_CardBuilder_Build_" data-uid="HeyBox.CardBuilder.Build*"></a>
+
+  <h3 id="HeyBox_CardBuilder_Build" data-uid="HeyBox.CardBuilder.Build">
+  Build()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构建当前构建器为一个 <a class="xref" href="HeyBox.Card.html">Card</a>。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Card Build()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.Card.html">Card</a></dt>
+    <dd><p>由当前构建器表示的属性构建的 <a class="xref" href="HeyBox.Card.html">Card</a> 对象。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p><a class="xref" href="HeyBox.CardBuilder.html#HeyBox_CardBuilder_Modules">Modules</a> 为 <code>null</code>。</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p><a class="xref" href="HeyBox.CardBuilder.html#HeyBox_CardBuilder_Modules">Modules</a> 是一个空列表。</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p><a class="xref" href="HeyBox.CardBuilder.html#HeyBox_CardBuilder_Modules">Modules</a> 的元素数量超过了 <a class="xref" href="HeyBox.CardBuilder.html#HeyBox_CardBuilder_MaxModuleCount">MaxModuleCount</a>。</p>
+</dd>
+  </dl>
+
+
+
+  <a id="HeyBox_CardBuilder_Equals_" data-uid="HeyBox.CardBuilder.Equals*"></a>
+
+  <h3 id="HeyBox_CardBuilder_Equals_HeyBox_CardBuilder_" data-uid="HeyBox.CardBuilder.Equals(HeyBox.CardBuilder)">
+  Equals(CardBuilder?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates whether the current object is equal to another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CardBuilder? cardBuilder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cardBuilder</code> <a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_CardBuilder_Equals_" data-uid="HeyBox.CardBuilder.Equals*"></a>
+
+  <h3 id="HeyBox_CardBuilder_Equals_System_Object_" data-uid="HeyBox.CardBuilder.Equals(System.Object)">
+  Equals(object?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The object to compare with the current object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_CardBuilder_GetHashCode_" data-uid="HeyBox.CardBuilder.GetHashCode*"></a>
+
+  <h3 id="HeyBox_CardBuilder_GetHashCode" data-uid="HeyBox.CardBuilder.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A hash code for the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_CardBuilder_WithColor_" data-uid="HeyBox.CardBuilder.WithColor*"></a>
+
+  <h3 id="HeyBox_CardBuilder_WithColor_System_Nullable_HeyBox_CssColor__" data-uid="HeyBox.CardBuilder.WithColor(System.Nullable{HeyBox.CssColor})">
+  WithColor(CssColor?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置卡片侧边的颜色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CardBuilder WithColor(CssColor? color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>color</code> <a class="xref" href="HeyBox.CssColor.html">CssColor</a>?</dt>
+    <dd><p>卡片侧边的颜色。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a></dt>
+    <dd><p>当前构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_CardBuilder_WithSize_" data-uid="HeyBox.CardBuilder.WithSize*"></a>
+
+  <h3 id="HeyBox_CardBuilder_WithSize_HeyBox_CardSize_" data-uid="HeyBox.CardBuilder.WithSize(HeyBox.CardSize)">
+  WithSize(CardSize)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置卡片的大小。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CardBuilder WithSize(CardSize size)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>size</code> <a class="xref" href="HeyBox.CardSize.html">CardSize</a></dt>
+    <dd><p>卡片的大小。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a></dt>
+    <dd><p>当前构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="HeyBox_CardBuilder_op_Equality_" data-uid="HeyBox.CardBuilder.op_Equality*"></a>
+
+  <h3 id="HeyBox_CardBuilder_op_Equality_HeyBox_CardBuilder_HeyBox_CardBuilder_" data-uid="HeyBox.CardBuilder.op_Equality(HeyBox.CardBuilder,HeyBox.CardBuilder)">
+  operator ==(CardBuilder?, CardBuilder?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>判定两个 <a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a> 是否相等。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(CardBuilder? left, CardBuilder? right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果两个 <a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a> 相等，则为 <code>true</code>；否则为 <code>false</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_CardBuilder_op_Inequality_" data-uid="HeyBox.CardBuilder.op_Inequality*"></a>
+
+  <h3 id="HeyBox_CardBuilder_op_Inequality_HeyBox_CardBuilder_HeyBox_CardBuilder_" data-uid="HeyBox.CardBuilder.op_Inequality(HeyBox.CardBuilder,HeyBox.CardBuilder)">
+  operator !=(CardBuilder?, CardBuilder?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>判定两个 <a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a> 是否不相等。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(CardBuilder? left, CardBuilder? right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a></dt>
+    <dd></dd>
+    <dt><code>right</code> <a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果两个 <a class="xref" href="HeyBox.CardBuilder.html">CardBuilder</a> 不相等，则为 <code>true</code>；否则为 <code>false</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Messages/Cards/CardBuilder.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          HeyBox.Net (c) 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

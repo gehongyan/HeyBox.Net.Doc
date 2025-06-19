@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -225,6 +225,180 @@ Class RestTextChannel  <a class="header-action link-secondary" title="View sourc
 
   <h2 class="section" id="methods">Methods
 </h2>
+
+
+  <a id="HeyBox_Rest_RestTextChannel_DeleteMessageAsync_" data-uid="HeyBox.Rest.RestTextChannel.DeleteMessageAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestTextChannel_DeleteMessageAsync_HeyBox_IMessage_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestTextChannel.DeleteMessageAsync(HeyBox.IMessage,HeyBox.RequestOptions)">
+  DeleteMessageAsync(IMessage, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Channels/RestTextChannel.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>删除一条消息.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteMessageAsync(IMessage message, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="HeyBox.IMessage.html">IMessage</a></dt>
+    <dd><p>要删除的消息。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步删除操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestTextChannel_DeleteMessageAsync_" data-uid="HeyBox.Rest.RestTextChannel.DeleteMessageAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestTextChannel_DeleteMessageAsync_System_UInt64_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestTextChannel.DeleteMessageAsync(System.UInt64,HeyBox.RequestOptions)">
+  DeleteMessageAsync(ulong, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Channels/RestTextChannel.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>删除一条消息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteMessageAsync(ulong messageId, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>messageId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要删除的消息的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步删除操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestTextChannel_SendCardAsync_" data-uid="HeyBox.Rest.RestTextChannel.SendCardAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestTextChannel_SendCardAsync_HeyBox_ICard_HeyBox_IMessageReference_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestTextChannel.SendCardAsync(HeyBox.ICard,HeyBox.IMessageReference,HeyBox.RequestOptions)">
+  SendCardAsync(ICard, IMessageReference?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Channels/RestTextChannel.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发送卡片消息到此消息频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IUserMessage&gt; SendCardAsync(ICard card, IMessageReference? messageReference = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>card</code> <a class="xref" href="HeyBox.ICard.html">ICard</a></dt>
+    <dd><p>要发送的卡片。</p>
+</dd>
+    <dt><code>messageReference</code> <a class="xref" href="HeyBox.IMessageReference.html">IMessageReference</a></dt>
+    <dd><p>消息引用，用于回复消息。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送的消息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Rest_RestTextChannel_SendCardsAsync_" data-uid="HeyBox.Rest.RestTextChannel.SendCardsAsync*"></a>
+
+  <h3 id="HeyBox_Rest_RestTextChannel_SendCardsAsync_System_Collections_Generic_IEnumerable_HeyBox_ICard__HeyBox_IMessageReference_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestTextChannel.SendCardsAsync(System.Collections.Generic.IEnumerable{HeyBox.ICard},HeyBox.IMessageReference,HeyBox.RequestOptions)">
+  SendCardsAsync(IEnumerable&lt;ICard&gt;, IMessageReference?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Channels/RestTextChannel.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发送卡片消息到此消息频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IUserMessage&gt; SendCardsAsync(IEnumerable&lt;ICard&gt; cards, IMessageReference? messageReference = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cards</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="HeyBox.ICard.html">ICard</a>&gt;</dt>
+    <dd><p>要发送的卡片。</p>
+</dd>
+    <dt><code>messageReference</code> <a class="xref" href="HeyBox.IMessageReference.html">IMessageReference</a></dt>
+    <dd><p>消息引用，用于回复消息。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送的消息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
 
 
   <a id="HeyBox_Rest_RestTextChannel_SendFileAsync_" data-uid="HeyBox.Rest.RestTextChannel.SendFileAsync*"></a>

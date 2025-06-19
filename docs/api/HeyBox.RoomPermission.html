@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -119,116 +119,190 @@ public enum RoomPermission : ulong</code></pre>
 </h2>
   <dl class="parameters">
     <dt id="HeyBox_RoomPermission_AddReactions"><code>AddReactions = 131072</code></dt>
-    <dd><p>添加表情回应</p>
+  <dd><p>添加表情回应</p>
+<p>允许成员添加表情回应。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_Administrator"><code>Administrator = 1</code></dt>
-    <dd><p>管理员</p>
+  <dd><p>管理员</p>
+<p>拥有除删除服务器之外的所有权限。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_AttachFiles"><code>AttachFiles = 32768</code></dt>
-    <dd><p>上传文件</p>
+  <dd><p>上传文件</p>
+<p>允许成员上传文件。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_BanMembers"><code>BanMembers = 4096</code></dt>
-    <dd><p>将某人加入房间黑名单</p>
+  <dd><p>将某人加入房间黑名单</p>
+<p>允许用户将其他用户加入房间黑名单，被加入黑名单的用户将永远无法加入此房间，直至被移出黑名单。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ChangeNickname"><code>ChangeNickname = 256</code></dt>
-    <dd><p>修改昵称</p>
+  <dd><p>修改昵称</p>
+<p>允许用户修改自己在房间的昵称。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_Connect"><code>Connect = 4194304</code></dt>
-    <dd><p>加入语音频道</p>
+  <dd><p>加入语音频道</p>
+<p>允许成员加入语音频道，并听到其他成员发言。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_CreateInvites"><code>CreateInvites = 64</code></dt>
-    <dd><p>创建邀请</p>
+  <dd><p>创建邀请</p>
+<p>允许成员邀请新人加入服务器。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_CreateTeamUpInvitations"><code>CreateTeamUpInvitations = 1048576</code></dt>
-    <dd><p>创建开黑邀约</p>
+  <dd><p>创建开黑邀约</p>
+<p>允许成员创建开黑邀约。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_KickFromChannel"><code>KickFromChannel = 2048</code></dt>
-    <dd><p>将某人踢出频道</p>
+  <dd><p>将某人踢出频道</p>
+<p>允许成员将某人踢出频道。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_KickMembers"><code>KickMembers = 1024</code></dt>
-    <dd><p>将某人踢出房间</p>
+  <dd><p>将某人踢出房间</p>
+<p>允许成员将其他成员从此房间踢出。被踢出的成员如果获得新的邀请，可再次加入此房间。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ManageChannels"><code>ManageChannels = 4</code></dt>
-    <dd><p>管理频道</p>
+  <dd><p>管理频道</p>
+<p>允许成员创建、编辑、删除频道。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ManageEmojisAndStickers"><code>ManageEmojisAndStickers = 1073741824</code></dt>
-    <dd><p>管理表情</p>
+  <dd><p>管理表情</p>
+<p>允许成员在此房间内上传、编辑、移除 Emoji 和大表情。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ManageInvites"><code>ManageInvites = 128</code></dt>
-    <dd><p>管理邀请</p>
+  <dd><p>管理邀请</p>
+<p>允许成员管理邀请。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ManageMessages"><code>ManageMessages = 262144</code></dt>
-    <dd><p>管理消息</p>
+  <dd><p>管理消息</p>
+<p>允许成员删除其他成员发出的消息或设置精华消息。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ManageNicknames"><code>ManageNicknames = 512</code></dt>
-    <dd><p>管理昵称</p>
+  <dd><p>管理昵称</p>
+<p>允许用户修改别人在房间的昵称。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ManageRoles"><code>ManageRoles = 16</code></dt>
-    <dd><p>管理角色权限</p>
+  <dd><p>管理角色权限</p>
+<p>允许成员创建新的权限，可以编辑或删除比自身最高身份组限低的身份组。同时允许成员编辑自身可访问的频道的权限。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ManageRoom"><code>ManageRoom = 32</code></dt>
-    <dd><p>管理房间</p>
+  <dd><p>管理房间</p>
+<p>允许成员编辑房间名称，查看所有邀请。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ManageSoundPacks"><code>ManageSoundPacks = 2147483648</code></dt>
-    <dd><p>管理语音包</p>
+  <dd><p>管理语音包</p>
+<p>允许成员在此房间内上传、编辑、移除语音包。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ManageStatements"><code>ManageStatements = 268435456</code></dt>
-    <dd><p>管理语句</p>
+  <dd><p>管理语句</p>
+<p>管理语句。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ManageTeamUpInvitations"><code>ManageTeamUpInvitations = 2097152</code></dt>
-    <dd><p>管理开黑邀约</p>
+  <dd><p>管理开黑邀约</p>
+<p>允许成员管理开黑邀约。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_MentionEveryone"><code>MentionEveryone = 65536</code></dt>
-    <dd><p>@全体、@在线和所有权限组</p>
+  <dd><p>@全体、@在线和所有权限组</p>
+<p>允许成员@全体成员或@在线成员，或@不同权限组的成员。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ModifyChannelInvites"><code>ModifyChannelInvites = 536870912</code></dt>
-    <dd><p>修改频道内其他人的邀约</p>
+  <dd><p>修改频道内其他人的邀约</p>
+<p>管理频道内其他人的邀约。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_MoveMembers"><code>MoveMembers = 134217728</code></dt>
-    <dd><p>移动成员</p>
+  <dd><p>移动成员</p>
+<p>允许成员断开连接或在语音频道之间移动其他成员。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_MuteChannels"><code>MuteChannels = 33554432</code></dt>
-    <dd><p>频道静音</p>
+  <dd><p>频道静音</p>
+<p>静音频道中所有用户。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_MuteMembers"><code>MuteMembers = 67108864</code></dt>
-    <dd><p>静音成员</p>
+  <dd><p>静音成员</p>
+<p>被静音的成员说话将无法被他人听到。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_PlaySoundPacks"><code>PlaySoundPacks = 4294967296</code></dt>
-    <dd><p>播放语音包</p>
+  <dd><p>播放语音包</p>
+<p>允许成员在房间播放语音包。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_PostTeamUps"><code>PostTeamUps = 34359738368</code></dt>
-    <dd><p>发布组队</p>
+  <dd><p>发布组队</p>
+<p>允许成员发布组队。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ReceiveOfflineMessages"><code>ReceiveOfflineMessages = 524288</code></dt>
-    <dd><p>接收离线消息</p>
+  <dd><p>接收离线消息</p>
+<p>允许成员接收离线时房间内的消息。如果关闭此权限，成员只能接收在线时房间内的消息。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_SendMessages"><code>SendMessages = 16384</code></dt>
-    <dd><p>发送消息</p>
+  <dd><p>发送消息</p>
+<p>允许成员发送消息。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ShareAudio"><code>ShareAudio = 8589934592</code></dt>
-    <dd><p>播放伴奏</p>
+  <dd><p>播放伴奏</p>
+<p>允许成员在房间共享伴奏。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ShareScreen"><code>ShareScreen = 17179869184</code></dt>
-    <dd><p>共享屏幕</p>
+  <dd><p>共享屏幕</p>
+<p>允许成员在此房间内进行屏幕共享。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_SilenceMembers"><code>SilenceMembers = 8192</code></dt>
-    <dd><p>禁言某人</p>
+  <dd><p>禁言某人</p>
+<p>允许用户对其他用户禁言，被禁言的用户无法在文字频道或语音频道中发言。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_Speak"><code>Speak = 8388608</code></dt>
-    <dd><p>语音频道内说话</p>
+  <dd><p>语音频道内说话</p>
+<p>允许成员在语音频道内说话。如果该权限未开启，则成员默认处于已静音状态，直至具备&quot;静音成员&quot;权限者解除其静音状态为止。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_UseBotCommands"><code>UseBotCommands = 68719476736</code></dt>
-    <dd><p>使用机器人命令</p>
+  <dd><p>使用机器人命令</p>
+<p>允许成员使用机器人指令，包括直接输入指令或选择输入框中的“使用机器人指令”。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_UseVoiceActivity"><code>UseVoiceActivity = 16777216</code></dt>
-    <dd><p>允许直接讲话</p>
+  <dd><p>允许直接讲话</p>
+<p>允许成员通过直接讲话的方式在语音频道内发言。如果该权限未开启，则成员需要使用按键说话的方式进行发言。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ViewAuditLogs"><code>ViewAuditLogs = 8</code></dt>
-    <dd><p>查看审核日志</p>
+  <dd><p>查看审核日志</p>
+<p>允许成员在此房间内查看用户在房间内的操作。</p>
 </dd>
+  
     <dt id="HeyBox_RoomPermission_ViewChannel"><code>ViewChannel = 2</code></dt>
-    <dd><p>查看频道</p>
+  <dd><p>查看频道</p>
+<p>允许成员查看频道（私密频道除外）。</p>
 </dd>
+  
   </dl>
 
 

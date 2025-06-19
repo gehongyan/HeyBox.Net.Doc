@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class PreconditionResult | HeyBox.Net 文档 ">
       
-      <meta name="description" content="Represents a result type for command preconditions.">
+      <meta name="description" content="表示命令先决条件的结果类型。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="HeyBox_Interactions_PreconditionResult" data-uid="HeyBox.Interactions.PreconditionResult" class="text-break">
-Class PreconditionResult  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Class PreconditionResult  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L4"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class PreconditionResult  <a class="header-action link-secondary" title="View so
   <dl><dt>Assembly</dt><dd>HeyBox.Net.Interactions.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Represents a result type for command preconditions.</p>
+  <div class="markdown summary"><p>表示命令先决条件的结果类型。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -169,11 +169,10 @@ Class PreconditionResult  <a class="header-action link-secondary" title="View so
 
   <h3 id="HeyBox_Interactions_PreconditionResult__ctor_System_Nullable_HeyBox_Interactions_InteractionCommandError__System_String_" data-uid="HeyBox.Interactions.PreconditionResult.#ctor(System.Nullable{HeyBox.Interactions.InteractionCommandError},System.String)">
   PreconditionResult(InteractionCommandError?, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Initializes a new <a class="xref" href="HeyBox.Interactions.PreconditionResult.html">PreconditionResult</a> class with the command <code class="paramref">error</code> type
-and reason.</p>
+  <div class="markdown level1 summary"><p>初始化一个新的 <a class="xref" href="HeyBox.Interactions.PreconditionResult.html">PreconditionResult</a>，包含先决条件失败类型和原因。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -184,10 +183,10 @@ and reason.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>error</code> <a class="xref" href="HeyBox.Interactions.InteractionCommandError.html">InteractionCommandError</a>?</dt>
-    <dd><p>The type of failure.</p>
+    <dd><p>失败类型。</p>
 </dd>
     <dt><code>reason</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The reason of failure.</p>
+    <dd><p>失败原因。</p>
 </dd>
   </dl>
 
@@ -210,10 +209,10 @@ and reason.</p>
 
   <h3 id="HeyBox_Interactions_PreconditionResult_Error" data-uid="HeyBox.Interactions.PreconditionResult.Error">
   Error
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the error type that may have occurred during the operation.</p>
+  <div class="markdown level1 summary"><p>获取操作过程中可能发生的错误类型。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -228,8 +227,8 @@ and reason.</p>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="HeyBox.Interactions.InteractionCommandError.html">InteractionCommandError</a>?</dt>
-    <dd><p>A <a class="xref" href="HeyBox.Interactions.InteractionCommandError.html">InteractionCommandError</a> indicating the type of error that may have occurred during the operation;
-<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if the operation was successful.</p>
+    <dd><p>一个 <a class="xref" href="HeyBox.Interactions.InteractionCommandError.html">InteractionCommandError</a>，指示操作过程中可能发生的错误类型；
+如果操作成功，则为 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>。</p>
 </dd>
   </dl>
 
@@ -244,10 +243,10 @@ and reason.</p>
 
   <h3 id="HeyBox_Interactions_PreconditionResult_ErrorReason" data-uid="HeyBox.Interactions.PreconditionResult.ErrorReason">
   ErrorReason
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the reason for the error.</p>
+  <div class="markdown level1 summary"><p>获取错误原因。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -262,7 +261,7 @@ and reason.</p>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string containing the error reason.</p>
+    <dd><p>包含错误原因的字符串。</p>
 </dd>
   </dl>
 
@@ -277,10 +276,10 @@ and reason.</p>
 
   <h3 id="HeyBox_Interactions_PreconditionResult_IsSuccess" data-uid="HeyBox.Interactions.PreconditionResult.IsSuccess">
   IsSuccess
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Indicates whether the operation was successful or not.</p>
+  <div class="markdown level1 summary"><p>指示操作是否成功。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -295,7 +294,7 @@ and reason.</p>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the result is positive; otherwise <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+    <dd><p>如果结果为正，则为 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>；否则为 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>。</p>
 </dd>
   </dl>
 
@@ -314,7 +313,7 @@ and reason.</p>
 
   <h3 id="HeyBox_Interactions_PreconditionResult_FromError_HeyBox_Interactions_IResult_" data-uid="HeyBox.Interactions.PreconditionResult.FromError(HeyBox.Interactions.IResult)">
   FromError(IResult)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个表示失败的 <a class="xref" href="HeyBox.Interactions.PreconditionResult.html">PreconditionResult</a> 实例。</p>
@@ -352,7 +351,7 @@ and reason.</p>
 
   <h3 id="HeyBox_Interactions_PreconditionResult_FromError_System_Exception_" data-uid="HeyBox.Interactions.PreconditionResult.FromError(System.Exception)">
   FromError(Exception)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个表示失败的 <a class="xref" href="HeyBox.Interactions.PreconditionResult.html">PreconditionResult</a> 实例。</p>
@@ -390,7 +389,7 @@ and reason.</p>
 
   <h3 id="HeyBox_Interactions_PreconditionResult_FromError_System_String_" data-uid="HeyBox.Interactions.PreconditionResult.FromError(System.String)">
   FromError(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个表示失败的 <a class="xref" href="HeyBox.Interactions.PreconditionResult.html">PreconditionResult</a> 实例。</p>
@@ -428,7 +427,7 @@ and reason.</p>
 
   <h3 id="HeyBox_Interactions_PreconditionResult_FromSuccess" data-uid="HeyBox.Interactions.PreconditionResult.FromSuccess">
   FromSuccess()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个表示成功的 <a class="xref" href="HeyBox.Interactions.PreconditionResult.html">PreconditionResult</a> 实例。</p>
@@ -460,7 +459,7 @@ and reason.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Results/PreconditionResult.cs/#L4" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -410,6 +410,96 @@ Class InteractionModuleBase&lt;T&gt;  <a class="header-action link-secondary" ti
 </dd>
   </dl>
 
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionModuleBase_1_ReplyCardAsync_" data-uid="HeyBox.Interactions.InteractionModuleBase`1.ReplyCardAsync*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionModuleBase_1_ReplyCardAsync_HeyBox_ICard_System_Boolean_HeyBox_RequestOptions_" data-uid="HeyBox.Interactions.InteractionModuleBase`1.ReplyCardAsync(HeyBox.ICard,System.Boolean,HeyBox.RequestOptions)">
+  ReplyCardAsync(ICard, bool, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionModuleBase.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>回复卡片消息到此消息频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IUserMessage&gt; ReplyCardAsync(ICard card, bool reply = false, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>card</code> <a class="xref" href="HeyBox.ICard.html">ICard</a></dt>
+    <dd><p>要发送的卡片。</p>
+</dd>
+    <dt><code>reply</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否回复原消息。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送的消息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_Interactions_InteractionModuleBase_1_ReplyCardsAsync_" data-uid="HeyBox.Interactions.InteractionModuleBase`1.ReplyCardsAsync*"></a>
+
+  <h3 id="HeyBox_Interactions_InteractionModuleBase_1_ReplyCardsAsync_System_Collections_Generic_IEnumerable_HeyBox_ICard__System_Boolean_HeyBox_RequestOptions_" data-uid="HeyBox.Interactions.InteractionModuleBase`1.ReplyCardsAsync(System.Collections.Generic.IEnumerable{HeyBox.ICard},System.Boolean,HeyBox.RequestOptions)">
+  ReplyCardsAsync(IEnumerable&lt;ICard&gt;, bool, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/InteractionModuleBase.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>回复卡片消息到此消息频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IUserMessage&gt; ReplyCardsAsync(IEnumerable&lt;ICard&gt; cards, bool reply = false, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cards</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="HeyBox.ICard.html">ICard</a>&gt;</dt>
+    <dd><p>要发送的卡片。</p>
+</dd>
+    <dt><code>reply</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否回复原消息。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送的消息。</p>
+</dd>
+  </dl>
 
 
 

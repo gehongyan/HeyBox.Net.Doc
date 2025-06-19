@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class TypeConverter&lt;T&gt; | HeyBox.Net 文档 ">
       
-      <meta name="description" content="Base class for creating TypeConverters.  uses TypeConverters to interface with Slash Command parameters.">
+      <meta name="description" content="类型转换器基类。 使用 TypeConverter 处理斜线命令参数。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="HeyBox_Interactions_TypeConverter_1" data-uid="HeyBox.Interactions.TypeConverter`1" class="text-break">
-Class TypeConverter&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L38"><i class="bi bi-code-slash"></i></a>
+Class TypeConverter&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class TypeConverter&lt;T&gt;  <a class="header-action link-secondary" title="Vie
   <dl><dt>Assembly</dt><dd>HeyBox.Net.Interactions.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Base class for creating TypeConverters. <a class="xref" href="HeyBox.Interactions.InteractionService.html">InteractionService</a> uses TypeConverters to interface with Slash Command parameters.</p>
+  <div class="markdown summary"><p>类型转换器基类。<a class="xref" href="HeyBox.Interactions.InteractionService.html">InteractionService</a> 使用 TypeConverter 处理斜线命令参数。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -172,10 +172,10 @@ Class TypeConverter&lt;T&gt;  <a class="header-action link-secondary" title="Vie
 
   <h3 id="HeyBox_Interactions_TypeConverter_1_CanConvertTo_System_Type_" data-uid="HeyBox.Interactions.TypeConverter`1.CanConvertTo(System.Type)">
   CanConvertTo(Type)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Will be used to search for alternative TypeConverters whenever the Command Service encounters an unknown parameter type.</p>
+  <div class="markdown level1 summary"><p>当命令服务遇到未知参数类型时，将用于查找可用的 TypeConverter。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -186,13 +186,15 @@ Class TypeConverter&lt;T&gt;  <a class="header-action link-secondary" title="Vie
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
-    <dd></dd>
+    <dd><p>参数类型。</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>是否可以转换。</p>
+</dd>
   </dl>
 
 
@@ -209,7 +211,7 @@ Class TypeConverter&lt;T&gt;  <a class="header-action link-secondary" title="Vie
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L38" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L28" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -236,7 +236,7 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
   <h3 id="HeyBox_WebSocket_BaseSocketClient_CurrentUser" data-uid="HeyBox.WebSocket.BaseSocketClient.CurrentUser">
   CurrentUser
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取登录到此客户端的当前用户；如果未登录，则为 <code>null</code>。</p>
@@ -331,6 +331,38 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
 
 
+  <a id="HeyBox_WebSocket_BaseSocketClient_Rooms_" data-uid="HeyBox.WebSocket.BaseSocketClient.Rooms*"></a>
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_Rooms" data-uid="HeyBox.WebSocket.BaseSocketClient.Rooms">
+  Rooms
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前用户所在的所有房间。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract IReadOnlyCollection&lt;SocketRoom&gt; Rooms { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketRoom.html">SocketRoom</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -339,7 +371,7 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
   <h3 id="HeyBox_WebSocket_BaseSocketClient_GetChannel_System_UInt64_" data-uid="HeyBox.WebSocket.BaseSocketClient.GetChannel(System.UInt64)">
   GetChannel(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个服务器频道。</p>
@@ -374,11 +406,50 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
 
 
+  <a id="HeyBox_WebSocket_BaseSocketClient_GetDMChannel_" data-uid="HeyBox.WebSocket.BaseSocketClient.GetDMChannel*"></a>
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_GetDMChannel_System_UInt32_" data-uid="HeyBox.WebSocket.BaseSocketClient.GetDMChannel(System.UInt32)">
+  GetDMChannel(uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取一个私聊频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract SocketDMChannel? GetDMChannel(uint userId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>私聊频道中另一位用户的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.WebSocket.SocketDMChannel.html">SocketDMChannel</a></dt>
+    <dd><p>另一位用户具有指定用户 ID 的私聊频道；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="HeyBox_WebSocket_BaseSocketClient_GetRoom_" data-uid="HeyBox.WebSocket.BaseSocketClient.GetRoom*"></a>
 
   <h3 id="HeyBox_WebSocket_BaseSocketClient_GetRoom_System_UInt64_" data-uid="HeyBox.WebSocket.BaseSocketClient.GetRoom(System.UInt64)">
   GetRoom(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个房间。</p>
@@ -386,7 +457,7 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract SocketRoom GetRoom(ulong id)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract SocketRoom? GetRoom(ulong id)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -417,7 +488,7 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
   <h3 id="HeyBox_WebSocket_BaseSocketClient_GetUser_System_UInt32_" data-uid="HeyBox.WebSocket.BaseSocketClient.GetUser(System.UInt32)">
   GetUser(uint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取用户。</p>
@@ -460,7 +531,7 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
   <h3 id="HeyBox_WebSocket_BaseSocketClient_StartAsync" data-uid="HeyBox.WebSocket.BaseSocketClient.StartAsync">
   StartAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>启动客户端与黑盒语音之间的连接。</p>
@@ -486,9 +557,10 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
 
   <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_StartAsync_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>当前方法会初始化客户端与黑盒语音之间的连接。 <br><div class="IMPORTANT"><h5>important</h5><p>
-此方法会在调用后立即返回，因为它会在另一个线程上初始化连接。</p>
-</div>
+  <div class="markdown level1 remarks"><p>当前方法会初始化客户端与黑盒语音之间的连接。 <br></p>
+<div class="IMPORTANT"><h5>important</h5><p>
+    此方法会在调用后立即返回，因为它会在另一个线程上初始化连接。
+</p></div>
 </div>
 
 
@@ -498,7 +570,7 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
   <h3 id="HeyBox_WebSocket_BaseSocketClient_StopAsync" data-uid="HeyBox.WebSocket.BaseSocketClient.StopAsync">
   StopAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>停止客户端与黑盒语音之间的连接。</p>
@@ -529,6 +601,37 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
   <h2 class="section" id="events">Events
 </h2>
+
+
+
+  <h3 id="HeyBox_WebSocket_BaseSocketClient_ButtonClicked" data-uid="HeyBox.WebSocket.BaseSocketClient.ButtonClicked">
+  ButtonClicked
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.WebSocket/BaseSocketClient.Event.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当用户点击按钮时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketButtonClick, Task&gt; ButtonClicked</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="HeyBox.WebSocket.SocketButtonClick.html">SocketButtonClick</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
 
 
 
@@ -591,7 +694,7 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
   <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_JoinedRoom_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>事件参数：</p>
-<ol><li><a class="xref" href="HeyBox.WebSocket.SocketRoom.html">SocketRoom</a> 参数是当前用户新加入的服务器。 </li></ol>
+<ol><li> <a class="xref" href="HeyBox.WebSocket.SocketRoom.html">SocketRoom</a> 参数是当前用户新加入的服务器。 </li></ol>
 </div>
 
 
@@ -626,7 +729,7 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
   <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_LeftRoom_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>事件参数：</p>
-<ol><li><a class="xref" href="HeyBox.WebSocket.SocketRoom.html">SocketRoom</a> 参数是当前用户离开的服务器。 </li></ol>
+<ol><li> <a class="xref" href="HeyBox.WebSocket.SocketRoom.html">SocketRoom</a> 参数是当前用户离开的服务器。 </li></ol>
 </div>
 
 
@@ -661,13 +764,16 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
   <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_ReactionAdded_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>事件参数：</p>
-<ol><li><a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是被添加了回应的可缓存消息。如果缓存中存在此消息实体，那么该结构内包含该
+<ol><li>
+    <a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是被添加了回应的可缓存消息。如果缓存中存在此消息实体，那么该结构内包含该
     <a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a> 消息；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 消息 ID，以供按需下载实体。
-</li><li><a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是消息所在的频道。如果缓存中存在此频道实体，那么该结构内包含该
+</li><li>
+    <a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是消息所在的频道。如果缓存中存在此频道实体，那么该结构内包含该
     <a class="xref" href="HeyBox.WebSocket.SocketTextChannel.html">SocketTextChannel</a> 频道；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 频道 ID，以供按需下载实体。
-</li><li><a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是添加了此回应的可缓存服务器用户。如果缓存中存在此服务器用户实体，那么该结构内包含该
+</li><li>
+    <a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是添加了此回应的可缓存服务器用户。如果缓存中存在此服务器用户实体，那么该结构内包含该
     <a class="xref" href="HeyBox.WebSocket.SocketRoomUser.html">SocketRoomUser</a> 服务器用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a> 用户 ID，以供按需下载实体。
-</li><li><a class="xref" href="HeyBox.WebSocket.SocketReaction.html">SocketReaction</a> 参数是被添加的回应。 </li></ol>
+</li><li> <a class="xref" href="HeyBox.WebSocket.SocketReaction.html">SocketReaction</a> 参数是被添加的回应。 </li></ol>
 </div>
 
 
@@ -702,13 +808,16 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
   <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_ReactionRemoved_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>事件参数：</p>
-<ol><li><a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是被移除了回应的可缓存消息。如果缓存中存在此消息实体，那么该结构内包含该
+<ol><li>
+    <a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是被移除了回应的可缓存消息。如果缓存中存在此消息实体，那么该结构内包含该
     <a class="xref" href="HeyBox.IUserMessage.html">IUserMessage</a> 消息；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 消息 ID，以供按需下载实体。
-</li><li><a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是消息所在的频道。如果缓存中存在此频道实体，那么该结构内包含该
+</li><li>
+    <a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是消息所在的频道。如果缓存中存在此频道实体，那么该结构内包含该
     <a class="xref" href="HeyBox.WebSocket.SocketTextChannel.html">SocketTextChannel</a> 频道；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 频道 ID，以供按需下载实体。
-</li><li><a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是移除了此回应的可缓存服务器用户。如果缓存中存在此服务器用户实体，那么该结构内包含该
+</li><li>
+    <a class="xref" href="HeyBox.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是移除了此回应的可缓存服务器用户。如果缓存中存在此服务器用户实体，那么该结构内包含该
     <a class="xref" href="HeyBox.WebSocket.SocketRoomUser.html">SocketRoomUser</a> 服务器用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a> 用户 ID，以供按需下载实体。
-</li><li><a class="xref" href="HeyBox.WebSocket.SocketReaction.html">SocketReaction</a> 参数是被移除的回应。 </li></ol>
+</li><li> <a class="xref" href="HeyBox.WebSocket.SocketReaction.html">SocketReaction</a> 参数是被移除的回应。 </li></ol>
 </div>
 
 
@@ -774,7 +883,7 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
   <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_UserJoined_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>事件参数：</p>
-<ol><li><a class="xref" href="HeyBox.WebSocket.SocketRoomUser.html">SocketRoomUser</a> 参数是加入房间的房间用户。 </li></ol>
+<ol><li> <a class="xref" href="HeyBox.WebSocket.SocketRoomUser.html">SocketRoomUser</a> 参数是加入房间的房间用户。 </li></ol>
 </div>
 
 
@@ -809,7 +918,7 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
   <h4 class="section" id="HeyBox_WebSocket_BaseSocketClient_UserLeft_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>事件参数：</p>
-<ol><li><a class="xref" href="HeyBox.WebSocket.SocketRoomUser.html">SocketRoomUser</a> 参数是离开房间的房间用户。 </li></ol>
+<ol><li> <a class="xref" href="HeyBox.WebSocket.SocketRoomUser.html">SocketRoomUser</a> 参数是离开房间的房间用户。 </li></ol>
 </div>
 
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -119,50 +119,80 @@ public enum ChannelPermission : ulong</code></pre>
 </h2>
   <dl class="parameters">
     <dt id="HeyBox_ChannelPermission_Connect"><code>Connect = 4194304</code></dt>
-    <dd><p>加入语音频道</p>
+  <dd><p>加入语音频道</p>
+<p>允许成员加入语音频道，并听到其他成员发言。</p>
 </dd>
+  
     <dt id="HeyBox_ChannelPermission_CreateInvites"><code>CreateInvites = 64</code></dt>
-    <dd><p>创建邀请</p>
+  <dd><p>创建邀请</p>
+<p>允许成员邀请新人加入服务器。</p>
 </dd>
+  
     <dt id="HeyBox_ChannelPermission_CreateTeamUpInvitations"><code>CreateTeamUpInvitations = 1048576</code></dt>
-    <dd><p>创建开黑邀约</p>
+  <dd><p>创建开黑邀约</p>
+<p>允许成员创建开黑邀约。</p>
 </dd>
+  
     <dt id="HeyBox_ChannelPermission_ManageChannels"><code>ManageChannels = 4</code></dt>
-    <dd><p>管理频道</p>
+  <dd><p>管理频道</p>
+<p>允许成员创建、编辑、删除频道。</p>
 </dd>
+  
     <dt id="HeyBox_ChannelPermission_ManageMessages"><code>ManageMessages = 262144</code></dt>
-    <dd><p>管理消息</p>
+  <dd><p>管理消息</p>
+<p>允许成员删除其他成员发出的消息或设置精华消息。</p>
 </dd>
+  
     <dt id="HeyBox_ChannelPermission_MentionEveryone"><code>MentionEveryone = 65536</code></dt>
-    <dd><p>@全体、@在线和所有权限组</p>
+  <dd><p>@全体、@在线和所有权限组</p>
+<p>允许成员@全体成员或@在线成员，或@不同权限组的成员。</p>
 </dd>
+  
     <dt id="HeyBox_ChannelPermission_MuteMembers"><code>MuteMembers = 67108864</code></dt>
-    <dd><p>静音成员</p>
+  <dd><p>静音成员</p>
+<p>被静音的成员说话将无法被他人听到。</p>
 </dd>
+  
     <dt id="HeyBox_ChannelPermission_PlaySoundPacks"><code>PlaySoundPacks = 4294967296</code></dt>
-    <dd><p>播放语音包</p>
+  <dd><p>播放语音包</p>
+<p>允许成员在房间播放语音包。</p>
 </dd>
+  
     <dt id="HeyBox_ChannelPermission_SendMessages"><code>SendMessages = 16384</code></dt>
-    <dd><p>发送消息</p>
+  <dd><p>发送消息</p>
+<p>允许成员发送消息。</p>
 </dd>
+  
     <dt id="HeyBox_ChannelPermission_ShareAudio"><code>ShareAudio = 8589934592</code></dt>
-    <dd><p>播放伴奏</p>
+  <dd><p>播放伴奏</p>
+<p>允许成员在房间共享伴奏。</p>
 </dd>
+  
     <dt id="HeyBox_ChannelPermission_ShareScreen"><code>ShareScreen = 17179869184</code></dt>
-    <dd><p>共享屏幕</p>
+  <dd><p>共享屏幕</p>
+<p>允许成员在此房间内进行屏幕共享。</p>
 </dd>
+  
     <dt id="HeyBox_ChannelPermission_Speak"><code>Speak = 8388608</code></dt>
-    <dd><p>语音频道内说话</p>
+  <dd><p>语音频道内说话</p>
+<p>允许成员在语音频道内说话。如果该权限未开启，则成员默认处于已静音状态，直至具备&quot;静音成员&quot;权限者解除其静音状态为止。</p>
 </dd>
+  
     <dt id="HeyBox_ChannelPermission_UseBotCommands"><code>UseBotCommands = 68719476736</code></dt>
-    <dd><p>使用机器人命令</p>
+  <dd><p>使用机器人命令</p>
+<p>允许成员使用机器人指令，包括直接输入指令或选择输入框中的“使用机器人指令”。</p>
 </dd>
+  
     <dt id="HeyBox_ChannelPermission_UseVoiceActivity"><code>UseVoiceActivity = 16777216</code></dt>
-    <dd><p>允许直接讲话</p>
+  <dd><p>允许直接讲话</p>
+<p>允许成员通过直接讲话的方式在语音频道内发言。如果该权限未开启，则成员需要使用按键说话的方式进行发言。</p>
 </dd>
+  
     <dt id="HeyBox_ChannelPermission_ViewChannel"><code>ViewChannel = 2</code></dt>
-    <dd><p>查看频道</p>
+  <dd><p>查看频道</p>
+<p>允许成员查看频道（私密频道除外）。</p>
 </dd>
+  
   </dl>
 
 

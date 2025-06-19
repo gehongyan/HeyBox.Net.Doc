@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -166,9 +166,45 @@ Class RoomEmote  <a class="header-action link-secondary" title="View source" hre
 
   <a id="HeyBox_RoomEmote__ctor_" data-uid="HeyBox.RoomEmote.#ctor*"></a>
 
+  <h3 id="HeyBox_RoomEmote__ctor_System_UInt64_System_String_" data-uid="HeyBox.RoomEmote.#ctor(System.UInt64,System.String)">
+  RoomEmote(ulong, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>初始化一个 <a class="xref" href="HeyBox.RoomEmote.html">RoomEmote</a> 的新实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoomEmote(ulong roomId, string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>roomId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>表情符号所在的房间的 ID。</p>
+</dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>表情符号的名称。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_RoomEmote__ctor_" data-uid="HeyBox.RoomEmote.#ctor*"></a>
+
   <h3 id="HeyBox_RoomEmote__ctor_System_UInt64_System_UInt64_System_String_" data-uid="HeyBox.RoomEmote.#ctor(System.UInt64,System.UInt64,System.String)">
   RoomEmote(ulong, ulong, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>初始化一个 <a class="xref" href="HeyBox.RoomEmote.html">RoomEmote</a> 的新实例。</p>
@@ -315,7 +351,7 @@ Class RoomEmote  <a class="header-action link-secondary" title="View source" hre
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Extension { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? Extension { get; }</code></pre>
   </div>
 
 
@@ -384,7 +420,7 @@ API 时，此属性值为 <a href="https://learn.microsoft.com/dotnet/csharp/lan
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong Path { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ulong? Path { get; }</code></pre>
   </div>
 
 
@@ -393,7 +429,7 @@ API 时，此属性值为 <a href="https://learn.microsoft.com/dotnet/csharp/lan
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>?</dt>
     <dd></dd>
   </dl>
 
@@ -476,7 +512,7 @@ API 时，此属性值为 <a href="https://learn.microsoft.com/dotnet/csharp/lan
 
   <h3 id="HeyBox_RoomEmote_Equals_HeyBox_RoomEmote_" data-uid="HeyBox.RoomEmote.Equals(HeyBox.RoomEmote)">
   Equals(RoomEmote?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Indicates whether the current object is equal to another object of the same type.</p>
@@ -515,7 +551,7 @@ API 时，此属性值为 <a href="https://learn.microsoft.com/dotnet/csharp/lan
 
   <h3 id="HeyBox_RoomEmote_Equals_System_Object_" data-uid="HeyBox.RoomEmote.Equals(System.Object)">
   Equals(object?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current object.</p>
@@ -554,7 +590,7 @@ API 时，此属性值为 <a href="https://learn.microsoft.com/dotnet/csharp/lan
 
   <h3 id="HeyBox_RoomEmote_GetHashCode" data-uid="HeyBox.RoomEmote.GetHashCode">
   GetHashCode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
@@ -587,7 +623,7 @@ API 时，此属性值为 <a href="https://learn.microsoft.com/dotnet/csharp/lan
 
   <h3 id="HeyBox_RoomEmote_Parse_System_String_" data-uid="HeyBox.RoomEmote.Parse(System.String)">
   Parse(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L119"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>从一个表情符号的原始格式中解析出一个 <a class="xref" href="HeyBox.RoomEmote.html">RoomEmote</a>。</p>
@@ -601,7 +637,7 @@ API 时，此属性值为 <a href="https://learn.microsoft.com/dotnet/csharp/lan
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>表情符号的原始格式。例如 <code>[custom3358126864697663488_1843946660894564352.png]</code>。</p>
+    <dd><p>表情符号的原始格式。例如 <code>[custom3358126864697663488_demo]</code>。</p>
 </dd>
   </dl>
 
@@ -619,7 +655,7 @@ API 时，此属性值为 <a href="https://learn.microsoft.com/dotnet/csharp/lan
 
   <h4 class="section" id="HeyBox_RoomEmote_Parse_System_String__examples">Examples</h4>
   <p>下面的示例演示了如何解析一个表情符号的原始格式：</p>
-<pre><code class="lang-cs">RoomEmote emote = RoomEmote.Parse("[custom3358126864697663488_1843946660894564352.png]");</code></pre>
+<pre><code class="lang-cs">RoomEmote emote = RoomEmote.Parse("[custom3358126864697663488_demo]");</code></pre>
 
 
 
@@ -636,7 +672,7 @@ API 时，此属性值为 <a href="https://learn.microsoft.com/dotnet/csharp/lan
 
   <h3 id="HeyBox_RoomEmote_ToString" data-uid="HeyBox.RoomEmote.ToString">
   ToString()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L154"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>返回此表情符号的原始表示。</p>
@@ -651,7 +687,7 @@ API 时，此属性值为 <a href="https://learn.microsoft.com/dotnet/csharp/lan
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>表示表情符号的原始表示（例如 <code>[custom3358126864697663488_1843946660894564352.png]</code>）。</p>
+    <dd><p>表示表情符号的原始表示（例如 <code>[custom3358126864697663488_demo]</code>）。</p>
 </dd>
   </dl>
 
@@ -669,7 +705,7 @@ API 时，此属性值为 <a href="https://learn.microsoft.com/dotnet/csharp/lan
 
   <h3 id="HeyBox_RoomEmote_TryParse_System_String_HeyBox_RoomEmote__" data-uid="HeyBox.RoomEmote.TryParse(System.String,HeyBox.RoomEmote@)">
   TryParse(string, out RoomEmote?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Entities/Emotes/RoomEmote.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>尝试从一个表情符号的原始格式中解析出一个 <a class="xref" href="HeyBox.RoomEmote.html">RoomEmote</a>。</p>
@@ -683,7 +719,7 @@ API 时，此属性值为 <a href="https://learn.microsoft.com/dotnet/csharp/lan
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>表情符号的原始格式。例如 <code>[custom3358126864697663488_1843946660894564352.png]</code>。</p>
+    <dd><p>表情符号的原始格式。例如 <code>[custom3358126864697663488_demo]</code>。</p>
 </dd>
     <dt><code>result</code> <a class="xref" href="HeyBox.RoomEmote.html">RoomEmote</a></dt>
     <dd><p>如果解析成功，则为解析出的 <a class="xref" href="HeyBox.RoomEmote.html">RoomEmote</a>；否则为 <code>null</code>。</p>
@@ -704,7 +740,7 @@ API 时，此属性值为 <a href="https://learn.microsoft.com/dotnet/csharp/lan
 
   <h4 class="section" id="HeyBox_RoomEmote_TryParse_System_String_HeyBox_RoomEmote___examples">Examples</h4>
   <p>下面的示例演示了如何解析一个表情符号的原始格式：</p>
-<pre><code class="lang-cs">bool success = Emote.TryParse("[custom3358126864697663488_1843946660894564352.png]", out Emote? emote)</code></pre>
+<pre><code class="lang-cs">bool success = Emote.TryParse("[custom3358126864697663488_demo]", out Emote? emote)</code></pre>
 
 
 

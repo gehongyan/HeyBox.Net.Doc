@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class TypeConverter | HeyBox.Net 文档 ">
       
-      <meta name="description" content="Base class for creating TypeConverters.  uses TypeConverters to interface with Slash Command parameters.">
+      <meta name="description" content="类型转换器基类。 使用 TypeConverter 处理斜线命令参数。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="HeyBox_Interactions_TypeConverter" data-uid="HeyBox.Interactions.TypeConverter" class="text-break">
-Class TypeConverter  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Class TypeConverter  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L4"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class TypeConverter  <a class="header-action link-secondary" title="View source"
   <dl><dt>Assembly</dt><dd>HeyBox.Net.Interactions.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Base class for creating TypeConverters. <a class="xref" href="HeyBox.Interactions.InteractionService.html">InteractionService</a> uses TypeConverters to interface with Slash Command parameters.</p>
+  <div class="markdown summary"><p>类型转换器基类。<a class="xref" href="HeyBox.Interactions.InteractionService.html">InteractionService</a> 使用 TypeConverter 处理斜线命令参数。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -163,10 +163,10 @@ Class TypeConverter  <a class="header-action link-secondary" title="View source"
 
   <h3 id="HeyBox_Interactions_TypeConverter_CanConvertTo_System_Type_" data-uid="HeyBox.Interactions.TypeConverter.CanConvertTo(System.Type)">
   CanConvertTo(Type)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Will be used to search for alternative TypeConverters whenever the Command Service encounters an unknown parameter type.</p>
+  <div class="markdown level1 summary"><p>当命令服务遇到未知参数类型时，将用于查找可用的 TypeConverter。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -177,13 +177,15 @@ Class TypeConverter  <a class="header-action link-secondary" title="View source"
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
-    <dd></dd>
+    <dd><p>参数类型。</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>是否可以转换。</p>
+</dd>
   </dl>
 
 
@@ -200,10 +202,10 @@ Class TypeConverter  <a class="header-action link-secondary" title="View source"
 
   <h3 id="HeyBox_Interactions_TypeConverter_GetHeyBoxType" data-uid="HeyBox.Interactions.TypeConverter.GetHeyBoxType">
   GetHeyBoxType()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Will be used to get the Application Command Option type.</p>
+  <div class="markdown level1 summary"><p>获取应用命令选项类型。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -215,7 +217,7 @@ Class TypeConverter  <a class="header-action link-secondary" title="View source"
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="HeyBox.SlashCommandOptionType.html">SlashCommandOptionType</a></dt>
-    <dd><p>The option type.</p>
+    <dd><p>选项类型。</p>
 </dd>
   </dl>
 
@@ -233,10 +235,10 @@ Class TypeConverter  <a class="header-action link-secondary" title="View source"
 
   <h3 id="HeyBox_Interactions_TypeConverter_ReadAsync_HeyBox_IInteractionContext_HeyBox_ISlashCommandInteractionDataOption_System_IServiceProvider_" data-uid="HeyBox.Interactions.TypeConverter.ReadAsync(HeyBox.IInteractionContext,HeyBox.ISlashCommandInteractionDataOption,System.IServiceProvider)">
   ReadAsync(IInteractionContext, ISlashCommandInteractionDataOption, IServiceProvider?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Will be used to read the incoming payload before executing the method body.</p>
+  <div class="markdown level1 summary"><p>在执行方法体前读取传入的参数。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -247,20 +249,20 @@ Class TypeConverter  <a class="header-action link-secondary" title="View source"
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>context</code> <a class="xref" href="HeyBox.IInteractionContext.html">IInteractionContext</a></dt>
-    <dd><p>Command execution context.</p>
+    <dd><p>命令执行上下文。</p>
 </dd>
     <dt><code>option</code> <a class="xref" href="HeyBox.ISlashCommandInteractionDataOption.html">ISlashCommandInteractionDataOption</a></dt>
-    <dd><p>Received option payload.</p>
+    <dd><p>接收到的选项参数。</p>
 </dd>
     <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
-    <dd><p>Service provider that will be used to initialize the command module.</p>
+    <dd><p>用于初始化命令模块的服务提供器。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.Interactions.TypeConverterResult.html">TypeConverterResult</a>&gt;</dt>
-    <dd><p>The result of the read process.</p>
+    <dd><p>读取过程的结果。</p>
 </dd>
   </dl>
 
@@ -278,10 +280,10 @@ Class TypeConverter  <a class="header-action link-secondary" title="View source"
 
   <h3 id="HeyBox_Interactions_TypeConverter_Write_HeyBox_SlashCommandOptionProperties_HeyBox_Interactions_IParameterInfo_" data-uid="HeyBox.Interactions.TypeConverter.Write(HeyBox.SlashCommandOptionProperties,HeyBox.Interactions.IParameterInfo)">
   Write(SlashCommandOptionProperties, IParameterInfo)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Will be used to manipulate the outgoing command option, before the command gets registered to HeyBox.</p>
+  <div class="markdown level1 summary"><p>在命令注册到 HeyBox 前，用于操作输出的命令选项。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -312,7 +314,7 @@ Class TypeConverter  <a class="header-action link-secondary" title="View source"
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/TypeConverters/SlashCommands/TypeConverter.cs/#L4" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -200,7 +200,7 @@ Interface IHeyBoxClient  <a class="header-action link-secondary" title="View sou
 
   <h3 id="HeyBox_IHeyBoxClient_GetChannelAsync_System_UInt64_HeyBox_CacheMode_HeyBox_RequestOptions_" data-uid="HeyBox.IHeyBoxClient.GetChannelAsync(System.UInt64,HeyBox.CacheMode,HeyBox.RequestOptions)">
   GetChannelAsync(ulong, CacheMode, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/IHeyBoxClient.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/IHeyBoxClient.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个频道。</p>
@@ -237,6 +237,98 @@ Interface IHeyBoxClient  <a class="header-action link-secondary" title="View sou
 
 
 
+
+
+
+
+  <a id="HeyBox_IHeyBoxClient_GetDMChannelAsync_" data-uid="HeyBox.IHeyBoxClient.GetDMChannelAsync*"></a>
+
+  <h3 id="HeyBox_IHeyBoxClient_GetDMChannelAsync_System_UInt32_HeyBox_CacheMode_HeyBox_RequestOptions_" data-uid="HeyBox.IHeyBoxClient.GetDMChannelAsync(System.UInt32,HeyBox.CacheMode,HeyBox.RequestOptions)">
+  GetDMChannelAsync(uint, CacheMode, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/IHeyBoxClient.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取一个私聊频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IDMChannel?&gt; GetDMChannelAsync(uint userId, CacheMode mode = CacheMode.AllowDownload, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>私聊频道中另一位用户的 ID。</p>
+</dd>
+    <dt><code>mode</code> <a class="xref" href="HeyBox.CacheMode.html">CacheMode</a></dt>
+    <dd><p>指示当前方法是否应该仅从缓存中获取结果，还是可以通过 API 请求获取数据。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="HeyBox.IDMChannel.html">IDMChannel</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果是具有指定聊天代码的私聊频道；若指定聊天代码的私聊频道不存在，则为 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="HeyBox_IHeyBoxClient_GetDMChannelsAsync_" data-uid="HeyBox.IHeyBoxClient.GetDMChannelsAsync*"></a>
+
+  <h3 id="HeyBox_IHeyBoxClient_GetDMChannelsAsync_HeyBox_CacheMode_HeyBox_RequestOptions_" data-uid="HeyBox.IHeyBoxClient.GetDMChannelsAsync(HeyBox.CacheMode,HeyBox.RequestOptions)">
+  GetDMChannelsAsync(CacheMode, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/IHeyBoxClient.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前会话中已创建的所有私聊频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IReadOnlyCollection&lt;IDMChannel&gt;&gt; GetDMChannelsAsync(CacheMode mode = CacheMode.AllowDownload, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mode</code> <a class="xref" href="HeyBox.CacheMode.html">CacheMode</a></dt>
+    <dd><p>指示当前方法是否应该仅从缓存中获取结果，还是可以通过 API 请求获取数据。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="HeyBox.IDMChannel.html">IDMChannel</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果是当前会话中已创建的所有私聊频道。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="HeyBox_IHeyBoxClient_GetDMChannelsAsync_HeyBox_CacheMode_HeyBox_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><div class="WARNING"><h5>warning</h5><p>
+    此方法不会返回当前会话之外已创建的私聊频道。如果客户端刚刚启动，这可能会返回一个空集合。
+</p></div>
+</div>
 
 
 
@@ -286,11 +378,53 @@ Interface IHeyBoxClient  <a class="header-action link-secondary" title="View sou
 
 
 
+  <a id="HeyBox_IHeyBoxClient_GetRoomsAsync_" data-uid="HeyBox.IHeyBoxClient.GetRoomsAsync*"></a>
+
+  <h3 id="HeyBox_IHeyBoxClient_GetRoomsAsync_HeyBox_CacheMode_HeyBox_RequestOptions_" data-uid="HeyBox.IHeyBoxClient.GetRoomsAsync(HeyBox.CacheMode,HeyBox.RequestOptions)">
+  GetRoomsAsync(CacheMode, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/IHeyBoxClient.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前用户所在的所有房间。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IReadOnlyCollection&lt;IRoom&gt;&gt; GetRoomsAsync(CacheMode mode = CacheMode.AllowDownload, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mode</code> <a class="xref" href="HeyBox.CacheMode.html">CacheMode</a></dt>
+    <dd><p>指示当前方法是否应该仅从缓存中获取结果，还是可以通过 API 请求获取数据。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="HeyBox.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="HeyBox.IRoom.html">IRoom</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果是当前用户所在的所有房间。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="HeyBox_IHeyBoxClient_GetUserAsync_" data-uid="HeyBox.IHeyBoxClient.GetUserAsync*"></a>
 
   <h3 id="HeyBox_IHeyBoxClient_GetUserAsync_System_UInt32_HeyBox_CacheMode_HeyBox_RequestOptions_" data-uid="HeyBox.IHeyBoxClient.GetUserAsync(System.UInt32,HeyBox.CacheMode,HeyBox.RequestOptions)">
   GetUserAsync(uint, CacheMode, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/IHeyBoxClient.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/IHeyBoxClient.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个用户。</p>
@@ -446,9 +580,10 @@ Interface IHeyBoxClient  <a class="header-action link-secondary" title="View sou
 
 
   <h4 class="section" id="HeyBox_IHeyBoxClient_StartAsync_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>当前方法会初始化客户端与黑盒语音之间的连接。 <br><div class="IMPORTANT"><h5>important</h5><p>
-此方法会在调用后立即返回，因为它会在另一个线程上初始化连接。</p>
-</div>
+  <div class="markdown level1 remarks"><p>当前方法会初始化客户端与黑盒语音之间的连接。 <br></p>
+<div class="IMPORTANT"><h5>important</h5><p>
+    此方法会在调用后立即返回，因为它会在另一个线程上初始化连接。
+</p></div>
 </div>
 
 

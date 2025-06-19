@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -152,6 +152,9 @@ Class RestRoomUser  <a class="header-action link-secondary" title="View source" 
     </div>
     <div>
       <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_Mention">RestUser.Mention</a>
+    </div>
+    <div>
+      <a class="xref" href="HeyBox.Rest.RestUser.html#HeyBox_Rest_RestUser_CreateDMChannel">RestUser.CreateDMChannel()</a>
     </div>
     <div>
       <a class="xref" href="HeyBox.Rest.RestEntity-1.html#HeyBox_Rest_RestEntity_1_Id">RestEntity&lt;uint&gt;.Id</a>
@@ -357,6 +360,38 @@ Class RestRoomUser  <a class="header-action link-secondary" title="View source" 
 
 
 
+  <a id="HeyBox_Rest_RestRoomUser_RoomPermissions_" data-uid="HeyBox.Rest.RestRoomUser.RoomPermissions*"></a>
+
+  <h3 id="HeyBox_Rest_RestRoomUser_RoomPermissions" data-uid="HeyBox.Rest.RestRoomUser.RoomPermissions">
+  RoomPermissions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此用户在该房间内的权限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoomPermissions RoomPermissions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.RoomPermissions.html">RoomPermissions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -365,7 +400,7 @@ Class RestRoomUser  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="HeyBox_Rest_RestRoomUser_AddRoleAsync_HeyBox_IRole_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.AddRoleAsync(HeyBox.IRole,HeyBox.RequestOptions)">
   AddRoleAsync(IRole, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内授予此用户指定的角色。</p>
@@ -407,7 +442,7 @@ Class RestRoomUser  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="HeyBox_Rest_RestRoomUser_AddRoleAsync_System_UInt64_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.AddRoleAsync(System.UInt64,HeyBox.RequestOptions)">
   AddRoleAsync(ulong, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内授予此用户指定的角色。</p>
@@ -449,7 +484,7 @@ Class RestRoomUser  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="HeyBox_Rest_RestRoomUser_AddRolesAsync_System_Collections_Generic_IEnumerable_HeyBox_IRole__HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.AddRolesAsync(System.Collections.Generic.IEnumerable{HeyBox.IRole},HeyBox.RequestOptions)">
   AddRolesAsync(IEnumerable&lt;IRole&gt;, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内授予此用户指定的一些角色。</p>
@@ -491,7 +526,7 @@ Class RestRoomUser  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="HeyBox_Rest_RestRoomUser_AddRolesAsync_System_Collections_Generic_IEnumerable_System_UInt64__HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.AddRolesAsync(System.Collections.Generic.IEnumerable{System.UInt64},HeyBox.RequestOptions)">
   AddRolesAsync(IEnumerable&lt;ulong&gt;, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内授予此用户指定的一些角色。</p>
@@ -529,11 +564,50 @@ Class RestRoomUser  <a class="header-action link-secondary" title="View source" 
 
 
 
+  <a id="HeyBox_Rest_RestRoomUser_GetPermissions_" data-uid="HeyBox.Rest.RestRoomUser.GetPermissions*"></a>
+
+  <h3 id="HeyBox_Rest_RestRoomUser_GetPermissions_HeyBox_IRoomChannel_" data-uid="HeyBox.Rest.RestRoomUser.GetPermissions(HeyBox.IRoomChannel)">
+  GetPermissions(IRoomChannel)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此用户在指定频道内所拥有的权限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChannelPermissions GetPermissions(IRoomChannel channel)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channel</code> <a class="xref" href="HeyBox.IRoomChannel.html">IRoomChannel</a></dt>
+    <dd><p>要获取权限的频道。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="HeyBox.ChannelPermissions.html">ChannelPermissions</a></dt>
+    <dd><p>一个表示此用户在指定频道内所拥有的频道权限的权限集。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="HeyBox_Rest_RestRoomUser_RemoveRoleAsync_" data-uid="HeyBox.Rest.RestRoomUser.RemoveRoleAsync*"></a>
 
   <h3 id="HeyBox_Rest_RestRoomUser_RemoveRoleAsync_HeyBox_IRole_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.RemoveRoleAsync(HeyBox.IRole,HeyBox.RequestOptions)">
   RemoveRoleAsync(IRole, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内撤销此用户指定的角色。</p>
@@ -575,7 +649,7 @@ Class RestRoomUser  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="HeyBox_Rest_RestRoomUser_RemoveRoleAsync_System_UInt64_HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.RemoveRoleAsync(System.UInt64,HeyBox.RequestOptions)">
   RemoveRoleAsync(ulong, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内撤销此用户指定的角色。</p>
@@ -617,7 +691,7 @@ Class RestRoomUser  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="HeyBox_Rest_RestRoomUser_RemoveRolesAsync_System_Collections_Generic_IEnumerable_HeyBox_IRole__HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.RemoveRolesAsync(System.Collections.Generic.IEnumerable{HeyBox.IRole},HeyBox.RequestOptions)">
   RemoveRolesAsync(IEnumerable&lt;IRole&gt;, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内撤销此用户指定的一些角色。</p>
@@ -659,7 +733,7 @@ Class RestRoomUser  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="HeyBox_Rest_RestRoomUser_RemoveRolesAsync_System_Collections_Generic_IEnumerable_System_UInt64__HeyBox_RequestOptions_" data-uid="HeyBox.Rest.RestRoomUser.RemoveRolesAsync(System.Collections.Generic.IEnumerable{System.UInt64},HeyBox.RequestOptions)">
   RemoveRolesAsync(IEnumerable&lt;ulong&gt;, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Rest/Entities/Users/RestRoomUser.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>在该房间内撤销此用户指定的一些角色。</p>

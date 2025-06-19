@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt; | HeyBox.Net 文档 ">
       
-      <meta name="description" content="Represents the base builder class for creating .">
+      <meta name="description" content="表示用于创建  的基础生成器类。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -97,7 +97,7 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <dl><dt>Assembly</dt><dd>HeyBox.Net.Interactions.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Represents the base builder class for creating <a class="xref" href="HeyBox.Interactions.CommandInfo-1.html">CommandInfo&lt;TParameter&gt;</a>.</p>
+  <div class="markdown summary"><p>表示用于创建 <a class="xref" href="HeyBox.Interactions.CommandInfo-1.html">CommandInfo&lt;TParameter&gt;</a> 的基础生成器类。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -110,13 +110,13 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>TInfo</code></dt>
-    <dd><p>The <a class="xref" href="HeyBox.Interactions.CommandInfo-1.html">CommandInfo&lt;TParameter&gt;</a> this builder yields when built.</p>
+    <dd><p>构建后生成的 <a class="xref" href="HeyBox.Interactions.CommandInfo-1.html">CommandInfo&lt;TParameter&gt;</a> 类型。</p>
 </dd>
     <dt><code>TBuilder</code></dt>
-    <dd><p>Inherited <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html">CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;</a> type.</p>
+    <dd><p>继承的 <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html">CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;</a> 类型。</p>
 </dd>
     <dt><code>TParamBuilder</code></dt>
-    <dd><p>Builder type for this commands parameters.</p>
+    <dd><p>此命令参数的生成器类型。</p>
 </dd>
   </dl>
 
@@ -181,10 +181,10 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
 
   <h3 id="HeyBox_Interactions_Builders_CommandBuilder_3__ctor_HeyBox_Interactions_Builders_ModuleBuilder_System_String_HeyBox_Interactions_ExecuteCallback_" data-uid="HeyBox.Interactions.Builders.CommandBuilder`3.#ctor(HeyBox.Interactions.Builders.ModuleBuilder,System.String,HeyBox.Interactions.ExecuteCallback)">
   CommandBuilder(ModuleBuilder, string, ExecuteCallback)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Initializes a new <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html">CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;</a> with the provided <a class="xref" href="HeyBox.Interactions.Builders.ModuleBuilder.html">ModuleBuilder</a>.</p>
+  <div class="markdown level1 summary"><p>使用提供的 <a class="xref" href="HeyBox.Interactions.Builders.ModuleBuilder.html">ModuleBuilder</a> 初始化一个新的 <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html">CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;</a>。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -195,13 +195,13 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>module</code> <a class="xref" href="HeyBox.Interactions.Builders.ModuleBuilder.html">ModuleBuilder</a></dt>
-    <dd><p>The <a class="xref" href="HeyBox.Interactions.Builders.ModuleBuilder.html">ModuleBuilder</a> this command belongs to.</p>
+    <dd><p>此命令所属的 <a class="xref" href="HeyBox.Interactions.Builders.ModuleBuilder.html">ModuleBuilder</a>。</p>
 </dd>
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The name of the command.</p>
+    <dd><p>命令名称。</p>
 </dd>
     <dt><code>callback</code> <a class="xref" href="HeyBox.Interactions.ExecuteCallback.html">ExecuteCallback</a></dt>
-    <dd><p>The callback to be executed when the command is triggered.</p>
+    <dd><p>命令被触发时执行的回调。</p>
 </dd>
   </dl>
 
@@ -227,7 +227,7 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets a collection of the attributes of this command.</p>
+  <div class="markdown level1 summary"><p>获取此命令的特性集合。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -259,7 +259,7 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the execution delegate of this command.</p>
+  <div class="markdown level1 summary"><p>获取此命令的执行委托。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -291,7 +291,7 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the builder instance.</p>
+  <div class="markdown level1 summary"><p>获取生成器实例。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -323,7 +323,7 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets the method name of this command.</p>
+  <div class="markdown level1 summary"><p>获取或设置此命令的方法名。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -355,7 +355,7 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the parent module of this command.</p>
+  <div class="markdown level1 summary"><p>获取此命令的父模块。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -387,7 +387,7 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the name of this command.</p>
+  <div class="markdown level1 summary"><p>获取此命令的名称。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -416,10 +416,11 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
 
   <h3 id="HeyBox_Interactions_Builders_CommandBuilder_3_Parameters" data-uid="HeyBox.Interactions.Builders.CommandBuilder`3.Parameters">
   Parameters
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>获取此命令的参数生成器列表。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -447,10 +448,10 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
 
   <h3 id="HeyBox_Interactions_Builders_CommandBuilder_3_Preconditions" data-uid="HeyBox.Interactions.Builders.CommandBuilder`3.Preconditions">
   Preconditions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets a collection of the preconditions of this command.</p>
+  <div class="markdown level1 summary"><p>获取此命令的先决条件集合。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -482,7 +483,7 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets the run mode this command gets executed with.</p>
+  <div class="markdown level1 summary"><p>获取或设置此命令的运行模式。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -514,7 +515,7 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets whether the <a class="xref" href="HeyBox.Interactions.Builders.ICommandBuilder.html#HeyBox_Interactions_Builders_ICommandBuilder_Name">Name</a> should be directly used as a Regex pattern.</p>
+  <div class="markdown level1 summary"><p>获取或设置 <a class="xref" href="HeyBox.Interactions.Builders.ICommandBuilder.html#HeyBox_Interactions_Builders_ICommandBuilder_Name">Name</a> 是否应直接作为正则表达式模式使用。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -547,10 +548,10 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
 
   <h3 id="HeyBox_Interactions_Builders_CommandBuilder_3_AddParameter_System_Action__2__" data-uid="HeyBox.Interactions.Builders.CommandBuilder`3.AddParameter(System.Action{`2})">
   AddParameter(Action&lt;TParamBuilder&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L172"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Adds a parameter to the command.</p>
+  <div class="markdown level1 summary"><p>向命令添加参数。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -561,14 +562,14 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>configure</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;TParamBuilder&gt;</dt>
-    <dd><p>A delegate that configures the parameter.</p>
+    <dd><p>配置参数的委托。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">TBuilder</span></dt>
-    <dd><p>The builder instance.</p>
+    <dd><p>生成器实例。</p>
 </dd>
   </dl>
 
@@ -586,10 +587,10 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
 
   <h3 id="HeyBox_Interactions_Builders_CommandBuilder_3_AddParameters__2___" data-uid="HeyBox.Interactions.Builders.CommandBuilder`3.AddParameters(`2[])">
   AddParameters(params TParamBuilder[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Adds parameter builders to <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Parameters">Parameters</a>.</p>
+  <div class="markdown level1 summary"><p>向 <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Parameters">Parameters</a> 添加参数生成器。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -600,14 +601,14 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>parameters</code> TParamBuilder[]</dt>
-    <dd><p>New parameter builders to be added to <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Parameters">Parameters</a>.</p>
+    <dd><p>要添加到 <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Parameters">Parameters</a> 的新参数生成器。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">TBuilder</span></dt>
-    <dd><p>The builder instance.</p>
+    <dd><p>生成器实例。</p>
 </dd>
   </dl>
 
@@ -625,10 +626,10 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
 
   <h3 id="HeyBox_Interactions_Builders_CommandBuilder_3_SetRunMode_HeyBox_Interactions_RunMode_" data-uid="HeyBox.Interactions.Builders.CommandBuilder`3.SetRunMode(HeyBox.Interactions.RunMode)">
   SetRunMode(RunMode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L122"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Sets <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_RunMode">RunMode</a>.</p>
+  <div class="markdown level1 summary"><p>设置 <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_RunMode">RunMode</a>。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -639,14 +640,14 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>runMode</code> <a class="xref" href="HeyBox.Interactions.RunMode.html">RunMode</a></dt>
-    <dd><p>New value of the <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_RunMode">RunMode</a>.</p>
+    <dd><p><a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_RunMode">RunMode</a> 的新值。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">TBuilder</span></dt>
-    <dd><p>The builder instance.</p>
+    <dd><p>生成器实例。</p>
 </dd>
   </dl>
 
@@ -664,10 +665,10 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
 
   <h3 id="HeyBox_Interactions_Builders_CommandBuilder_3_WithAttributes_System_Attribute___" data-uid="HeyBox.Interactions.Builders.CommandBuilder`3.WithAttributes(System.Attribute[])">
   WithAttributes(params Attribute[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Adds attributes to <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Attributes">Attributes</a>.</p>
+  <div class="markdown level1 summary"><p>向 <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Attributes">Attributes</a> 添加特性。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -678,14 +679,14 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>attributes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a>[]</dt>
-    <dd><p>New attributes to be added to <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Attributes">Attributes</a>.</p>
+    <dd><p>要添加到 <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Attributes">Attributes</a> 的新特性。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">TBuilder</span></dt>
-    <dd><p>The builder instance.</p>
+    <dd><p>生成器实例。</p>
 </dd>
   </dl>
 
@@ -703,10 +704,10 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
 
   <h3 id="HeyBox_Interactions_Builders_CommandBuilder_3_WithMethodName_System_String_" data-uid="HeyBox.Interactions.Builders.CommandBuilder`3.WithMethodName(System.String)">
   WithMethodName(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Sets <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_MethodName">MethodName</a>.</p>
+  <div class="markdown level1 summary"><p>设置 <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_MethodName">MethodName</a>。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -717,14 +718,14 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>New value of the <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_MethodName">MethodName</a>.</p>
+    <dd><p><a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_MethodName">MethodName</a> 的新值。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">TBuilder</span></dt>
-    <dd><p>The builder instance.</p>
+    <dd><p>生成器实例。</p>
 </dd>
   </dl>
 
@@ -742,10 +743,10 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
 
   <h3 id="HeyBox_Interactions_Builders_CommandBuilder_3_WithName_System_String_" data-uid="HeyBox.Interactions.Builders.CommandBuilder`3.WithName(System.String)">
   WithName(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Sets <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Name">Name</a>.</p>
+  <div class="markdown level1 summary"><p>设置 <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Name">Name</a>。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -756,14 +757,14 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>New value of the <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Name">Name</a>.</p>
+    <dd><p><a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Name">Name</a> 的新值。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">TBuilder</span></dt>
-    <dd><p>The builder instance.</p>
+    <dd><p>生成器实例。</p>
 </dd>
   </dl>
 
@@ -781,10 +782,10 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
 
   <h3 id="HeyBox_Interactions_Builders_CommandBuilder_3_WithNameAsRegex_System_Boolean_" data-uid="HeyBox.Interactions.Builders.CommandBuilder`3.WithNameAsRegex(System.Boolean)">
   WithNameAsRegex(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L135"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Sets <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_TreatNameAsRegex">TreatNameAsRegex</a>.</p>
+  <div class="markdown level1 summary"><p>设置 <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_TreatNameAsRegex">TreatNameAsRegex</a>。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -795,14 +796,14 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>New value of the <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_TreatNameAsRegex">TreatNameAsRegex</a>.</p>
+    <dd><p><a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_TreatNameAsRegex">TreatNameAsRegex</a> 的新值。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">TBuilder</span></dt>
-    <dd><p>The builder instance.</p>
+    <dd><p>生成器实例。</p>
 </dd>
   </dl>
 
@@ -820,10 +821,10 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
 
   <h3 id="HeyBox_Interactions_Builders_CommandBuilder_3_WithPreconditions_HeyBox_Interactions_PreconditionAttribute___" data-uid="HeyBox.Interactions.Builders.CommandBuilder`3.WithPreconditions(HeyBox.Interactions.PreconditionAttribute[])">
   WithPreconditions(params PreconditionAttribute[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Interactions/Builders/Commands/CommandBuilder.cs/#L161"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Adds preconditions to <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Preconditions">Preconditions</a>.</p>
+  <div class="markdown level1 summary"><p>向 <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Preconditions">Preconditions</a> 添加先决条件。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -834,14 +835,14 @@ Class CommandBuilder&lt;TInfo, TBuilder, TParamBuilder&gt;  <a class="header-act
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>preconditions</code> <a class="xref" href="HeyBox.Interactions.PreconditionAttribute.html">PreconditionAttribute</a>[]</dt>
-    <dd><p>New preconditions to be added to <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Preconditions">Preconditions</a>.</p>
+    <dd><p>要添加到 <a class="xref" href="HeyBox.Interactions.Builders.CommandBuilder-3.html#HeyBox_Interactions_Builders_CommandBuilder_3_Preconditions">Preconditions</a> 的新先决条件。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">TBuilder</span></dt>
-    <dd><p>The builder instance.</p>
+    <dd><p>生成器实例。</p>
 </dd>
   </dl>
 

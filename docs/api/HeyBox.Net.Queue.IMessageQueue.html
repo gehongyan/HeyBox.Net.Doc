@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface IMessageQueue | HeyBox.Net 文档 ">
       
-      <meta name="description" content="表示一个消息队列，用于从 HeyBox 网关接收并处理事件。">
+      <meta name="description" content="表示一个消息队列，用于从黑盒语音网关接收并处理事件。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -97,7 +97,7 @@ Interface IMessageQueue  <a class="header-action link-secondary" title="View sou
   <dl><dt>Assembly</dt><dd>HeyBox.Net.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示一个消息队列，用于从 HeyBox 网关接收并处理事件。</p>
+  <div class="markdown summary"><p>表示一个消息队列，用于从黑盒语音网关接收并处理事件。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -123,8 +123,8 @@ Interface IMessageQueue  <a class="header-action link-secondary" title="View sou
 
   <a id="HeyBox_Net_Queue_IMessageQueue_EnqueueAsync_" data-uid="HeyBox.Net.Queue.IMessageQueue.EnqueueAsync*"></a>
 
-  <h3 id="HeyBox_Net_Queue_IMessageQueue_EnqueueAsync_System_String_System_Text_Json_JsonElement_System_UInt64_System_DateTimeOffset_System_Threading_CancellationToken_" data-uid="HeyBox.Net.Queue.IMessageQueue.EnqueueAsync(System.String,System.Text.Json.JsonElement,System.UInt64,System.DateTimeOffset,System.Threading.CancellationToken)">
-  EnqueueAsync(string, JsonElement, ulong, DateTimeOffset, CancellationToken)
+  <h3 id="HeyBox_Net_Queue_IMessageQueue_EnqueueAsync_System_UInt64_System_String_System_Text_Json_JsonElement_System_DateTimeOffset_System_Threading_CancellationToken_" data-uid="HeyBox.Net.Queue.IMessageQueue.EnqueueAsync(System.UInt64,System.String,System.Text.Json.JsonElement,System.DateTimeOffset,System.Threading.CancellationToken)">
+  EnqueueAsync(ulong, string, JsonElement, DateTimeOffset, CancellationToken)
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/HeyBox.Net/blob/doc/src/HeyBox.Net.Core/Net/Queue/IMessageQueue.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -133,19 +133,19 @@ Interface IMessageQueue  <a class="header-action link-secondary" title="View sou
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task EnqueueAsync(string type, JsonElement payload, ulong sequence, DateTimeOffset timestamp, CancellationToken cancellationToken = default)</code></pre>
+    <pre><code class="lang-csharp hljs">Task EnqueueAsync(ulong sequence, string type, JsonElement payload, DateTimeOffset timestamp, CancellationToken cancellationToken = default)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
+    <dt><code>sequence</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>网关消息的序号。</p>
+</dd>
     <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>网关消息的类型。</p>
 </dd>
     <dt><code>payload</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.json.jsonelement">JsonElement</a></dt>
     <dd><p>网关消息的有效负载。</p>
-</dd>
-    <dt><code>sequence</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>网关消息的序号。</p>
 </dd>
     <dt><code>timestamp</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
     <dd><p>网关消息的时间戳。</p>
